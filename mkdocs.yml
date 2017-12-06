@@ -1,0 +1,234 @@
+site_name: Citrix StoreFront 3.9 SDK PowerShell Modules
+site_description: Citrix StoreFront 3.9 SDK PowerShell Modules
+theme_dir: citrix-sdk
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - footnotes
+  - meta
+
+pages:
+- Overview: index.md
+- Citrix.StoreFront:
+  - Overview: Citrix.StoreFront.md
+  - Import-STFConfiguration: Import-STFConfiguration.md
+  - Export-STFConfiguration: Export-STFConfiguration.md
+  - Unprotect-STFConfigurationExport: Unprotect-STFConfigurationExport.md
+  - Set-STFDeployment: Set-STFDeployment.md
+  - Get-STFDeployment: Get-STFDeployment.md
+  - Add-STFDeployment: Add-STFDeployment.md
+  - Clear-STFDeployment: Clear-STFDeployment.md
+  - Set-STFDiagnostics: Set-STFDiagnostics.md
+  - Set-STFDomainService: Set-STFDomainService.md
+  - Get-STFDomainService: Get-STFDomainService.md
+  - Uninstall-STFFeature: Uninstall-STFFeature.md
+  - Install-STFFeature: Install-STFFeature.md
+  - Reset-STFFeatureData: Reset-STFFeatureData.md
+  - Get-STFFeatureState: Get-STFFeatureState.md
+  - Add-STFFeatureState: Add-STFFeatureState.md
+  - Remove-STFFeatureState: Remove-STFFeatureState.md
+  - Set-STFFeatureState: Set-STFFeatureState.md
+  - New-STFFeatureState: New-STFFeatureState.md
+  - Get-STFFeatureStateNames: Get-STFFeatureStateNames.md
+  - New-STFFeatureStateProperty: New-STFFeatureStateProperty.md
+  - Clear-STFFeatureStates: Clear-STFFeatureStates.md
+  - Remove-STFHmacKey: Remove-STFHmacKey.md
+  - Add-STFHmacKey: Add-STFHmacKey.md
+  - Get-STFHmacKey: Get-STFHmacKey.md
+  - Update-STFHmacKey: Update-STFHmacKey.md
+  - Get-STFInstalledFeatures: Get-STFInstalledFeatures.md
+  - Get-STFPackage: Get-STFPackage.md
+  - Get-STFPeerResolutionService: Get-STFPeerResolutionService.md
+  - Wait-STFPublishServerGroupConfiguration: Wait-STFPublishServerGroupConfiguration.md
+  - Get-STFServerGroup: Get-STFServerGroup.md
+  - Publish-STFServerGroupConfiguration: Publish-STFServerGroupConfiguration.md
+  - Start-STFServerGroupJoin: Start-STFServerGroupJoin.md
+  - Stop-STFServerGroupJoin: Stop-STFServerGroupJoin.md
+  - Wait-STFServerGroupJoin: Wait-STFServerGroupJoin.md
+  - Get-STFServerGroupJoinState: Get-STFServerGroupJoinState.md
+  - Remove-STFServerGroupMember: Remove-STFServerGroupMember.md
+  - Save-STFService: Save-STFService.md
+  - Get-STFServiceMonitor: Get-STFServiceMonitor.md
+  - Set-STFServiceMonitor: Set-STFServiceMonitor.md
+  - Get-STFVersion: Get-STFVersion.md
+- Citrix.StoreFront.Authentication:
+  - Overview: Citrix.StoreFront.Authentication.md
+  - Get-STFAuthenticationProtocolsAvailable: Get-STFAuthenticationProtocolsAvailable.md
+  - Add-STFAuthenticationService: Add-STFAuthenticationService.md
+  - Get-STFAuthenticationService: Get-STFAuthenticationService.md
+  - Remove-STFAuthenticationService: Remove-STFAuthenticationService.md
+  - Add-STFAuthenticationServiceProtocol: Add-STFAuthenticationServiceProtocol.md
+  - Remove-STFAuthenticationServiceProtocol: Remove-STFAuthenticationServiceProtocol.md
+  - Get-STFAuthenticationServiceProtocol: Get-STFAuthenticationServiceProtocol.md
+  - Enable-STFAuthenticationServiceProtocol: Enable-STFAuthenticationServiceProtocol.md
+  - Disable-STFAuthenticationServiceProtocol: Disable-STFAuthenticationServiceProtocol.md
+  - Set-STFClaimsFactoryNames: Set-STFClaimsFactoryNames.md
+- Citrix.StoreFront.Authentication.AccountSelfService:
+  - Overview: Citrix.StoreFront.Authentication.AccountSelfService.md
+  - Set-STFAccountSelfService: Set-STFAccountSelfService.md
+  - Get-STFAccountSelfService: Get-STFAccountSelfService.md
+- Citrix.StoreFront.Authentication.CitrixAGBasic:
+  - Overview: Citrix.StoreFront.Authentication.CitrixAGBasic.md
+  - Set-STFCitrixAGBasicOptions: Set-STFCitrixAGBasicOptions.md
+  - Get-STFCitrixAGBasicOptions: Get-STFCitrixAGBasicOptions.md
+- Citrix.StoreFront.Authentication.Explicit:
+  - Overview: Citrix.StoreFront.Authentication.Explicit.md
+  - Set-STFExplicitCommonOptions: Set-STFExplicitCommonOptions.md
+  - Get-STFExplicitCommonOptions: Get-STFExplicitCommonOptions.md
+- Citrix.StoreFront.Authentication.PasswordManager:
+  - Overview: Citrix.StoreFront.Authentication.PasswordManager.md
+  - Set-STFPasswordManagerAccountSelfService: Set-STFPasswordManagerAccountSelfService.md
+  - Get-STFPasswordManagerAccountSelfService: Get-STFPasswordManagerAccountSelfService.md
+- Citrix.StoreFront.Authentication.PasswordValidator:
+  - Overview: Citrix.StoreFront.Authentication.PasswordValidator.md
+  - Set-STFExplicitAuthenticator: Set-STFExplicitAuthenticator.md
+  - Get-STFExplicitAuthenticator: Get-STFExplicitAuthenticator.md
+- Citrix.StoreFront.Authentication.Saml:
+  - Overview: Citrix.StoreFront.Authentication.Saml.md
+  - Import-STFSamlEncryptionCertificate: Import-STFSamlEncryptionCertificate.md
+  - New-STFSamlEncryptionCertificate: New-STFSamlEncryptionCertificate.md
+  - Export-STFSamlEncryptionCertificate: Export-STFSamlEncryptionCertificate.md
+  - New-STFSamlIdPCertificate: New-STFSamlIdPCertificate.md
+  - Update-STFSamlIdPFromMetadata: Update-STFSamlIdPFromMetadata.md
+  - Set-STFSamlRequireArtifactResolution: Set-STFSamlRequireArtifactResolution.md
+  - Export-STFSamlSigningCertificate: Export-STFSamlSigningCertificate.md
+  - Import-STFSamlSigningCertificate: Import-STFSamlSigningCertificate.md
+  - New-STFSamlSigningCertificate: New-STFSamlSigningCertificate.md
+- Citrix.StoreFront.Authentication.XmlServiceValidator:
+  - Overview: Citrix.StoreFront.Authentication.XmlServiceValidator.md
+  - Enable-STFXmlServiceAuthentication: Enable-STFXmlServiceAuthentication.md
+- Citrix.StoreFront.Roaming:
+  - Overview: Citrix.StoreFront.Roaming.md
+  - Read-STFNetScalerConfiguration: Read-STFNetScalerConfiguration.md
+  - Import-STFNetScalerConfiguration: Import-STFNetScalerConfiguration.md
+  - Set-STFRoamingAccount: Set-STFRoamingAccount.md
+  - Get-STFRoamingAccount: Get-STFRoamingAccount.md
+  - Set-STFRoamingBeacon: Set-STFRoamingBeacon.md
+  - Get-STFRoamingBeacon: Get-STFRoamingBeacon.md
+  - Clear-STFRoamingBeacon: Clear-STFRoamingBeacon.md
+  - Set-STFRoamingGateway: Set-STFRoamingGateway.md
+  - Remove-STFRoamingGateway: Remove-STFRoamingGateway.md
+  - Get-STFRoamingGateway: Get-STFRoamingGateway.md
+  - Add-STFRoamingGateway: Add-STFRoamingGateway.md
+  - New-STFRoamingGateway: New-STFRoamingGateway.md
+  - Get-STFRoamingService: Get-STFRoamingService.md
+  - Get-STFRoamingServiceRecord: Get-STFRoamingServiceRecord.md
+  - Update-STFSecureTicketAuthority: Update-STFSecureTicketAuthority.md
+  - Test-STFSecureTicketAuthority: Test-STFSecureTicketAuthority.md
+- Citrix.StoreFront.Stores:
+  - Overview: Citrix.StoreFront.Stores.md
+  - Clear-STFDefaultPnaStore: Clear-STFDefaultPnaStore.md
+  - Add-STFSessionManagerTrustedIssuer: Add-STFSessionManagerTrustedIssuer.md
+  - Remove-STFSessionManagerTrustedIssuer: Remove-STFSessionManagerTrustedIssuer.md
+  - New-STFSessionManagerTrustedIssuer: New-STFSessionManagerTrustedIssuer.md
+  - Set-STFStoreEnumerationOptions: Set-STFStoreEnumerationOptions.md
+  - Get-STFStoreEnumerationOptions: Get-STFStoreEnumerationOptions.md
+  - New-STFStoreFarm: New-STFStoreFarm.md
+  - Set-STFStoreFarm: Set-STFStoreFarm.md
+  - Remove-STFStoreFarm: Remove-STFStoreFarm.md
+  - Add-STFStoreFarm: Add-STFStoreFarm.md
+  - Get-STFStoreFarm: Get-STFStoreFarm.md
+  - Set-STFStoreFarmConfiguration: Set-STFStoreFarmConfiguration.md
+  - Get-STFStoreFarmConfiguration: Get-STFStoreFarmConfiguration.md
+  - Unregister-STFStoreGateway: Unregister-STFStoreGateway.md
+  - Register-STFStoreGateway: Register-STFStoreGateway.md
+  - Set-STFStoreGatewayService: Set-STFStoreGatewayService.md
+  - Get-STFStoreGatewayService: Get-STFStoreGatewayService.md
+  - Get-STFStoreLaunchOptions: Get-STFStoreLaunchOptions.md
+  - Set-STFStoreLaunchOptions: Set-STFStoreLaunchOptions.md
+  - Register-STFStoreOptimalLaunchGateway: Register-STFStoreOptimalLaunchGateway.md
+  - Unregister-STFStoreOptimalLaunchGateway: Unregister-STFStoreOptimalLaunchGateway.md
+  - Enable-STFStorePna: Enable-STFStorePna.md
+  - Get-STFStorePna: Get-STFStorePna.md
+  - Disable-STFStorePna: Disable-STFStorePna.md
+  - Get-STFStorePnaSmartAccess: Get-STFStorePnaSmartAccess.md
+  - Grant-STFStorePnaSmartAccess: Grant-STFStorePnaSmartAccess.md
+  - Set-STFStorePnaSmartAccess: Set-STFStorePnaSmartAccess.md
+  - Revoke-STFStorePnaSmartAccess: Revoke-STFStorePnaSmartAccess.md
+  - Get-STFStoreRegisteredGateway: Get-STFStoreRegisteredGateway.md
+  - Get-STFStoreRegisteredOptimalLaunchGateway: Get-STFStoreRegisteredOptimalLaunchGateway.md
+  - Set-STFStoreService: Set-STFStoreService.md
+  - Add-STFStoreService: Add-STFStoreService.md
+  - Remove-STFStoreService: Remove-STFStoreService.md
+  - Get-STFStoreService: Get-STFStoreService.md
+  - Get-STFStoreSubscriptionsDatabase: Get-STFStoreSubscriptionsDatabase.md
+  - Set-STFStoreSubscriptionsDatabase: Set-STFStoreSubscriptionsDatabase.md
+- Citrix.StoreFront.Stores.MultiSite:
+  - Overview: Citrix.StoreFront.Stores.MultiSite.md
+  - Get-STFEquivalentFarmset: Get-STFEquivalentFarmset.md
+  - New-STFEquivalentFarmset: New-STFEquivalentFarmset.md
+  - Set-STFUserFarmMapping: Set-STFUserFarmMapping.md
+  - Remove-STFUserFarmMapping: Remove-STFUserFarmMapping.md
+  - Add-STFUserFarmMapping: Add-STFUserFarmMapping.md
+  - Get-STFUserFarmMapping: Get-STFUserFarmMapping.md
+  - New-STFUserFarmMappingGroup: New-STFUserFarmMappingGroup.md
+  - Clear-STFUserFarmMappings: Clear-STFUserFarmMappings.md
+- Citrix.StoreFront.SubscriptionsStore:
+  - Overview: Citrix.StoreFront.SubscriptionsStore.md
+  - Get-STFComputerSynchronizationPermission: Get-STFComputerSynchronizationPermission.md
+  - Grant-STFComputerSynchronizationPermission: Grant-STFComputerSynchronizationPermission.md
+  - Revoke-STFComputerSynchronizationPermission: Revoke-STFComputerSynchronizationPermission.md
+  - Import-STFStoreSubscriptions: Import-STFStoreSubscriptions.md
+  - Export-STFStoreSubscriptions: Export-STFStoreSubscriptions.md
+  - Restore-STFStoreSubscriptions: Restore-STFStoreSubscriptions.md
+  - Get-STFSubscriptionStoreService: Get-STFSubscriptionStoreService.md
+  - Clear-STFSubscriptionSynchronizationSchedule: Clear-STFSubscriptionSynchronizationSchedule.md
+  - Add-STFSubscriptionSynchronizationSchedule: Add-STFSubscriptionSynchronizationSchedule.md
+  - Get-STFSubscriptionSynchronizationSchedule: Get-STFSubscriptionSynchronizationSchedule.md
+  - Add-STFSubscriptionSynchronizationSource: Add-STFSubscriptionSynchronizationSource.md
+  - Clear-STFSubscriptionSynchronizationSource: Clear-STFSubscriptionSynchronizationSource.md
+  - Get-STFSubscriptionSynchronizationSource: Get-STFSubscriptionSynchronizationSource.md
+  - Remove-STFSubscriptionSynchronizationSource: Remove-STFSubscriptionSynchronizationSource.md
+- Citrix.StoreFront.WebReceiver:
+  - Overview: Citrix.StoreFront.WebReceiver.md
+  - Set-STFDesktopApplianceService: Set-STFDesktopApplianceService.md
+  - Get-STFDesktopApplianceService: Get-STFDesktopApplianceService.md
+  - Add-STFDesktopApplianceService: Add-STFDesktopApplianceService.md
+  - Remove-STFDesktopApplianceService: Remove-STFDesktopApplianceService.md
+  - Get-STFIISSitesInfo: Get-STFIISSitesInfo.md
+  - Set-STFWebReceiverApplicationShortcuts: Set-STFWebReceiverApplicationShortcuts.md
+  - Get-STFWebReceiverApplicationShortcuts: Get-STFWebReceiverApplicationShortcuts.md
+  - Set-STFWebReceiverAuthenticationManager: Set-STFWebReceiverAuthenticationManager.md
+  - Get-STFWebReceiverAuthenticationManager: Get-STFWebReceiverAuthenticationManager.md
+  - Set-STFWebReceiverAuthenticationMethods: Set-STFWebReceiverAuthenticationMethods.md
+  - Get-STFWebReceiverAuthenticationMethods: Get-STFWebReceiverAuthenticationMethods.md
+  - Get-STFWebReceiverAuthenticationMethodsAvailable: Get-STFWebReceiverAuthenticationMethodsAvailable.md
+  - New-STFWebReceiverClientPlugin: New-STFWebReceiverClientPlugin.md
+  - Remove-STFWebReceiverClientPlugin: Remove-STFWebReceiverClientPlugin.md
+  - Add-STFWebReceiverClientPlugin: Add-STFWebReceiverClientPlugin.md
+  - Get-STFWebReceiverClientPlugin: Get-STFWebReceiverClientPlugin.md
+  - Clear-STFWebReceiverClientPlugin: Clear-STFWebReceiverClientPlugin.md
+  - Set-STFWebReceiverClientPlugin: Set-STFWebReceiverClientPlugin.md
+  - Set-STFWebReceiverCommunication: Set-STFWebReceiverCommunication.md
+  - Get-STFWebReceiverCommunication: Get-STFWebReceiverCommunication.md
+  - Get-STFWebReceiverDefaultSiteStyle: Get-STFWebReceiverDefaultSiteStyle.md
+  - Get-STFWebReceiverDiscoveryService: Get-STFWebReceiverDiscoveryService.md
+  - Set-STFWebReceiverDiscoveryService: Set-STFWebReceiverDiscoveryService.md
+  - Add-STFWebReceiverFeature: Add-STFWebReceiverFeature.md
+  - Get-STFWebReceiverFeature: Get-STFWebReceiverFeature.md
+  - Remove-STFWebReceiverFeature: Remove-STFWebReceiverFeature.md
+  - Remove-STFWebReceiverFeaturedAppGroup: Remove-STFWebReceiverFeaturedAppGroup.md
+  - New-STFWebReceiverFeaturedAppGroup: New-STFWebReceiverFeaturedAppGroup.md
+  - Clear-STFWebReceiverFeaturedAppGroup: Clear-STFWebReceiverFeaturedAppGroup.md
+  - Get-STFWebReceiverFeaturedAppGroup: Get-STFWebReceiverFeaturedAppGroup.md
+  - Set-STFWebReceiverFeaturedAppGroup: Set-STFWebReceiverFeaturedAppGroup.md
+  - Add-STFWebReceiverFeaturedAppGroup: Add-STFWebReceiverFeaturedAppGroup.md
+  - Set-STFWebReceiverFeaturedAppGroups: Set-STFWebReceiverFeaturedAppGroups.md
+  - Get-STFWebReceiverFeaturedAppGroupTiles: Get-STFWebReceiverFeaturedAppGroupTiles.md
+  - Get-STFWebReceiverPluginAssistant: Get-STFWebReceiverPluginAssistant.md
+  - Set-STFWebReceiverPluginAssistant: Set-STFWebReceiverPluginAssistant.md
+  - Set-STFWebReceiverResourcesService: Set-STFWebReceiverResourcesService.md
+  - Get-STFWebReceiverResourcesService: Get-STFWebReceiverResourcesService.md
+  - Set-STFWebReceiverService: Set-STFWebReceiverService.md
+  - Remove-STFWebReceiverService: Remove-STFWebReceiverService.md
+  - Add-STFWebReceiverService: Add-STFWebReceiverService.md
+  - Get-STFWebReceiverService: Get-STFWebReceiverService.md
+  - Set-STFWebReceiverSiteStyle: Set-STFWebReceiverSiteStyle.md
+  - Clear-STFWebReceiverSiteStyle: Clear-STFWebReceiverSiteStyle.md
+  - Get-STFWebReceiverSiteStyle: Get-STFWebReceiverSiteStyle.md
+  - Get-STFWebReceiverStoreProxy: Get-STFWebReceiverStoreProxy.md
+  - Set-STFWebReceiverStrictTransportSecurity: Set-STFWebReceiverStrictTransportSecurity.md
+  - Get-STFWebReceiverStrictTransportSecurity: Get-STFWebReceiverStrictTransportSecurity.md
+  - Set-STFWebReceiverUserInterface: Set-STFWebReceiverUserInterface.md
+  - Get-STFWebReceiverUserInterface: Get-STFWebReceiverUserInterface.md
