@@ -1,5 +1,5 @@
-site_name: Citrix StoreFront 3.13 SDK PowerShell Modules
-site_description: Citrix StoreFront 3.13 SDK PowerShell Modules
+site_name: Citrix StoreFront 3.9 SDK PowerShell Modules
+site_description: Citrix StoreFront 3.9 SDK PowerShell Modules
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
@@ -75,8 +75,6 @@ pages:
 - Citrix.StoreFront.Authentication.Explicit:
   - Overview: Citrix.StoreFront.Authentication.Explicit.md
   - Set-STFExplicitCommonOptions: Set-STFExplicitCommonOptions.md
-  - Get-STFExplictJsonAuthCEIP: Get-STFExplictJsonAuthCEIP.md
-  - Get-STFExplictJsonEndPoints: Get-STFExplictJsonEndPoints.md
   - Get-STFExplicitCommonOptions: Get-STFExplicitCommonOptions.md
 - Citrix.StoreFront.Authentication.PasswordManager:
   - Overview: Citrix.StoreFront.Authentication.PasswordManager.md
