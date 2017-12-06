@@ -1,5 +1,5 @@
-site_name: Citrix StoreFront 3.11 SDK PowerShell Modules
-site_description: Citrix StoreFront 3.11 SDK PowerShell Modules
+site_name: Citrix StoreFront 3.12 SDK PowerShell Modules
+site_description: Citrix StoreFront 3.12 SDK PowerShell Modules
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
