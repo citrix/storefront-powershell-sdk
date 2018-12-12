@@ -3,7 +3,7 @@ site_description: Citrix StoreFront 1811 SDK PowerShell Modules
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
-  - codehilite(guess_lang=false)
+  - codehilite
   - toc(permalink=true)
   - footnotes
   - meta
