@@ -1,29 +1,56 @@
-#Get-STFWebReceiverPluginAssistant
+﻿# Get-STFWebReceiverPluginAssistant
+
 Get the WebReceiver Plug-in Assistant options
-##Syntax
-```Get-STFWebReceiverPluginAssistant [-WebReceiverService] <WebReceiverService> [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Get-STFWebReceiverPluginAssistant [-WebReceiverService] <WebReceiverService> [<CommonParameters>]
+```
+
+## Detailed Description
+
 Get the WebReceiver Plug-in Assistant client options.
-##Related Commands
-*[Set-STFWebReceiverPluginAssistant](Set-STFWebReceiverPluginAssistant)
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||WebReceiverService|The WebReceiver service.|true|true (ByValue)|##Input Type
-###Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
+
+## Related Commands
+
+* [Set-STFWebReceiverPluginAssistant](./Set-STFWebReceiverPluginAssistant)
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|WebReceiverService|The WebReceiver service.|true|true (ByValue)| |
+
+## Input Type
+
+### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
+
 Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
-##Return Values
-###PluginAssistant
-The .NET 'Citrix.StoreFront.Model.ReceiverForWeb.PluginAssistant' reference type
-##Examples
-###EXAMPLE 1 Get WebReceiver Plug-in Assistant options
-```$receiver = Get-STFWebReceiverService
+
+## Return Values
+
+### PluginAssistant
+
+The .NET `Citrix.StoreFront.Model.ReceiverForWeb.PluginAssistant` reference type
+
+## Examples
+
+### EXAMPLE 1 Get WebReceiver Plug-in Assistant options
+
+```
+$receiver = Get-STFWebReceiverService
 Get-STFWebReceiverPluginAssistant -WebReceiverService $receiver
 ```
-REMARKS
+
+**REMARKS**
 
 Get the WebReceiver Plug-in Assistant client options of the only configured WebReceiver.
-OUTPUT
-```Enabled         : True
+
+**OUTPUT**
+
+```
+Enabled         : True
 UpgradeAtLogin  : False
 ShowAfterLogin  : False
 Win32           : Path : http://downloadplugins.citrix.com/Windows/CitrixReceiverWeb.exe

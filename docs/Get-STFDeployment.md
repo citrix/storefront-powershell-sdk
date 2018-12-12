@@ -1,30 +1,57 @@
-#Get-STFDeployment
+﻿# Get-STFDeployment
+
 Get details of an existing deployment
-##Syntax
-```Get-STFDeployment [[-SiteId] <Int64>] [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Get-STFDeployment [[-SiteId] <Int64>] [<CommonParameters>]
+```
+
+## Detailed Description
+
 Get details of the StoreFront deployment on the current server.
-##Related Commands
-*[Add-STFDeployment](Add-STFDeployment)
-*[Clear-STFDeployment](Clear-STFDeployment)
-*[Set-STFDeployment](Set-STFDeployment)
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||SiteId|The IIS site id of the deployment|false|false|##Input Type
-###System.Int64
-Parameter SiteId: The .NET 'System.Int64' value type
-##Return Values
-###StoreFrontDeployment[]
-The .NET 'Citrix.StoreFront.Model.StoreFrontDeployment' reference type
-##Examples
-###EXAMPLE 1 Get the StoreFront deployment
-```Get-STFDeployment
+
+## Related Commands
+
+* [Add-STFDeployment](./Add-STFDeployment)
+* [Clear-STFDeployment](./Clear-STFDeployment)
+* [Set-STFDeployment](./Set-STFDeployment)
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|SiteId|The IIS site id of the deployment|false|false| |
+
+## Input Type
+
+### System.Int64
+
+Parameter SiteId: The .NET `System.Int64` value type
+
+## Return Values
+
+### StoreFrontDeployment[]
+
+The .NET `Citrix.StoreFront.Model.StoreFrontDeployment` reference type
+
+## Examples
+
+### EXAMPLE 1 Get the StoreFront deployment
+
 ```
-REMARKS
+Get-STFDeployment
+```
+
+**REMARKS**
 
 Get the StoreFront deployment details
-OUTPUT
-```HostbaseUrl             : http://example.storefront.com
+
+**OUTPUT**
+
+```
+HostbaseUrl             : http://example.storefront.com
 IISSiteId               : 1
 DeploymentExists        : True
 InstalledFeatureClasses : {WebApplication, WING, XmlServiceAuthentication, ResourcesCommon...}

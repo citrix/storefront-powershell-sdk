@@ -1,24 +1,48 @@
-#Get-STFInstalledFeatures
+﻿# Get-STFInstalledFeatures
+
 Get the details of the Storefront features on the system
-##Syntax
-```Get-STFInstalledFeatures [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Get-STFInstalledFeatures [<CommonParameters>]
+```
+
+## Detailed Description
+
 Get the details of the Storefront features on the system.
-##Related Commands
-##Input Type
-##Return Values
-###FeatureClass
-The .NET 'Citrix.DeliveryServices.Framework.Feature.FeatureClass' reference type
-##Examples
-###EXAMPLE 1 Get all features installed
-```Get-STFInstalledFeatures
+
+## Related Commands
+
+
+## Input Type
+
+### 
+
+
+
+## Return Values
+
+### FeatureClass
+
+The .NET `Citrix.DeliveryServices.Framework.Feature.FeatureClass` reference type
+
+## Examples
+
+### EXAMPLE 1 Get all features installed
+
 ```
-REMARKS
+Get-STFInstalledFeatures
+```
+
+**REMARKS**
 
 Get all the features that are installed.
-OUTPUT
-```Path                           : C:\Program Files\Citrix\Receiver StoreFront\ClusterManagement
+
+**OUTPUT**
+
+```
+Path                           : C:\Program Files\Citrix\Receiver StoreFront\ClusterManagement
 ConfigLocation                 : C:\Program Files\Citrix\Receiver StoreFront\ClusterManagement\feature.config
 ConfigTypeName                 : Executable
 Id                             : 82545fc5-2809-4d69-941f-21163d8bca30

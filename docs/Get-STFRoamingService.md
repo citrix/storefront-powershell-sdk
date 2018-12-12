@@ -1,27 +1,54 @@
-#Get-STFRoamingService
+﻿# Get-STFRoamingService
+
 Get the Roaming Service
-##Syntax
-```Get-STFRoamingService [[-SiteId] <Int64>] [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Get-STFRoamingService [[-SiteId] <Int64>] [<CommonParameters>]
+```
+
+## Detailed Description
+
 Get the Roaming Service. The Roaming Service is where the list of global gateways, account and service records and account redirect rules are configured.
-##Related Commands
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||SiteId|The IIS Site to which the Roaming service should belong|false|false|##Input Type
-###System.Int64
-Parameter SiteId: The .NET 'System.Int64' value type
-##Return Values
-###RoamingService
+
+## Related Commands
+
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|SiteId|The IIS Site to which the Roaming service should belong|false|false| |
+
+## Input Type
+
+### System.Int64
+
+Parameter SiteId: The .NET `System.Int64` value type
+
+## Return Values
+
+### RoamingService
+
 A .NET class representing the configuration of a StoreFront Roaming service
-##Examples
-###EXAMPLE 1 Get the Roaming Service
-```Get-STFRoamingService
+
+## Examples
+
+### EXAMPLE 1 Get the Roaming Service
+
 ```
-REMARKS
+Get-STFRoamingService
+```
+
+**REMARKS**
 
 Get the roaming service
-OUTPUT
-```Roaming           : Gateways:0, Data:2, Accounts:0, Records:0, Beacons:Internal:0, External:0
+
+**OUTPUT**
+
+```
+Roaming           : Gateways:0, Data:2, Accounts:0, Records:0, Beacons:Internal:0, External:0
 SiteId            : 1
 VirtualPath       : /Citrix/Roaming
 FriendlyName      : RoamingFeature

@@ -1,5 +1,5 @@
-site_name: Citrix StoreFront 3.13 SDK PowerShell Modules
-site_description: Citrix StoreFront 3.13 SDK PowerShell Modules
+site_name: Citrix StoreFront 1811 SDK PowerShell Modules
+site_description: Citrix StoreFront 1811 SDK PowerShell Modules
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
@@ -51,7 +51,7 @@ pages:
   - Save-STFService: Save-STFService.md
   - Get-STFServiceMonitor: Get-STFServiceMonitor.md
   - Set-STFServiceMonitor: Set-STFServiceMonitor.md
-  - Get-STFVersion: Get-STFVersion.md
+  - Get-STFVersion: Get-STFVersion.md  
 - Citrix.StoreFront.Authentication:
   - Overview: Citrix.StoreFront.Authentication.md
   - Get-STFAuthenticationProtocolsAvailable: Get-STFAuthenticationProtocolsAvailable.md
@@ -121,14 +121,16 @@ pages:
 - Citrix.StoreFront.Stores:
   - Overview: Citrix.StoreFront.Stores.md
   - Clear-STFDefaultPnaStore: Clear-STFDefaultPnaStore.md
-  - Add-STFSessionManagerTrustedIssuer: Add-STFSessionManagerTrustedIssuer.md
   - Remove-STFSessionManagerTrustedIssuer: Remove-STFSessionManagerTrustedIssuer.md
+  - Add-STFSessionManagerTrustedIssuer: Add-STFSessionManagerTrustedIssuer.md
   - New-STFSessionManagerTrustedIssuer: New-STFSessionManagerTrustedIssuer.md
-  - Set-STFStoreEnumerationOptions: Set-STFStoreEnumerationOptions.md
+  - Enable-STFStoreDelegation: Enable-STFStoreDelegation.md
+  - Disable-STFStoreDelegation: Disable-STFStoreDelegation.md
   - Get-STFStoreEnumerationOptions: Get-STFStoreEnumerationOptions.md
-  - New-STFStoreFarm: New-STFStoreFarm.md
+  - Set-STFStoreEnumerationOptions: Set-STFStoreEnumerationOptions.md
   - Set-STFStoreFarm: Set-STFStoreFarm.md
   - Remove-STFStoreFarm: Remove-STFStoreFarm.md
+  - New-STFStoreFarm: New-STFStoreFarm.md
   - Add-STFStoreFarm: Add-STFStoreFarm.md
   - Get-STFStoreFarm: Get-STFStoreFarm.md
   - Set-STFStoreFarmConfiguration: Set-STFStoreFarmConfiguration.md
@@ -145,13 +147,13 @@ pages:
   - Get-STFStorePna: Get-STFStorePna.md
   - Disable-STFStorePna: Disable-STFStorePna.md
   - Get-STFStorePnaSmartAccess: Get-STFStorePnaSmartAccess.md
-  - Grant-STFStorePnaSmartAccess: Grant-STFStorePnaSmartAccess.md
   - Set-STFStorePnaSmartAccess: Set-STFStorePnaSmartAccess.md
   - Revoke-STFStorePnaSmartAccess: Revoke-STFStorePnaSmartAccess.md
+  - Grant-STFStorePnaSmartAccess: Grant-STFStorePnaSmartAccess.md
   - Get-STFStoreRegisteredGateway: Get-STFStoreRegisteredGateway.md
   - Get-STFStoreRegisteredOptimalLaunchGateway: Get-STFStoreRegisteredOptimalLaunchGateway.md
-  - Set-STFStoreService: Set-STFStoreService.md
   - Add-STFStoreService: Add-STFStoreService.md
+  - Set-STFStoreService: Set-STFStoreService.md
   - Remove-STFStoreService: Remove-STFStoreService.md
   - Get-STFStoreService: Get-STFStoreService.md
   - Get-STFStoreSubscriptionsDatabase: Get-STFStoreSubscriptionsDatabase.md

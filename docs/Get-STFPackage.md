@@ -1,24 +1,48 @@
-#Get-STFPackage
+﻿# Get-STFPackage
+
 Get the details of the Storefront packages on the system
-##Syntax
-```Get-STFPackage [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Get-STFPackage [<CommonParameters>]
+```
+
+## Detailed Description
+
 Get the details of the Storefront packages on the system. This includes, the package location, exposed properties and Feature class details.
-##Related Commands
-##Input Type
-##Return Values
-###PackageInfo
-The .NET 'Citrix.DeliveryServices.Framework.Install.ZipPackage.PackageInfo' reference type
-##Examples
-###EXAMPLE 1 Get all feature packages
-```Get-STFPackage
+
+## Related Commands
+
+
+## Input Type
+
+### 
+
+
+
+## Return Values
+
+### PackageInfo
+
+The .NET `Citrix.DeliveryServices.Framework.Install.ZipPackage.PackageInfo` reference type
+
+## Examples
+
+### EXAMPLE 1 Get all feature packages
+
 ```
-REMARKS
+Get-STFPackage
+```
+
+**REMARKS**
 
 Get all on disk feature packages.
-OUTPUT
-```Identifier       : f604acd2-dba2-4ea9-9f30-b12a5fdfad32
+
+**OUTPUT**
+
+```
+Identifier       : f604acd2-dba2-4ea9-9f30-b12a5fdfad32
 FileLocation     : AGDiscover.zip
 Title            : AGDiscover
 Version          : 3.5.0.0

@@ -1,29 +1,59 @@
-#Add-STFDeployment
+﻿# Add-STFDeployment
+
 Create a new StoreFront deployment
-##Syntax
-```Add-STFDeployment [[-SiteId] <Int64>] [[-HostBaseUrl] <String>] [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Add-STFDeployment [[-SiteId] <Int64>] [[-HostBaseUrl] <String>] [<CommonParameters>]
+```
+
+## Detailed Description
+
 Creates a new StoreFront deployment with the required features installed and configured.
-##Related Commands
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||SiteId|The IIS site id of the deployment|false|false||HostBaseUrl|Url used to access the StoreFront server group|false|false|##Input Type
-###System.Int64
-Parameter SiteId: The .NET 'System.Int64' value type
-###System.String
-Parameter HostBaseUrl: The .NET 'System.String' reference type
-##Return Values
-###StoreFrontDeployment
-The .NET 'Citrix.StoreFront.Model.StoreFrontDeployment' reference type
-##Examples
-###EXAMPLE 1 Create a new deployment
-```Add-STFDeployment https://example.storefront.com -Confirm:$false
+
+## Related Commands
+
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|SiteId|The IIS site id of the deployment|false|false| |
+|HostBaseUrl|Url used to access the StoreFront server group|false|false| |
+
+## Input Type
+
+### System.Int64
+
+Parameter SiteId: The .NET `System.Int64` value type
+
+### System.String
+
+Parameter HostBaseUrl: The .NET `System.String` reference type
+
+## Return Values
+
+### StoreFrontDeployment
+
+The .NET `Citrix.StoreFront.Model.StoreFrontDeployment` reference type
+
+## Examples
+
+### EXAMPLE 1 Create a new deployment
+
 ```
-REMARKS
+Add-STFDeployment https://example.storefront.com -Confirm:$false
+```
+
+**REMARKS**
 
 Creates a new StoreFront server that will be accessed by Receivers using the url https://example.storefront.com.
-OUTPUT
-```HostbaseUrl             : https://example.storefront.com/
+
+**OUTPUT**
+
+```
+HostbaseUrl             : https://example.storefront.com/
 IISSiteId               : 1
 DeploymentExists        : True
 InstalledFeatureClasses : {WebApplication, WING, XmlServiceAuthentication, ResourcesCommon...}

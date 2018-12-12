@@ -1,37 +1,79 @@
-#Get-STFAuthenticationService
+﻿# Get-STFAuthenticationService
+
 Get a StoreFront Authentication service.
-##Syntax
-```Get-STFAuthenticationService [[-VirtualPath] <String>] [[-SiteId] <Int64>] [[-VirtualPath] <String>] [[-SiteId] <Int64>] [<CommonParameters>]
+
+## Syntax
+
+```
+Get-STFAuthenticationService [[-VirtualPath] <String>] [[-SiteId] <Int64>] [<CommonParameters>]
+
+
+
 Get-STFAuthenticationService [-StoreService] <StoreService> [[-VirtualPath] <String>] [[-SiteId] <Int64>] [<CommonParameters>]
+
+
+
 Get-STFAuthenticationService [-WebReceiverService] <WebReceiverService> [[-VirtualPath] <String>] [[-SiteId] <Int64>] [<CommonParameters>]
 ```
-##Detailed Description
+
+## Detailed Description
+
 Gets an Authentication service that matches the supplied criteria. An Authentication service can be retrieved by supplying a linked StoreFront service or service details.
-##Related Commands
-*[Add-STFAuthenticationService](Add-STFAuthenticationService)
-*[Remove-STFAuthenticationService](Remove-STFAuthenticationService)
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||VirtualPath|Virtual path to the Authentication service website. Excluding the parameter will match on any virtual path|false|false||SiteId|IIS site id of the web site in which the Autentication service is hosted|false|false||StoreService|The Store used by the Authentication service|true|true (ByValue)||WebReceiverService|The Web Receiver used by the Authentication service|true|false|##Input Type
-###System.String
-Parameter VirtualPath: The .NET 'System.String' reference type
-###System.Int64
-Parameter SiteId: The .NET 'System.Int64' value type
-###Citrix.StoreFront.Model.Store.StoreService
+
+## Related Commands
+
+* [Add-STFAuthenticationService](./Add-STFAuthenticationService)
+* [Remove-STFAuthenticationService](./Remove-STFAuthenticationService)
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|VirtualPath|Virtual path to the Authentication service website. Excluding the parameter will match on any virtual path|false|false| |
+|SiteId|IIS site id of the web site in which the Autentication service is hosted|false|false| |
+|StoreService|The Store used by the Authentication service|true|true (ByValue)| |
+|WebReceiverService|The Web Receiver used by the Authentication service|true|false| |
+
+## Input Type
+
+### System.String
+
+Parameter VirtualPath: The .NET `System.String` reference type
+
+### System.Int64
+
+Parameter SiteId: The .NET `System.Int64` value type
+
+### Citrix.StoreFront.Model.Store.StoreService
+
 Parameter StoreService: A .NET class representing the configuration of a StoreFront Store service
-###Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
+
+### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
+
 Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
-##Return Values
-###AuthenticationService
+
+## Return Values
+
+### AuthenticationService
+
 A .NET class representing the configuration of a StoreFront Authentication service
-##Examples
-###EXAMPLE 1 Get all Authentication services
-```Get-STFAuthenticationService
+
+## Examples
+
+### EXAMPLE 1 Get all Authentication services
+
 ```
-REMARKS
+Get-STFAuthenticationService
+```
+
+**REMARKS**
 
 Get all configured Authentication services.
-OUTPUT
-```ProducerService         : Authentication Token Producer
+
+**OUTPUT**
+
+```
+ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
 TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
@@ -56,14 +98,21 @@ ServiceRef              : 1__Citrix_StoreAuth
 ConfigurationFile       : C:\inetpub\wwwroot\Citrix\StoreAuth\web.config
 TenantId                : 860e9401-39c8-4f2c-928d-34251
 ```
-###EXAMPLE 2 Get an authentication service
-```Get-STFAuthenticationService -VirtualPath /Citrix/StoreAuth
+
+### EXAMPLE 2 Get an authentication service
+
 ```
-REMARKS
+Get-STFAuthenticationService -VirtualPath /Citrix/StoreAuth
+```
+
+**REMARKS**
 
 Get an Authentication service configured at a specific virtual path.
-OUTPUT
-```ProducerService         : Authentication Token Producer
+
+**OUTPUT**
+
+```
+ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
 TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
@@ -88,15 +137,22 @@ ServiceRef              : 1__Citrix_StoreAuth
 ConfigurationFile       : C:\inetpub\wwwroot\Citrix\StoreAuth\web.config
 TenantId                : 860e9401-39c8-4f2c-928d-34251
 ```
-###EXAMPLE 3 Get a Stores Authentication service
-```$store = Get-STFStoreService
+
+### EXAMPLE 3 Get a Stores Authentication service
+
+```
+$store = Get-STFStoreService
 Get-STFAuthenticationService -StoreService $storeService
 ```
-REMARKS
+
+**REMARKS**
 
 Get the Authentication service responsible for authenticating a store.
-OUTPUT
-```ProducerService         : Authentication Token Producer
+
+**OUTPUT**
+
+```
+ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
 TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token

@@ -1,30 +1,59 @@
-#Read-STFNetScalerConfiguration
+﻿# Read-STFNetScalerConfiguration
+
 Read a NetScaler remote access configuration
-##Syntax
-```Read-STFNetScalerConfiguration [-Path] <String> [<CommonParameters>]
+
+## Syntax
+
 ```
-##Detailed Description
+Read-STFNetScalerConfiguration [-Path] <String> [<CommonParameters>]
+```
+
+## Detailed Description
+
 Reads a NetScaler remote access configuration package into a NetScalerConfigurationDocument object to be imported into StoreFront.
-##Related Commands
-*[Test-STFSecureTicketAuthority](Test-STFSecureTicketAuthority)
-##Parameters
-|Name|Description|Required?|Pipeline Input||--|--|--|--||Path|The NetScaler configuration file path.|true|true (ByValue)|##Input Type
-###System.String
-Parameter Path: The .NET 'System.String' reference type
-##Return Values
-###NetScalerConfigurationDocument
-The .NET 'Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.NetScalerConfigurationDocument' reference type
-##Notes
+
+## Related Commands
+
+* [Test-STFSecureTicketAuthority](./Test-STFSecureTicketAuthority)
+
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+|Path|The NetScaler configuration file path.|true|true (ByValue)| |
+
+## Input Type
+
+### System.String
+
+Parameter Path: The .NET `System.String` reference type
+
+## Return Values
+
+### NetScalerConfigurationDocument
+
+The .NET `Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.NetScalerConfigurationDocument` reference type
+
+## Notes
+
 Configuration files are exported from NetScaler Gateway in .zip file format.
-##Examples
-###EXAMPLE 1 Read configuration package
-```$netscalerConfiguration = Read-STFNetScalerConfiguration –Path C:\NSG\Configuration.zip
+
+## Examples
+
+### EXAMPLE 1 Read configuration package
+
 ```
-REMARKS
+$netscalerConfiguration = Read-STFNetScalerConfiguration –Path C:\NSG\Configuration.zip
+```
+
+**REMARKS**
 
 The populated object can be supplied to the related cmdlets for validation and import.
-OUTPUT
-```Certificate : [Subject]
+
+**OUTPUT**
+
+```
+Certificate : [Subject]
 CN=Example Certificate
 
 [Issuer]
@@ -46,15 +75,21 @@ Version     : 1.0
 Time        : 2016-01-25T15:37:22.34
 Document    : Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.Document
 ```
-###EXAMPLE 2 Read configuration package with verbose messaging
-```Read-STFNetScalerConfiguration –Path C:\NSG\Configuration.zip -Verbose
-```
-REMARKS
 
-The populated object can be supplied to the related cmdlets for validation and import. Messages related to the import
-are output to the console
-OUTPUT
-```Certificate : [Subject]
+### EXAMPLE 2 Read configuration package with verbose messaging
+
+```
+Read-STFNetScalerConfiguration –Path C:\NSG\Configuration.zip -Verbose
+```
+
+**REMARKS**
+
+The populated object can be supplied to the related cmdlets for validation and import. Messages related to the import are output to the console
+
+**OUTPUT**
+
+```
+Certificate : [Subject]
 CN=Example Certificate
 
 [Issuer]
@@ -81,16 +116,22 @@ authentication.
 VERBOSE: The gateway id uk.gateway.citrix.com:443 has no Secure Ticket Authorities defined so can only be used for
 authentication.
 ```
-###EXAMPLE 3 Read configuration package
-```$ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\desktop\GatewayConfig.zip" 
+
+### EXAMPLE 3 Read configuration package
+
+```
+$ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\desktop\GatewayConfig.zip" 
                            $ImportedGateways.Document.Gateways
 ```
-REMARKS
 
-The populated object can be inspected as shown to list all the gateway definitions. Messages related to the import are
-output to the console
-OUTPUT
-```GatewayMode            : CVPN
+**REMARKS**
+
+The populated object can be inspected as shown to list all the gateway definitions. Messages related to the import are output to the console
+
+**OUTPUT**
+
+```
+GatewayMode            : CVPN
                           CallbackUrl            :
                           GslbAddressUri         : https://gateway.domain.com/
                           AddressUri             : https://ukgateway.domain.com/
@@ -102,8 +143,7 @@ OUTPUT
                           CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : Domain
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 
                           GatewayMode            : CVPN
                           CallbackUrl            :
@@ -117,19 +157,24 @@ OUTPUT
                           CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : DomainAndRSA
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 ```
-###EXAMPLE 4 Read configuration package
-```$ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\desktop\GatewayConfig.zip" -GatewayIndex 0 
+
+### EXAMPLE 4 Read configuration package
+
+```
+$ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\desktop\GatewayConfig.zip" -GatewayIndex 0 
                            $ImportedGateways.Document.Gateways[0]
 ```
-REMARKS
 
-The populated object can be inspected as shown to show an individual gateway definition. Messages related to the
-import are output to the console
-OUTPUT
-```GatewayMode            : CVPN
+**REMARKS**
+
+The populated object can be inspected as shown to show an individual gateway definition. Messages related to the import are output to the console
+
+**OUTPUT**
+
+```
+GatewayMode            : CVPN
                           CallbackUrl            :
                           GslbAddressUri         : https://gateway.domain.com/
                           AddressUri             : https://ukgateway.domain.com/
@@ -141,6 +186,5 @@ OUTPUT
                           CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : Domain
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 ```
