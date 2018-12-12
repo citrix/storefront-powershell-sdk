@@ -4,7 +4,7 @@ theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
   - codehilite
-  - toc(permalink=true)
+  - toc
   - footnotes
   - meta
 
