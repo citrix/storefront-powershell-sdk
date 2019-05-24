@@ -1072,11 +1072,11 @@
 <p>An EquivalentFarmSet is a set of PrimaryFarms that provide applications and desktops. When the applications and desktops available from each farm are identical, the experience of using any of them would be equivalent to an end user, so the EquivalentFarmSet should be marked as identical. If any of the farms are not identical the applications and desktops available during enumeration and launch would vary, so the EquivalentFarmSet should be marked as not identical. During enumeration, where the farms are not marked as identical, each is queried in parallel, whereas for farms that are marked as identical, only one is queried. The enumerated resources are de-duplicated according to the AggregationGroupName setting of this and other EquivalentFarmSets available to the same user. During launch, the farms to use are selected by UserFarmMapping, EquivalentFarmSet and AggregationGroupName. Once selected they are ordered and requests are load balanced or failed over between them. EquivalentFarmSets also define BackupFarms, they will only be used should all PrimaryFarms and EquivalentFarmSets with identical AggregationGroupName become unavailable.</p>
 <h2 id="related-commands">Related Commands</h2>
 <ul>
-<li><a href="New-STFEquivalentFarmset">New-STFEquivalentFarmset</a></li>
-<li><a href="Get-STFUserFarmMapping">Get-STFUserFarmMapping</a></li>
-<li><a href="Clear-STFUserFarmMappings">Clear-STFUserFarmMappings</a></li>
-<li><a href="New-STFUserFarmMappingGroup">New-STFUserFarmMappingGroup</a></li>
-<li><a href="Set-STFUserFarmMapping">Set-STFUserFarmMapping</a></li>
+<li><a href="./New-STFEquivalentFarmset">New-STFEquivalentFarmset</a></li>
+<li><a href="./Get-STFUserFarmMapping">Get-STFUserFarmMapping</a></li>
+<li><a href="./Clear-STFUserFarmMappings">Clear-STFUserFarmMappings</a></li>
+<li><a href="./New-STFUserFarmMappingGroup">New-STFUserFarmMappingGroup</a></li>
+<li><a href="./Set-STFUserFarmMapping">Set-STFUserFarmMapping</a></li>
 </ul>
 <h2 id="parameters">Parameters</h2>
 <table>
