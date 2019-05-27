@@ -1,5 +1,5 @@
-site_name: Citrix StoreFront 1811 SDK PowerShell Modules
-site_description: Citrix StoreFront 1811 SDK PowerShell Modules
+site_name: Citrix StoreFront 1906 SDK PowerShell Modules
+site_description: Citrix StoreFront 1906 SDK PowerShell Modules
 theme: readthedocs
 markdown_extensions:
   - admonition
