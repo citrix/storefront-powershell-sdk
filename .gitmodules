@@ -1,0 +1,3 @@
+[submodule "citrix-docs"]
+	path = citrix-docs
+	url = https://github.com/ajitchelat/citrix-docs.git
