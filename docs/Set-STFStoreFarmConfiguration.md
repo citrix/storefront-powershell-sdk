@@ -14,8 +14,8 @@ Configure Store wide settings common to all configured farms.
 
 ## Related Commands
 
-* [Set-STFStoreLaunchOptions](./Set-STFStoreLaunchOptions)
-* [Get-STFStoreLaunchOptions](./Get-STFStoreLaunchOptions)
+* [Set-STFStoreLaunchOptions](Set-STFStoreLaunchOptions.md)
+* [Get-STFStoreLaunchOptions](Get-STFStoreLaunchOptions.md)
 
 ## Parameters
 

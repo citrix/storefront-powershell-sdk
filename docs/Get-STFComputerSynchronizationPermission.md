@@ -14,8 +14,8 @@ Get the Active Directory computer accounts with permission to synchronize subscr
 
 ## Related Commands
 
-* [Add-STFSubscriptionSynchronizationSource](./Add-STFSubscriptionSynchronizationSource)
-* [Clear-STFSubscriptionSynchronizationSource](./Clear-STFSubscriptionSynchronizationSource)
+* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
+* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
 
 ## Input Type
 
@@ -39,7 +39,9 @@ Get-ComputerSynchronizationPermission
 
 **REMARKS**
 
-Get the Active Directory accounts of the StoreFront servers with permissions to synchronize.
+Get the Active Directory accounts of the StoreFront servers with permissions 
+
+to synchronize.
 
 **OUTPUT**
 

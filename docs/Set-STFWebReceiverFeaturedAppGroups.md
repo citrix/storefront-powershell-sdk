@@ -17,11 +17,11 @@ Any existing Featured App groups are replaced with the Featured App groups speci
 
 ## Related Commands
 
-* [New-STFWebReceiverFeaturedAppGroup](./New-STFWebReceiverFeaturedAppGroup)
-* [Add-STFWebReceiverFeaturedAppGroup](./Add-STFWebReceiverFeaturedAppGroup)
-* [Remove-STFWebReceiverFeaturedAppGroup](./Remove-STFWebReceiverFeaturedAppGroup)
-* [Clear-STFWebReceiverFeaturedAppGroup](./Clear-STFWebReceiverFeaturedAppGroup)
-* [Set-STFWebReceiverFeaturedAppGroup](./Set-STFWebReceiverFeaturedAppGroup)
+* [New-STFWebReceiverFeaturedAppGroup](New-STFWebReceiverFeaturedAppGroup.md)
+* [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup.md)
+* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
+* [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup.md)
+* [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup.md)
 
 ## Parameters
 

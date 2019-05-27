@@ -1,6 +1,6 @@
 site_name: Citrix StoreFront 1811 SDK PowerShell Modules
 site_description: Citrix StoreFront 1811 SDK PowerShell Modules
-theme_dir: citrix-sdk
+theme: readthedocs
 markdown_extensions:
   - admonition
   - codehilite
@@ -102,6 +102,9 @@ pages:
   - Enable-STFXmlServiceAuthentication: Enable-STFXmlServiceAuthentication.md
 - Citrix.StoreFront.Roaming:
   - Overview: Citrix.StoreFront.Roaming.md
+  - Get-STFCasConfiguration: Get-STFCasConfiguration.md
+  - Import-STFCasConfiguration: Import-STFCasConfiguration.md
+  - Remove-STFCasConfiguration: Remove-STFCasConfiguration.md
   - Read-STFNetScalerConfiguration: Read-STFNetScalerConfiguration.md
   - Import-STFNetScalerConfiguration: Import-STFNetScalerConfiguration.md
   - Set-STFRoamingAccount: Set-STFRoamingAccount.md

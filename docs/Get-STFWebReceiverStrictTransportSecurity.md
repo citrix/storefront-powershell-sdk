@@ -14,7 +14,7 @@ Get the WebReceiver strict transport security settings.
 
 ## Related Commands
 
-* [Set-STFWebReceiverStrictTransportSecurity](./Set-STFWebReceiverStrictTransportSecurity)
+* [Set-STFWebReceiverStrictTransportSecurity](Set-STFWebReceiverStrictTransportSecurity.md)
 
 ## Parameters
 

@@ -1,72 +1,74 @@
-#Citrix.StoreFront.WebReceiver
+﻿# Citrix.StoreFront.WebReceiver
 
-##Topic
-about_Citrix.StoreFront.WebReceiver
+## Topic
 
-##Short Description
-The Citrix.StoreFront.WebReceiver PowerShell module provides administrative functions for the Receiver for Web Services.
+`about_Citrix.StoreFront.WebReceiver`
 
-##Command Prefix
-All commands in this module have 'STF' in their name to denote they are part of the StoreFront product.
+## Short Description
 
-##Long Description
+The Citrix.StoreFront.WebReceiver PowerShell module provides administrative functions for the Receiver for Web Services. 
 
-The Citrix.StoreFront.WebReceiver PowerShell module enables local administration of StoreFront Receiver for Web Services. It provides facilities to add, remove and configure new Receiver for Web services and options. Examples of usage can be found in <InstallPath>\PowerShellSDK\Examples. 
+## Command Prefix
+
+All commands in this module have 'STF' in their name to denote they are part of the StoreFront product. 
+
+## Long Description
+
+The Citrix.StoreFront.WebReceiver PowerShell module enables local administration of StoreFront Receiver for Web Services. It provides facilities to add, remove and configure new Receiver for Web services and options. Examples of usage can be found in `<InstallPath>\PowerShellSDK\Examples`. 
 
 The module provides the following main entities: 
 
-* **WebReceiverService**: Receiver for Web sites enable users to access applications and desktops from configured stores through a webpage.
+- **WebReceiverService**: Receiver for Web sites enable users to access applications and desktops from configured stores through a webpage.
 
-##Cmdlets
+## Cmdlets
 
-* [Set-STFDesktopApplianceService](Set-STFDesktopApplianceService)
-* [Get-STFDesktopApplianceService](Get-STFDesktopApplianceService)
-* [Add-STFDesktopApplianceService](Add-STFDesktopApplianceService)
-* [Remove-STFDesktopApplianceService](Remove-STFDesktopApplianceService)
-* [Get-STFIISSitesInfo](Get-STFIISSitesInfo)
-* [Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts)
-* [Get-STFWebReceiverApplicationShortcuts](Get-STFWebReceiverApplicationShortcuts)
-* [Set-STFWebReceiverAuthenticationManager](Set-STFWebReceiverAuthenticationManager)
-* [Get-STFWebReceiverAuthenticationManager](Get-STFWebReceiverAuthenticationManager)
-* [Set-STFWebReceiverAuthenticationMethods](Set-STFWebReceiverAuthenticationMethods)
-* [Get-STFWebReceiverAuthenticationMethods](Get-STFWebReceiverAuthenticationMethods)
-* [Get-STFWebReceiverAuthenticationMethodsAvailable](Get-STFWebReceiverAuthenticationMethodsAvailable)
-* [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin)
-* [Remove-STFWebReceiverClientPlugin](Remove-STFWebReceiverClientPlugin)
-* [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin)
-* [Get-STFWebReceiverClientPlugin](Get-STFWebReceiverClientPlugin)
-* [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin)
-* [Set-STFWebReceiverClientPlugin](Set-STFWebReceiverClientPlugin)
-* [Set-STFWebReceiverCommunication](Set-STFWebReceiverCommunication)
-* [Get-STFWebReceiverCommunication](Get-STFWebReceiverCommunication)
-* [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle)
-* [Get-STFWebReceiverDiscoveryService](Get-STFWebReceiverDiscoveryService)
-* [Set-STFWebReceiverDiscoveryService](Set-STFWebReceiverDiscoveryService)
-* [Add-STFWebReceiverFeature](Add-STFWebReceiverFeature)
-* [Get-STFWebReceiverFeature](Get-STFWebReceiverFeature)
-* [Remove-STFWebReceiverFeature](Remove-STFWebReceiverFeature)
-* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup)
-* [New-STFWebReceiverFeaturedAppGroup](New-STFWebReceiverFeaturedAppGroup)
-* [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup)
-* [Get-STFWebReceiverFeaturedAppGroup](Get-STFWebReceiverFeaturedAppGroup)
-* [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup)
-* [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup)
-* [Set-STFWebReceiverFeaturedAppGroups](Set-STFWebReceiverFeaturedAppGroups)
-* [Get-STFWebReceiverFeaturedAppGroupTiles](Get-STFWebReceiverFeaturedAppGroupTiles)
-* [Get-STFWebReceiverPluginAssistant](Get-STFWebReceiverPluginAssistant)
-* [Set-STFWebReceiverPluginAssistant](Set-STFWebReceiverPluginAssistant)
-* [Set-STFWebReceiverResourcesService](Set-STFWebReceiverResourcesService)
-* [Get-STFWebReceiverResourcesService](Get-STFWebReceiverResourcesService)
-* [Set-STFWebReceiverService](Set-STFWebReceiverService)
-* [Remove-STFWebReceiverService](Remove-STFWebReceiverService)
-* [Add-STFWebReceiverService](Add-STFWebReceiverService)
-* [Get-STFWebReceiverService](Get-STFWebReceiverService)
-* [Set-STFWebReceiverSiteStyle](Set-STFWebReceiverSiteStyle)
-* [Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle)
-* [Get-STFWebReceiverSiteStyle](Get-STFWebReceiverSiteStyle)
-* [Get-STFWebReceiverStoreProxy](Get-STFWebReceiverStoreProxy)
-* [Set-STFWebReceiverStrictTransportSecurity](Set-STFWebReceiverStrictTransportSecurity)
-* [Get-STFWebReceiverStrictTransportSecurity](Get-STFWebReceiverStrictTransportSecurity)
-* [Set-STFWebReceiverUserInterface](Set-STFWebReceiverUserInterface)
-* [Get-STFWebReceiverUserInterface](Get-STFWebReceiverUserInterface)
-|
+- [Set-STFDesktopApplianceService](Set-STFDesktopApplianceService.md)
+- [Get-STFDesktopApplianceService](Get-STFDesktopApplianceService.md)
+- [Add-STFDesktopApplianceService](Add-STFDesktopApplianceService.md)
+- [Remove-STFDesktopApplianceService](Remove-STFDesktopApplianceService.md)
+- [Get-STFIISSitesInfo](Get-STFIISSitesInfo.md)
+- [Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts.md)
+- [Get-STFWebReceiverApplicationShortcuts](Get-STFWebReceiverApplicationShortcuts.md)
+- [Set-STFWebReceiverAuthenticationManager](Set-STFWebReceiverAuthenticationManager.md)
+- [Get-STFWebReceiverAuthenticationManager](Get-STFWebReceiverAuthenticationManager.md)
+- [Set-STFWebReceiverAuthenticationMethods](Set-STFWebReceiverAuthenticationMethods.md)
+- [Get-STFWebReceiverAuthenticationMethods](Get-STFWebReceiverAuthenticationMethods.md)
+- [Get-STFWebReceiverAuthenticationMethodsAvailable](Get-STFWebReceiverAuthenticationMethodsAvailable.md)
+- [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin.md)
+- [Remove-STFWebReceiverClientPlugin](Remove-STFWebReceiverClientPlugin.md)
+- [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin.md)
+- [Get-STFWebReceiverClientPlugin](Get-STFWebReceiverClientPlugin.md)
+- [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin.md)
+- [Set-STFWebReceiverClientPlugin](Set-STFWebReceiverClientPlugin.md)
+- [Set-STFWebReceiverCommunication](Set-STFWebReceiverCommunication.md)
+- [Get-STFWebReceiverCommunication](Get-STFWebReceiverCommunication.md)
+- [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle.md)
+- [Get-STFWebReceiverDiscoveryService](Get-STFWebReceiverDiscoveryService.md)
+- [Set-STFWebReceiverDiscoveryService](Set-STFWebReceiverDiscoveryService.md)
+- [Add-STFWebReceiverFeature](Add-STFWebReceiverFeature.md)
+- [Get-STFWebReceiverFeature](Get-STFWebReceiverFeature.md)
+- [Remove-STFWebReceiverFeature](Remove-STFWebReceiverFeature.md)
+- [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
+- [New-STFWebReceiverFeaturedAppGroup](New-STFWebReceiverFeaturedAppGroup.md)
+- [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup.md)
+- [Get-STFWebReceiverFeaturedAppGroup](Get-STFWebReceiverFeaturedAppGroup.md)
+- [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup.md)
+- [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup.md)
+- [Set-STFWebReceiverFeaturedAppGroups](Set-STFWebReceiverFeaturedAppGroups.md)
+- [Get-STFWebReceiverFeaturedAppGroupTiles](Get-STFWebReceiverFeaturedAppGroupTiles.md)
+- [Get-STFWebReceiverPluginAssistant](Get-STFWebReceiverPluginAssistant.md)
+- [Set-STFWebReceiverPluginAssistant](Set-STFWebReceiverPluginAssistant.md)
+- [Set-STFWebReceiverResourcesService](Set-STFWebReceiverResourcesService.md)
+- [Get-STFWebReceiverResourcesService](Get-STFWebReceiverResourcesService.md)
+- [Set-STFWebReceiverService](Set-STFWebReceiverService.md)
+- [Remove-STFWebReceiverService](Remove-STFWebReceiverService.md)
+- [Add-STFWebReceiverService](Add-STFWebReceiverService.md)
+- [Get-STFWebReceiverService](Get-STFWebReceiverService.md)
+- [Set-STFWebReceiverSiteStyle](Set-STFWebReceiverSiteStyle.md)
+- [Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle.md)
+- [Get-STFWebReceiverSiteStyle](Get-STFWebReceiverSiteStyle.md)
+- [Get-STFWebReceiverStoreProxy](Get-STFWebReceiverStoreProxy.md)
+- [Set-STFWebReceiverStrictTransportSecurity](Set-STFWebReceiverStrictTransportSecurity.md)
+- [Get-STFWebReceiverStrictTransportSecurity](Get-STFWebReceiverStrictTransportSecurity.md)
+- [Set-STFWebReceiverUserInterface](Set-STFWebReceiverUserInterface.md)
+- [Get-STFWebReceiverUserInterface](Get-STFWebReceiverUserInterface.md)

@@ -14,8 +14,8 @@ SessionManagerTrustedIssuers are added to the store configuration.
 
 ## Related Commands
 
-* [Remove-STFSessionManagerTrustedIssuer](./Remove-STFSessionManagerTrustedIssuer)
-* [Add-STFSessionManagerTrustedIssuer](./Add-STFSessionManagerTrustedIssuer)
+* [Remove-STFSessionManagerTrustedIssuer](Remove-STFSessionManagerTrustedIssuer.md)
+* [Add-STFSessionManagerTrustedIssuer](Add-STFSessionManagerTrustedIssuer.md)
 
 ## Parameters
 

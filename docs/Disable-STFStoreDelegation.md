@@ -14,7 +14,7 @@ Disable a Store from performing delegated authentication.
 
 ## Related Commands
 
-* [Enable-STFStoreDelegation](./Enable-STFStoreDelegation)
+* [Enable-STFStoreDelegation](Enable-STFStoreDelegation.md)
 
 ## Parameters
 

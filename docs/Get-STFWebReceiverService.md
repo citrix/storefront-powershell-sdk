@@ -22,8 +22,8 @@ Get the Receiver for Web services that match the supplied IIS site id, virtual p
 
 ## Related Commands
 
-* [Add-STFWebReceiverService](./Add-STFWebReceiverService)
-* [Remove-STFWebReceiverService](./Remove-STFWebReceiverService)
+* [Add-STFWebReceiverService](Add-STFWebReceiverService.md)
+* [Remove-STFWebReceiverService](Remove-STFWebReceiverService.md)
 
 ## Parameters
 
@@ -73,7 +73,8 @@ Get all configured Receiver for Web services.
 **OUTPUT**
 
 ```
-WebReceiver                      : Citrix.StoreFront.Model.ReceiverForWeb.WebReceiver
+WebReceiver                      : 
+Citrix.StoreFront.Model.ReceiverForWeb.WebReceiver
 ServiceId                        : 80fb5f9f-0d10-4cdf-ad1e-d36723afc33a
 ProducerService                  : Receiver for Web Token Producer
 ConsumerService                  : Receiver for Web Token Consumer
@@ -83,13 +84,18 @@ StoreServiceVirtualPath          : /Citrix/Store
 SiteId                           : 1
 VirtualPath                      : /Citrix/StoreWeb
 FriendlyName                     : /Citrix/StoreWeb
-Hmacs                            : {appShortcuts:waN9widXd9HfoYgORoocOM5FvW8RwDKQcQlO+Nxu4RfDcJVBm5BKotkRn1M61AvBgQDRhX
-                                   y5vmfafC7XyvWKrw==, rfWebGeneric:3s49B/XhMQhzhmqcjV8O9qttDQM/91Syp7VMoe7vGx69ousmpd7
+Hmacs                            : {appShortcuts:waN9widXd9HfoYgORoocOM5FvW8RwD
+KQcQlO+Nxu4RfDcJVBm5BKotkRn1M61AvBgQDRhX
+                                   y5vmfafC7XyvWKrw==, 
+rfWebGeneric:3s49B/XhMQhzhmqcjV8O9qttDQM/91Syp7VMoe7vGx69ousmpd7
                                    vag7qWjWj8IQuQO2+gQjawxaqQXDdsw9khw==}
-Certificates                     : {F968ABF7298DB23DF9B1446C01AE7886F1BD24C9, DED6AB26AF47C2A7AD8E33D00924B5019A6AA2AD}
-TokenManagers                    : {Receiver for Web Token Producer, Receiver for Web Token Consumer}
+Certificates                     : {F968ABF7298DB23DF9B1446C01AE7886F1BD24C9, 
+DED6AB26AF47C2A7AD8E33D00924B5019A6AA2AD}
+TokenManagers                    : {Receiver for Web Token Producer, Receiver 
+for Web Token Consumer}
 Routing                          : :
 ServiceRef                       : 1__Citrix_StoreWeb
-ConfigurationFile                : C:\inetpub\wwwroot\Citrix\StoreWeb\web.config
+ConfigurationFile                : 
+C:\inetpub\wwwroot\Citrix\StoreWeb\web.config
 TenantId                         : 860e9401-39c8-4f2c-928d-34251102b840
 ```

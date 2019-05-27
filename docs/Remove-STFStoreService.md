@@ -14,8 +14,8 @@ Removes a Store service, any Receiver for Web sites and if no other Stores are u
 
 ## Related Commands
 
-* [Add-STFStoreService](./Add-STFStoreService)
-* [Set-STFStoreService](./Set-STFStoreService)
+* [Add-STFStoreService](Add-STFStoreService.md)
+* [Set-STFStoreService](Set-STFStoreService.md)
 
 ## Parameters
 

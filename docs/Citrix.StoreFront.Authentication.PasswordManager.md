@@ -1,18 +1,22 @@
-#Citrix.StoreFront.Authentication.PasswordManager
+# Citrix.StoreFront.Authentication.PasswordManager
 
-##Topic
-about_Citrix.StoreFront.Authentication.PasswordManager
+## Topic
 
-##Short Description
-The Citrix.StoreFront.Authentication.PasswordManager module provides administration functions for configuring PasswordManager.
+`about_Citrix.StoreFront.Authentication.PasswordManager` 
 
-##Command Prefix
-All commands in this module are prefixed with 'STF' to denote they are part of the StoreFront product SDK.
+## Short Description
 
-##Long Description
-The Citrix.StoreFront.Authentication.PasswordManager module provides administrative functions for configuring the PasswordManager account Self-Service password reset.
+The Citrix.StoreFront.Authentication.PasswordManager module provides administration functions for configuring PasswordManager. 
 
-##Cmdlets
+## Command Prefix
 
-* [Set-STFPasswordManagerAccountSelfService](Set-STFPasswordManagerAccountSelfService)
-* [Get-STFPasswordManagerAccountSelfService](Get-STFPasswordManagerAccountSelfService)
+All commands in this module are prefixed with 'STF' to denote they are part of the StoreFront product SDK. 
+
+## Long Description
+
+The Citrix.StoreFront.Authentication.PasswordManager module provides administrative functions for configuring the PasswordManager account Self-Service password reset. 
+
+## Cmdlets
+
+- [Set-STFPasswordManagerAccountSelfService](Set-STFPasswordManagerAccountSelfService.md)
+- [Get-STFPasswordManagerAccountSelfService](Get-STFPasswordManagerAccountSelfService.md)

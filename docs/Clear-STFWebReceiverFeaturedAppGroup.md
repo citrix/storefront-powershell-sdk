@@ -14,10 +14,10 @@ The cmdlet clears the Featured App groups definitions as configured within the R
 
 ## Related Commands
 
-* [Add-STFWebReceiverFeaturedAppGroup](./Add-STFWebReceiverFeaturedAppGroup)
-* [Remove-STFWebReceiverFeaturedAppGroup](./Remove-STFWebReceiverFeaturedAppGroup)
-* [New-STFWebReceiverFeaturedAppGroup](./New-STFWebReceiverFeaturedAppGroup)
-* [Set-STFWebReceiverFeaturedAppGroup](./Set-STFWebReceiverFeaturedAppGroup)
+* [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup.md)
+* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
+* [New-STFWebReceiverFeaturedAppGroup](New-STFWebReceiverFeaturedAppGroup.md)
+* [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup.md)
 
 ## Parameters
 

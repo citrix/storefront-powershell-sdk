@@ -22,7 +22,7 @@ Sets the connection string for the SQL Server database currently used for subscr
 
 ## Related Commands
 
-* [Get-STFStoreSubscriptionsDatabase](./Get-STFStoreSubscriptionsDatabase)
+* [Get-STFStoreSubscriptionsDatabase](Get-STFStoreSubscriptionsDatabase.md)
 
 ## Parameters
 
@@ -68,10 +68,16 @@ Set-STFStoreStoreSubscriptionsDatabase -StoreService $store -ConnectionString 'S
 
 Configure the store to use a SQL Server database for subscription data storage.
 
-The connection string in this example specifies the server name, instance name and
+The connection string in this example specifies the server name, instance name 
 
-database name of the SQL Server database and that StoreFront should using Windows
+and
 
-integrated authentication.The connection string format for SQL Server databases is
+database name of the SQL Server database and that StoreFront should using 
+
+Windows
+
+integrated authentication.The connection string format for SQL Server 
+
+databases is
 
 described in detail in SQL Server documentation.

@@ -14,10 +14,10 @@ The cmdlet gets the Featured App groups definitions as configured within the Rec
 
 ## Related Commands
 
-* [Add-STFWebReceiverFeaturedAppGroup](./Add-STFWebReceiverFeaturedAppGroup)
-* [Clear-STFWebReceiverFeaturedAppGroup](./Clear-STFWebReceiverFeaturedAppGroup)
-* [Remove-STFWebReceiverFeaturedAppGroup](./Remove-STFWebReceiverFeaturedAppGroup)
-* [Set-STFWebReceiverFeaturedAppGroup](./Set-STFWebReceiverFeaturedAppGroup)
+* [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup.md)
+* [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup.md)
+* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
+* [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup.md)
 
 ## Parameters
 
@@ -60,7 +60,8 @@ Get the featured application groups
 
 ```
 Title       : Worx Suite
-Description : Improve productivity with a suite of secure mobile apps made for business.
+Description : Improve productivity with a suite of secure mobile apps made for 
+business.
 TileId      : appBundle1
 ContentType : Keyword
 Contents    : {Worx}

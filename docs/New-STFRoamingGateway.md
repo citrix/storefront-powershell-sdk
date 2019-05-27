@@ -14,10 +14,10 @@ Create a new Gateway that can be added to the global gateway list. Gateways for 
 
 ## Related Commands
 
-* [Get-STFRoamingGateway](./Get-STFRoamingGateway)
-* [Remove-STFRoamingGateway](./Remove-STFRoamingGateway)
-* [Set-STFRoamingGateway](./Set-STFRoamingGateway)
-* [Add-STFRoamingGateway](./Add-STFRoamingGateway)
+* [Get-STFRoamingGateway](Get-STFRoamingGateway.md)
+* [Remove-STFRoamingGateway](Remove-STFRoamingGateway.md)
+* [Set-STFRoamingGateway](Set-STFRoamingGateway.md)
+* [Add-STFRoamingGateway](Add-STFRoamingGateway.md)
 
 ## Parameters
 

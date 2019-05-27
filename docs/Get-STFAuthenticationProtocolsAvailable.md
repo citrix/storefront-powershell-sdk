@@ -14,8 +14,8 @@ An authentication service can support a number of authentication methods. The co
 
 ## Related Commands
 
-* [Add-STFAuthenticationServiceProtocol](./Add-STFAuthenticationServiceProtocol)
-* [Get-STFAuthenticationServiceProtocol](./Get-STFAuthenticationServiceProtocol)
+* [Add-STFAuthenticationServiceProtocol](Add-STFAuthenticationServiceProtocol.md)
+* [Get-STFAuthenticationServiceProtocol](Get-STFAuthenticationServiceProtocol.md)
 
 ## Input Type
 

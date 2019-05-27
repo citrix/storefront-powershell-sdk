@@ -14,8 +14,8 @@ Get the servers and certificates that are used to supply and verify SmartAccess 
 
 ## Related Commands
 
-* [Grant-STFStorePnaSmartAccess](./Grant-STFStorePnaSmartAccess)
-* [Revoke-STFStorePnaSmartAccess](./Revoke-STFStorePnaSmartAccess)
+* [Grant-STFStorePnaSmartAccess](Grant-STFStorePnaSmartAccess.md)
+* [Revoke-STFStorePnaSmartAccess](Revoke-STFStorePnaSmartAccess.md)
 
 ## Parameters
 

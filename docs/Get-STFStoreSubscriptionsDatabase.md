@@ -14,7 +14,7 @@ Gets the connection string for the SQL Server database currently used for subscr
 
 ## Related Commands
 
-* [Set-STFStoreSubscriptionsDatabase](./Set-STFStoreSubscriptionsDatabase)
+* [Set-STFStoreSubscriptionsDatabase](Set-STFStoreSubscriptionsDatabase.md)
 
 ## Parameters
 
@@ -45,12 +45,15 @@ Get-STFStoreStoreSubscriptionsDatabase -StoreService $store
 
 **REMARKS**
 
-Gets the subscription database connection for the only configured Store service.
+Gets the subscription database connection for the only configured Store 
+
+service.
 
 **OUTPUT**
 
 ```
 UseLocalStorage DatabaseConnectionString
 --------------- ------------------------
-False           Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;
+False           Server=myServerAddress;Database=myDataBase;User 
+Id=myUsername;Password=myPassword;
 ```

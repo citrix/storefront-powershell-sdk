@@ -14,8 +14,8 @@ Configure options on the supplied Desktop Appliance site.
 
 ## Related Commands
 
-* [Add-STFDesktopApplianceService](./Add-STFDesktopApplianceService)
-* [Remove-STFDesktopApplianceService](./Remove-STFDesktopApplianceService)
+* [Add-STFDesktopApplianceService](Add-STFDesktopApplianceService.md)
+* [Remove-STFDesktopApplianceService](Remove-STFDesktopApplianceService.md)
 
 ## Parameters
 

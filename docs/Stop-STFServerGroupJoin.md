@@ -14,9 +14,9 @@ Terminates the server join process. The join process will be stopped if a join i
 
 ## Related Commands
 
-* [Start-STFServerGroupJoin](./Start-STFServerGroupJoin)
-* [Remove-STFServerGroupMember](./Remove-STFServerGroupMember)
-* [Wait-STFServerGroupJoin](./Wait-STFServerGroupJoin)
+* [Start-STFServerGroupJoin](Start-STFServerGroupJoin.md)
+* [Remove-STFServerGroupMember](Remove-STFServerGroupMember.md)
+* [Wait-STFServerGroupJoin](Wait-STFServerGroupJoin.md)
 
 ## Input Type
 
@@ -38,4 +38,6 @@ Stop-STFServerGroupJoin
 
 **REMARKS**
 
-Stopping an in progress join may result in corrupted configuration on the joining server.
+Stopping an in progress join may result in corrupted configuration on the 
+
+joining server.

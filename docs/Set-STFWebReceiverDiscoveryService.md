@@ -14,7 +14,7 @@ Set the WebReceiver Discovery Service options.
 
 ## Related Commands
 
-* [Get-STFWebReceiverDiscoveryService](./Get-STFWebReceiverDiscoveryService)
+* [Get-STFWebReceiverDiscoveryService](Get-STFWebReceiverDiscoveryService.md)
 
 ## Parameters
 

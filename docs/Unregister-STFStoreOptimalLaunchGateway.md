@@ -22,9 +22,9 @@ Unregister an optimal launch Gateway from a Store used for specified farm connec
 
 ## Related Commands
 
-* [Unregister-STFStoreGateway](./Unregister-STFStoreGateway)
-* [Register-STFStoreGateway](./Register-STFStoreGateway)
-* [Register-STFStoreOptimalLaunchGateway](./Register-STFStoreOptimalLaunchGateway)
+* [Unregister-STFStoreGateway](Unregister-STFStoreGateway.md)
+* [Register-STFStoreGateway](Register-STFStoreGateway.md)
+* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway.md)
 
 ## Parameters
 
@@ -63,7 +63,7 @@ Parameter StoreService: A .NET class representing the configuration of a StoreFr
 
 ```
 $storeService = Get-STFStoreService
-UnRegister-STFStoreOptimalLaunchGateway -StoreService $storeService -Name Netscaler10x
+UnRegister-STFStoreOptimalLaunchGateway -StoreService $storeService -GatewayName Netscaler10x
 ```
 
 **REMARKS**

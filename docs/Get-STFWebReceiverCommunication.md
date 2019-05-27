@@ -14,7 +14,7 @@ Get the WebReceiver communication settings.
 
 ## Related Commands
 
-* [Set-STFWebReceiverCommunication](./Set-STFWebReceiverCommunication)
+* [Set-STFWebReceiverCommunication](Set-STFWebReceiverCommunication.md)
 
 ## Parameters
 

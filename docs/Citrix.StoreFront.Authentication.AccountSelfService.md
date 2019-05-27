@@ -1,18 +1,22 @@
-#Citrix.StoreFront.Authentication.AccountSelfService
+﻿# Citrix.StoreFront.Authentication.AccountSelfService
 
-##Topic
-about_Citrix.StoreFront.Authentication.AccountSelfService
+## Topic
 
-##Short Description
+`about_Citrix.StoreFront.Authentication.AccountSelfService` 
+
+## Short Description
+
 The Citrix.StoreFront.Authentication.AccountSelfService module provides administrative functions for configuring account self-service.
 
-##Command Prefix
-All commands in this module have 'STF' in their name to denote they are part of the StoreFront product.
+## Command Prefix
 
-##Long Description
+All commands in this module have 'STF' in their name to denote they are part of the StoreFront product. 
+
+## Long Description
+
 The Citrix.StoreFront.Authentication.AccountSelfService module provides administrative functions for configuring account self-service.
 
-##Cmdlets
+## Cmdlets
 
-* [Set-STFAccountSelfService](Set-STFAccountSelfService)
-* [Get-STFAccountSelfService](Get-STFAccountSelfService)
+- [Set-STFAccountSelfService](Set-STFAccountSelfService.md)
+- [Get-STFAccountSelfService](Get-STFAccountSelfService.md)

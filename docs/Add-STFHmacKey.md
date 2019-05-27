@@ -52,7 +52,9 @@ Add-STFHmacKey -WebService $store -Name 'test' -Key '6UA064hC8Dx/5/s0irY3Vc+tYUh
 
 **REMARKS**
 
-Add the new HMAC key named 'test' into the specified Store service, with the specified key.
+Add the new HMAC key named 'test' into the specified Store service, with the 
+
+specified key.
 
 ### EXAMPLE 2 Add a new HMAC key named 'test' into the specified Store service, with a randomly generated key.
 
@@ -63,4 +65,6 @@ Add-STFHmacKey -WebService $store -Name 'test'
 
 **REMARKS**
 
-Add the new HMAC key named 'test' into the specified Store service, with a randomly generated key.
+Add the new HMAC key named 'test' into the specified Store service, with a 
+
+randomly generated key.

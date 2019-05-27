@@ -14,10 +14,10 @@ Add WebReceiver script and branding customizations.
 
 ## Related Commands
 
-* [Clear-STFWebReceiverClientPlugin](./Clear-STFWebReceiverClientPlugin)
-* [Get-STFWebReceiverClientPlugin](./Get-STFWebReceiverClientPlugin)
-* [New-STFWebReceiverClientPlugin](./New-STFWebReceiverClientPlugin)
-* [Remove-STFWebReceiverClientPlugin](./Remove-STFWebReceiverClientPlugin)
+* [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin.md)
+* [Get-STFWebReceiverClientPlugin](Get-STFWebReceiverClientPlugin.md)
+* [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin.md)
+* [Remove-STFWebReceiverClientPlugin](Remove-STFWebReceiverClientPlugin.md)
 
 ## Parameters
 

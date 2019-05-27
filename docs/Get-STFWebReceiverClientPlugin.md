@@ -14,10 +14,10 @@ Gets the Client plug-in definitions configured within the WebReceiver service
 
 ## Related Commands
 
-* [New-STFWebReceiverClientPlugin](./New-STFWebReceiverClientPlugin)
-* [Add-STFWebReceiverClientPlugin](./Add-STFWebReceiverClientPlugin)
-* [Clear-STFWebReceiverClientPlugin](./Clear-STFWebReceiverClientPlugin)
-* [Remove-STFWebReceiverClientPlugin](./Remove-STFWebReceiverClientPlugin)
+* [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin.md)
+* [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin.md)
+* [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin.md)
+* [Remove-STFWebReceiverClientPlugin](Remove-STFWebReceiverClientPlugin.md)
 
 ## Parameters
 
@@ -55,7 +55,9 @@ Get the client plug-ins configured for the only WebReceiver service.
 ```
 Name       : NetScaler
 Source     : /plugins/netscalar/script1.js
-Scripts    : {Citrix.StoreFront.Model.ReceiverForWeb.ClientScript, Citrix.StoreFront.Model.ReceiverForWeb.ClientScript}
-Styles     : {Citrix.StoreFront.Model.ReceiverForWeb.ClientStyle, Citrix.StoreFront.Model.ReceiverForWeb.ClientStyle}
+Scripts    : {Citrix.StoreFront.Model.ReceiverForWeb.ClientScript, 
+Citrix.StoreFront.Model.ReceiverForWeb.ClientScript}
+Styles     : {Citrix.StoreFront.Model.ReceiverForWeb.ClientStyle, 
+Citrix.StoreFront.Model.ReceiverForWeb.ClientStyle}
 Parameters : {param1, param2}
 ```

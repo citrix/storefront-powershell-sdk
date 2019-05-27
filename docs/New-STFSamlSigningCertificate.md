@@ -47,4 +47,6 @@ New-STFSamlSigningCertificate -AuthenticationService $authentication -SubjectNam
 
 **REMARKS**
 
-Create a new request signing certificate, with subject name 'Signing', to be used by the SAML Service Provider in the specified authentication service.
+Create a new request signing certificate, with subject name 'Signing', to be 
+
+used by the SAML Service Provider in the specified authentication service.

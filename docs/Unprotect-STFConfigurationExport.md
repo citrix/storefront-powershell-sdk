@@ -51,22 +51,40 @@ Unprotect-STFConfigurationExport -encryptedConfigurationZip '$env:userprofile\de
 
 **REMARKS**
 
-Using the password supplied in $CredObject this will decrypt and convert the ConfigBackup.ctxzip backup archive to an unencrypted .zip backup archive and save it to C:\exampleFolder\exampleSubfolder\ConfigBackup.zip overwriting any existing 
+Using the password supplied in $CredObject this will decrypt and convert the 
 
-ConfigBackup.zip files that may exist at that location.
+ConfigBackup.ctxzip backup archive to an unencrypted .zip backup archive and 
+
+save it to C:\exampleFolder\exampleSubfolder\ConfigBackup.zip overwriting any 
+
+existing ConfigBackup.zip files that may exist at that location.
 
 Example PSCredential:
 
-$User = Any non empty string will suffice here. The exported configuration is secured by only using the $Password.
+$User = Any non empty string will suffice here. The exported configuration is 
+
+secured by only using the $Password.
 
 $Password = 'Secret'
 
 $Password = $Password | ConvertTo-SecureString -asPlainText -Force
 
-$CredObject = New-Object System.Management.Automation.PSCredential($User,$Password)
+$CredObject = New-Object 
 
-Create a PowerShell credential object containing a username and password for symmetric encryption and decryption of configuration backup archives. PowerShell credential objects store passwords as secure strings in memory.
+System.Management.Automation.PSCredential($User,$Password)
 
-The user is irrelevant but mandatory to create a PowerShell credential object. The example code uses the currently logged in user.
+Create a PowerShell credential object containing a username and password for 
 
-The password is used for symmetric encryption/decryption of the backup archive. NOTE: The password DOES NOT need to match the user's password to create a valid credential object.
+symmetric encryption and decryption of configuration backup archives. 
+
+PowerShell credential objects store passwords as secure strings in memory.
+
+The user is irrelevant but mandatory to create a PowerShell credential object. 
+
+The example code uses the currently logged in user.
+
+The password is used for symmetric encryption/decryption of the backup 
+
+archive. NOTE: The password DOES NOT need to match the user's password to 
+
+create a valid credential object.

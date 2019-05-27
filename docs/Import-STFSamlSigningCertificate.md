@@ -52,4 +52,6 @@ Import-STFSamlSigningCertificate -AuthenticationService $authentication -FilePat
 
 **REMARKS**
 
-Import the request signing certificate to be used by the SAML Service Provider, when no password is required for the private key.
+Import the request signing certificate to be used by the SAML Service 
+
+Provider, when no password is required for the private key.

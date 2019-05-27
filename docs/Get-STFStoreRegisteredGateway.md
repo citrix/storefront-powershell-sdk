@@ -14,8 +14,8 @@ Get the gateways that have been registered to a Store for authentication.
 
 ## Related Commands
 
-* [Register-STFStoreGateway](./Register-STFStoreGateway)
-* [Unregister-STFStoreGateway](./Unregister-STFStoreGateway)
+* [Register-STFStoreGateway](Register-STFStoreGateway.md)
+* [Unregister-STFStoreGateway](Unregister-STFStoreGateway.md)
 
 ## Parameters
 

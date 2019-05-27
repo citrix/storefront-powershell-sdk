@@ -18,7 +18,7 @@ Revoke permissions for a StoreFront server on the same domain permission to sync
 
 ## Related Commands
 
-* [Grant-STFComputerSynchronizationPermission](./Grant-STFComputerSynchronizationPermission)
+* [Grant-STFComputerSynchronizationPermission](Grant-STFComputerSynchronizationPermission.md)
 
 ## Parameters
 
@@ -55,4 +55,6 @@ Revoke-STFComputerSynchronizationPermission -RemoteServer APACSF1,APACSF2
 
 **REMARKS**
 
-Revoke StoreFront servers APACSF1 and APACSF2 from the APAC StoreFront group the permissions to synchronize.
+Revoke StoreFront servers APACSF1 and APACSF2 from the APAC StoreFront group 
+
+the permissions to synchronize.

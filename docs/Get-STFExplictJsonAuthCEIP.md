@@ -42,5 +42,7 @@ The response string is an object represented as a JSON format string
 **OUTPUT**
 
 ```
-{"JSONExplicitAuthCEIP":[{"SuccessCount":182,"FailureCount":0,"AuthServiceUptime":3671,"Enabled":true},{"SuccessCount":0,"FailureCount":0,"AuthServiceUptime":0,"Enabled":true}]}
+{"JSONExplicitAuthCEIP":[{"SuccessCount":182,"FailureCount":0,"AuthServiceUptim
+e":3671,"Enabled":true},{"SuccessCount":0,"FailureCount":0,"AuthServiceUptime":
+0,"Enabled":true}]}
 ```

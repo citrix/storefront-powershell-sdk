@@ -14,9 +14,9 @@ The cmdlet clears the plug-ins definitions as configured within the WebReceiver.
 
 ## Related Commands
 
-* [Add-STFWebReceiverClientPlugin](./Add-STFWebReceiverClientPlugin)
-* [Remove-STFWebReceiverClientPlugin](./Remove-STFWebReceiverClientPlugin)
-* [Set-STFWebReceiverClientPlugin](./Set-STFWebReceiverClientPlugin)
+* [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin.md)
+* [Remove-STFWebReceiverClientPlugin](Remove-STFWebReceiverClientPlugin.md)
+* [Set-STFWebReceiverClientPlugin](Set-STFWebReceiverClientPlugin.md)
 
 ## Parameters
 

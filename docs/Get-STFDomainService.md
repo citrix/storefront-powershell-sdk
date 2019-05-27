@@ -14,7 +14,7 @@ Get the Domain Service. The Domain Service is responsible for authentication wit
 
 ## Related Commands
 
-* [Set-STFDomainService](./Set-STFDomainService)
+* [Set-STFDomainService](Set-STFDomainService.md)
 
 ## Parameters
 
@@ -52,7 +52,8 @@ Get the Domain service configuration
 Name              : DefaultDomainService
 KerberosSettings  : DomainHint:
 FeatureInstanceId : 9f3bbb87-3c15-4cd6-9d20-0b78682f7126
-ConfigurationFile : C:\Program Files\Citrix\Receiver StoreFront\Services\DefaultDomainServices\Citrix.DeliveryServices.
+ConfigurationFile : C:\Program Files\Citrix\Receiver 
+StoreFront\Services\DefaultDomainServices\Citrix.DeliveryServices.
                     DomainServices.ServiceHost.exe.config
 TenantId          : 860e9401-39c8-4f2c-928d-34251102b840
 ```

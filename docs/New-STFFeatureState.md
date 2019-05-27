@@ -14,14 +14,14 @@ Creates and returns a new FeatureState object
 
 ## Related Commands
 
-* [Add-STFFeatureState](./Add-STFFeatureState)
-* [Get-STFFeatureState](./Get-STFFeatureState)
-* [Get-STFFeatureStateNames](./Get-STFFeatureStateNames)
-* [New-STFFeatureStateProperty](./New-STFFeatureStateProperty)
-* [Remove-STFFeatureState](./Remove-STFFeatureState)
-* [Clear-STFFeatureStates](./Clear-STFFeatureStates)
-* [Reset-STFFeatureData](./Reset-STFFeatureData)
-* [Set-STFFeatureState](./Set-STFFeatureState)
+* [Add-STFFeatureState](Add-STFFeatureState.md)
+* [Get-STFFeatureState](Get-STFFeatureState.md)
+* [Get-STFFeatureStateNames](Get-STFFeatureStateNames.md)
+* [New-STFFeatureStateProperty](New-STFFeatureStateProperty.md)
+* [Remove-STFFeatureState](Remove-STFFeatureState.md)
+* [Clear-STFFeatureStates](Clear-STFFeatureStates.md)
+* [Reset-STFFeatureData](Reset-STFFeatureData.md)
+* [Set-STFFeatureState](Set-STFFeatureState.md)
 
 ## Parameters
 

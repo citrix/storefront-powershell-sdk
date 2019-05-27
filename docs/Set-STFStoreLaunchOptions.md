@@ -14,7 +14,7 @@ Set the options used by a Store when launching an application or desktop on XenA
 
 ## Related Commands
 
-* [Get-STFStoreLaunchOptions](./Get-STFStoreLaunchOptions)
+* [Get-STFStoreLaunchOptions](Get-STFStoreLaunchOptions.md)
 
 ## Parameters
 
@@ -113,7 +113,9 @@ Set-STFStoreLaunchOptions $storeService -AddressResolutionType Dns -RequestIcaCl
 
 **REMARKS**
 
-Set the Store to use Dns address resolution type, Ica secure channel to DetectAnyCiphers, allow folder redirection and font smoothing.
+Set the Store to use Dns address resolution type, Ica secure channel to 
+
+DetectAnyCiphers, allow folder redirection and font smoothing.
 
 ### EXAMPLE 2 Set the Vda logon data provider
 
@@ -124,4 +126,6 @@ Set-STFStoreLaunchOptions -StoreService $storeService -VdaLogonDataProvider 'FAS
 
 **REMARKS**
 
-Set the Store to use the Federated Authentication Service Vda logon data provider during launch.
+Set the Store to use the Federated Authentication Service Vda logon data 
+
+provider during launch.

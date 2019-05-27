@@ -14,7 +14,7 @@ Publishes the configuration of the server on which the command is executed to th
 
 ## Related Commands
 
-* [Wait-STFPublishServerGroupConfiguration](./Wait-STFPublishServerGroupConfiguration)
+* [Wait-STFPublishServerGroupConfiguration](Wait-STFPublishServerGroupConfiguration.md)
 
 ## Parameters
 
@@ -51,5 +51,6 @@ KS
 
 
 
-Publishes the configuration to servers within the group as a background job. A message is output without waiting for publish to complete.
+Publishes the configuration to servers within the group as a background job. A 
+message is output without waiting for publish to complete.
 ```

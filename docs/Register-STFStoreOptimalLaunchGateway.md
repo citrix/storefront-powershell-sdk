@@ -18,9 +18,9 @@ Configure optimal NetScaler Gateway routing to optimize the handling of ICA conn
 
 ## Related Commands
 
-* [Unregister-STFStoreGateway](./Unregister-STFStoreGateway)
-* [Register-STFStoreGateway](./Register-STFStoreGateway)
-* [Unregister-STFStoreOptimalLaunchGateway](./Unregister-STFStoreOptimalLaunchGateway)
+* [Unregister-STFStoreGateway](Unregister-STFStoreGateway.md)
+* [Register-STFStoreGateway](Register-STFStoreGateway.md)
+* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway.md)
 
 ## Parameters
 

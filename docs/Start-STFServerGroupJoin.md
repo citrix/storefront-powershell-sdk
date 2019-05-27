@@ -18,9 +18,9 @@ Start the Server Group join process.
 
 ## Related Commands
 
-* [Stop-STFServerGroupJoin](./Stop-STFServerGroupJoin)
-* [Remove-STFServerGroupMember](./Remove-STFServerGroupMember)
-* [Wait-STFServerGroupJoin](./Wait-STFServerGroupJoin)
+* [Stop-STFServerGroupJoin](Stop-STFServerGroupJoin.md)
+* [Remove-STFServerGroupMember](Remove-STFServerGroupMember.md)
+* [Wait-STFServerGroupJoin](Wait-STFServerGroupJoin.md)
 
 ## Parameters
 
@@ -67,14 +67,19 @@ Write-Host 'Use the Passcode to join to this server'
 
 **REMARKS**
 
-Starts the join process providing a pass code that can be taken to a 'joiner' server so it can join to the authorizing server.
+Starts the join process providing a pass code that can be taken to a 'joiner' 
+
+server so it can join to the authorizing server.
 
 **OUTPUT**
 
 ```
-Passcode                                                                     Status StatusMessage                           
---------                                                                     ------ -------------                           
-83226368                                                              PasscodeReady Passcode for authorization.
+Passcode                                                                     
+Status StatusMessage                           
+--------                                                                     
+------ -------------                           
+83226368                                                              
+PasscodeReady Passcode for authorization.
 
 Use the Passcode to join to this server
 ```
@@ -87,4 +92,6 @@ Start-STFServerGroupJoin -AuthorizerHostName serverA -Passcode 12345678 -Confirm
 
 **REMARKS**
 
-Join the authorizing server 'serverA' using the passcode 12345678 that was generated for it.
+Join the authorizing server 'serverA' using the passcode 12345678 that was 
+
+generated for it.

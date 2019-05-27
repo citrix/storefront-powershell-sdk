@@ -14,7 +14,7 @@ Get the WebReceiver Authentication Manager client options.
 
 ## Related Commands
 
-* [Set-STFWebReceiverAuthenticationManager](./Set-STFWebReceiverAuthenticationManager)
+* [Set-STFWebReceiverAuthenticationManager](Set-STFWebReceiverAuthenticationManager.md)
 
 ## Parameters
 
@@ -45,7 +45,9 @@ Get-STFWebReceiverAuthenticationManager -WebReceiverService $receiver
 
 **REMARKS**
 
-Get the WebReceiver Authentication Manager options of the only configured WebReceiver.
+Get the WebReceiver Authentication Manager options of the only configured 
+
+WebReceiver.
 
 **OUTPUT**
 
