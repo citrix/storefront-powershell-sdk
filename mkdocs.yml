@@ -1,8 +1,6 @@
 site_name: Citrix StoreFront 1906 SDK PowerShell Modules
 site_description: Citrix StoreFront 1906 SDK PowerShell Modules
-theme:
-  name: null
-  custom_dir: citrix-docs
+theme: readthedocs
 markdown_extensions:
   - admonition
   - codehilite
