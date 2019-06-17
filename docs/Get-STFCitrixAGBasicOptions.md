@@ -14,7 +14,7 @@ Get the CitrixAGBasic Authentication service protocol options.
 
 ## Related Commands
 
-* [Set-STFCitrixAGBasicOptions](./Set-STFCitrixAGBasicOptions)
+* [Set-STFCitrixAGBasicOptions](Set-STFCitrixAGBasicOptions.md)
 
 ## Parameters
 

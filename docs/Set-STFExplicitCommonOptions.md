@@ -14,7 +14,7 @@ Set the ExplicitCommon Authentication service protocol options.
 
 ## Related Commands
 
-* [Get-STFExplicitCommonOptions](./Get-STFExplicitCommonOptions)
+* [Get-STFExplicitCommonOptions](Get-STFExplicitCommonOptions.md)
 
 ## Parameters
 

@@ -14,9 +14,9 @@ Adds a trusted issuer with a certificate thumbprint to indicate that SAML reques
 
 ## Related Commands
 
-* [Remove-STFSessionManagerTrustedIssuer](./Remove-STFSessionManagerTrustedIssuer)
-* [New-STFSessionManagerTrustedIssuer](./New-STFSessionManagerTrustedIssuer)
-* [Get-STFStoreService](./Get-STFStoreService)
+* [Remove-STFSessionManagerTrustedIssuer](Remove-STFSessionManagerTrustedIssuer.md)
+* [New-STFSessionManagerTrustedIssuer](New-STFSessionManagerTrustedIssuer.md)
+* [Get-STFStoreService](Get-STFStoreService.md)
 
 ## Parameters
 

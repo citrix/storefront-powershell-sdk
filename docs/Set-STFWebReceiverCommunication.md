@@ -14,8 +14,8 @@ Set the communication settings used for the WebReceiver proxy.
 
 ## Related Commands
 
-* [Get-STFWebReceiverAuthenticationMethods](./Get-STFWebReceiverAuthenticationMethods)
-* [Get-STFWebReceiverAuthenticationMethodsAvailable](./Get-STFWebReceiverAuthenticationMethodsAvailable)
+* [Get-STFWebReceiverAuthenticationMethods](Get-STFWebReceiverAuthenticationMethods.md)
+* [Get-STFWebReceiverAuthenticationMethodsAvailable](Get-STFWebReceiverAuthenticationMethodsAvailable.md)
 
 ## Parameters
 
@@ -79,4 +79,6 @@ Set-STFWebReceiverCommunication -WebReceiverService $webReceiver -Timeout 240
 
 **REMARKS**
 
-Set the current WebReceiver communication timeout to four minutes for /Citrix/StoreWeb.
+Set the current WebReceiver communication timeout to four minutes for 
+
+/Citrix/StoreWeb.

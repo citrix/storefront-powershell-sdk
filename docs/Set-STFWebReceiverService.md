@@ -20,7 +20,7 @@ Configure Receiver for Web service options.
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 |WebReceiverService|Receiver for Web service|true|true (ByValue)| |
-|ClassicReceiverExperience|Enable or disable the classic or unified Receiver experience|false|false| |
+|ClassicReceiverExperience|Enable or disable the classic or unified Receiver experience. The classic experience is no longer supported. Defaulting to the unified experience to maintain compatibility with legacy scripting.|false|false| |
 |SessionStateTimeout|Set the session state timeout, in minutes.|false|false| |
 |DefaultIISSite|Set the Receiver for Web site as the default page in IIS|false|false| |
 |PassThru|Output the updated WebReceiver object|false|false| |
@@ -62,4 +62,6 @@ Set-STFWebReceiverService $rfw -CommunicationAttempts 2 -ShowDesktopViewer $fals
 
 **REMARKS**
 
-Configure the number of communication attempts to two and disable the desktop viewer on the only configured Receiver for Web service.
+Configure the number of communication attempts to two and disable the desktop 
+
+viewer on the only configured Receiver for Web service.

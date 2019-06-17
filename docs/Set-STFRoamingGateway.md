@@ -18,9 +18,9 @@ Update the settings of an existing Gateway from the global gateways list.
 
 ## Related Commands
 
-* [Add-STFRoamingGateway](./Add-STFRoamingGateway)
-* [Get-STFRoamingGateway](./Get-STFRoamingGateway)
-* [Remove-STFRoamingGateway](./Remove-STFRoamingGateway)
+* [Add-STFRoamingGateway](Add-STFRoamingGateway.md)
+* [Get-STFRoamingGateway](Get-STFRoamingGateway.md)
+* [Remove-STFRoamingGateway](Remove-STFRoamingGateway.md)
 
 ## Parameters
 

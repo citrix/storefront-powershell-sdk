@@ -14,7 +14,7 @@ Get the EquivalentFarmSets configured for a UserFarmMapping or a specific Equiva
 
 ## Related Commands
 
-* [New-STFEquivalentFarmset](./New-STFEquivalentFarmset)
+* [New-STFEquivalentFarmset](New-STFEquivalentFarmset.md)
 
 ## Parameters
 

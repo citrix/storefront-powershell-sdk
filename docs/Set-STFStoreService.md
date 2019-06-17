@@ -14,8 +14,8 @@ Configure high level options on the Store service.
 
 ## Related Commands
 
-* [Get-STFStoreService](./Get-STFStoreService)
-* [Remove-STFStoreService](./Remove-STFStoreService)
+* [Get-STFStoreService](Get-STFStoreService.md)
+* [Remove-STFStoreService](Remove-STFStoreService.md)
 
 ## Parameters
 
@@ -109,4 +109,6 @@ Set-STFStoreService $storeService -IcaFileSigning $true -IcaFileSigningCertifica
 
 **REMARKS**
 
-Configure the Store to sign ica files using the certificate with the supplied thumbprint.
+Configure the Store to sign ica files using the certificate with the supplied 
+
+thumbprint.

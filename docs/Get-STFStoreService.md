@@ -22,9 +22,9 @@ StoreFront Store Services are deployed to specific IIS virtual paths and sites. 
 
 ## Related Commands
 
-* [Add-STFStoreService](./Add-STFStoreService)
-* [Remove-STFStoreService](./Remove-STFStoreService)
-* [Set-STFStoreService](./Set-STFStoreService)
+* [Add-STFStoreService](Add-STFStoreService.md)
+* [Remove-STFStoreService](Remove-STFStoreService.md)
+* [Set-STFStoreService](Set-STFStoreService.md)
 
 ## Parameters
 

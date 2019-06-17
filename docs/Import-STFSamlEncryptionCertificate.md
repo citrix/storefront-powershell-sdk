@@ -52,4 +52,6 @@ Import-STFSamlEncryptionCertificate -AuthenticationService $authentication -File
 
 **REMARKS**
 
-Import the encryption certificate to be used by the SAML Service Provider, when no password is required for the private key.
+Import the encryption certificate to be used by the SAML Service Provider, 
+
+when no password is required for the private key.

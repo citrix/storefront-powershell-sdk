@@ -47,4 +47,6 @@ Set-STFSamlRequire -AuthenticationService $authentication -Required $true
 
 **REMARKS**
 
-Configure the SAML Service Provider in the specified authentication service, to require the use of the Artifact Resolution protocol.
+Configure the SAML Service Provider in the specified authentication service, 
+
+to require the use of the Artifact Resolution protocol.

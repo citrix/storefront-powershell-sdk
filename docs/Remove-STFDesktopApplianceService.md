@@ -14,8 +14,8 @@ Removes the Desktop Appliance service supplied to the cmdlet.
 
 ## Related Commands
 
-* [Set-STFDesktopApplianceService](./Set-STFDesktopApplianceService)
-* [Add-STFDesktopApplianceService](./Add-STFDesktopApplianceService)
+* [Set-STFDesktopApplianceService](Set-STFDesktopApplianceService.md)
+* [Add-STFDesktopApplianceService](Add-STFDesktopApplianceService.md)
 
 ## Parameters
 

@@ -48,7 +48,9 @@ Add-STFDeployment https://example.storefront.com -Confirm:$false
 
 **REMARKS**
 
-Creates a new StoreFront server that will be accessed by Receivers using the url https://example.storefront.com.
+Creates a new StoreFront server that will be accessed by Receivers using the 
+
+url https://example.storefront.com.
 
 **OUTPUT**
 
@@ -56,7 +58,10 @@ Creates a new StoreFront server that will be accessed by Receivers using the url
 HostbaseUrl             : https://example.storefront.com/
 IISSiteId               : 1
 DeploymentExists        : True
-InstalledFeatureClasses : {WebApplication, WING, XmlServiceAuthentication, ResourcesCommon...}
-FeatureClassInstances   : {82545fc5-2809-4d69-941f-21163d8bca30, a56e0a1b-661b-4cd9-8802-89e34c0e989f,
-                          ad5777f8-573c-4b1c-b608-32e16068f80b, 1406c90b-095f-4ea4-9b24-ec3ccc590cc1...}
+InstalledFeatureClasses : {WebApplication, WING, XmlServiceAuthentication, 
+ResourcesCommon...}
+FeatureClassInstances   : {82545fc5-2809-4d69-941f-21163d8bca30, 
+a56e0a1b-661b-4cd9-8802-89e34c0e989f,
+                          ad5777f8-573c-4b1c-b608-32e16068f80b, 
+1406c90b-095f-4ea4-9b24-ec3ccc590cc1...}
 ```

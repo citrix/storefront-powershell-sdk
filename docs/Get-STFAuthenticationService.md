@@ -22,8 +22,8 @@ Gets an Authentication service that matches the supplied criteria. An Authentica
 
 ## Related Commands
 
-* [Add-STFAuthenticationService](./Add-STFAuthenticationService)
-* [Remove-STFAuthenticationService](./Remove-STFAuthenticationService)
+* [Add-STFAuthenticationService](Add-STFAuthenticationService.md)
+* [Remove-STFAuthenticationService](Remove-STFAuthenticationService.md)
 
 ## Parameters
 
@@ -76,23 +76,34 @@ Get all configured Authentication services.
 ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
-TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
-AuthenticationOptions   : Logging Level:None, Hide Errors:False
-Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, Protocol Choices:7
+TokenIssuerUrl          : 
+http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
+AuthenticationOptions   : Logging Level:None, Hide Errors:False, Collect 
+Evidence to send to FAS:False
+Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, 
+Protocol Choices:7
 AuthenticationProtocols : {[citrixAGBasicAuthentication,
-                          Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], [formsProtocol,
-                          Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
-                          Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
+                          
+Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], 
+[formsProtocol,
+                          
+Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
+                          
+Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
                           [delegatedDirectoryClaimFactory,
-                          Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
-PnaAuthentication       : Citrix.StoreFront.Model.Authentication.PnaAuthentication
+                          
+Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
+PnaAuthentication       : 
+Citrix.StoreFront.Model.Authentication.PnaAuthentication
 SiteId                  : 1
 VirtualPath             : /Citrix/StoreAuth
 FriendlyName            : StoreAuth
 Hmacs                   : {}
-Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, A02C8391926A23C3547D8D34EB654240FE9BC3FA,
+Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, 
+A02C8391926A23C3547D8D34EB654240FE9BC3FA,
                           333131FF3C2F74E4F786BD3CCBB6967FDFA30795}
-TokenManagers           : {Authentication Token Producer, Default Token Validation Service}
+TokenManagers           : {Authentication Token Producer, Default Token 
+Validation Service}
 Routing                 : StoreAuth:http://example.storefront.com/
 ServiceRef              : 1__Citrix_StoreAuth
 ConfigurationFile       : C:\inetpub\wwwroot\Citrix\StoreAuth\web.config
@@ -115,23 +126,34 @@ Get an Authentication service configured at a specific virtual path.
 ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
-TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
-AuthenticationOptions   : Logging Level:None, Hide Errors:False
-Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, Protocol Choices:7
+TokenIssuerUrl          : 
+http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
+AuthenticationOptions   : Logging Level:None, Hide Errors:False, Collect 
+Evidence to send to FAS:False
+Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, 
+Protocol Choices:7
 AuthenticationProtocols : {[citrixAGBasicAuthentication,
-                          Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], [formsProtocol,
-                          Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
-                          Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
+                          
+Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], 
+[formsProtocol,
+                          
+Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
+                          
+Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
                           [delegatedDirectoryClaimFactory,
-                          Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
-PnaAuthentication       : Citrix.StoreFront.Model.Authentication.PnaAuthentication
+                          
+Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
+PnaAuthentication       : 
+Citrix.StoreFront.Model.Authentication.PnaAuthentication
 SiteId                  : 1
 VirtualPath             : /Citrix/StoreAuth
 FriendlyName            : StoreAuth
 Hmacs                   : {}
-Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, A02C8391926A23C3547D8D34EB654240FE9BC3FA,
+Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, 
+A02C8391926A23C3547D8D34EB654240FE9BC3FA,
                           333131FF3C2F74E4F786BD3CCBB6967FDFA30795}
-TokenManagers           : {Authentication Token Producer, Default Token Validation Service}
+TokenManagers           : {Authentication Token Producer, Default Token 
+Validation Service}
 Routing                 : StoreAuth:http://example.storefront.com/
 ServiceRef              : 1__Citrix_StoreAuth
 ConfigurationFile       : C:\inetpub\wwwroot\Citrix\StoreAuth\web.config
@@ -155,23 +177,34 @@ Get the Authentication service responsible for authenticating a store.
 ProducerService         : Authentication Token Producer
 ServiceTokenCertificate : BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1
 TokenValidationService  : Default Token Validation Service
-TokenIssuerUrl          : http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
-AuthenticationOptions   : Logging Level:None, Hide Errors:False
-Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, Protocol Choices:7
+TokenIssuerUrl          : 
+http://example.storefront.com/Citrix/StoreAuth/auth/v1/token
+AuthenticationOptions   : Logging Level:None, Hide Errors:False, Collect 
+Evidence to send to FAS:False
+Authentication          : TokenServiceId:707a864e-90d2-408a-9111-404e1e705d10, 
+Protocol Choices:7
 AuthenticationProtocols : {[citrixAGBasicAuthentication,
-                          Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], [formsProtocol,
-                          Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
-                          Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
+                          
+Citrix.StoreFront.Model.Authentication.NetscalerAuthentication], 
+[formsProtocol,
+                          
+Citrix.StoreFront.Model.Authentication.FormsProtocol], [explicitBL,
+                          
+Citrix.StoreFront.Model.Authentication.ExplicitAuthentication],
                           [delegatedDirectoryClaimFactory,
-                          Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
-PnaAuthentication       : Citrix.StoreFront.Model.Authentication.PnaAuthentication
+                          
+Citrix.StoreFront.Model.Authentication.DelegatedDirectorySettings]}
+PnaAuthentication       : 
+Citrix.StoreFront.Model.Authentication.PnaAuthentication
 SiteId                  : 1
 VirtualPath             : /Citrix/StoreAuth
 FriendlyName            : StoreAuth
 Hmacs                   : {}
-Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, A02C8391926A23C3547D8D34EB654240FE9BC3FA,
+Certificates            : {BD1A9D3C2948EC8EFAA153EFEEDB23351F8B80D1, 
+A02C8391926A23C3547D8D34EB654240FE9BC3FA,
                           333131FF3C2F74E4F786BD3CCBB6967FDFA30795}
-TokenManagers           : {Authentication Token Producer, Default Token Validation Service}
+TokenManagers           : {Authentication Token Producer, Default Token 
+Validation Service}
 Routing                 : StoreAuth:http://example.storefront.com/
 ServiceRef              : 1__Citrix_StoreAuth
 ConfigurationFile       : C:\inetpub\wwwroot\Citrix\StoreAuth\web.config

@@ -14,7 +14,7 @@ Get the WebReceiver Plug-in Assistant client options.
 
 ## Related Commands
 
-* [Set-STFWebReceiverPluginAssistant](./Set-STFWebReceiverPluginAssistant)
+* [Set-STFWebReceiverPluginAssistant](Set-STFWebReceiverPluginAssistant.md)
 
 ## Parameters
 
@@ -45,7 +45,9 @@ Get-STFWebReceiverPluginAssistant -WebReceiverService $receiver
 
 **REMARKS**
 
-Get the WebReceiver Plug-in Assistant client options of the only configured WebReceiver.
+Get the WebReceiver Plug-in Assistant client options of the only configured 
+
+WebReceiver.
 
 **OUTPUT**
 
@@ -53,17 +55,22 @@ Get the WebReceiver Plug-in Assistant client options of the only configured WebR
 Enabled         : True
 UpgradeAtLogin  : False
 ShowAfterLogin  : False
-Win32           : Path : http://downloadplugins.citrix.com/Windows/CitrixReceiverWeb.exe
+Win32           : Path : 
+http://downloadplugins.citrix.com/Windows/CitrixReceiverWeb.exe
 
-MacOS           : Path                    : http://downloadplugins.citrix.com/Mac/CitrixReceiverWeb.dmg
+MacOS           : Path                    : 
+http://downloadplugins.citrix.com/Mac/CitrixReceiverWeb.dmg
                   MinimumSupportedVersion : 10.6
 Html5           : Enabled              : Off
-                  Platforms            : Firefox;Chrome;Version/([6-9]|\d\d).*Safari;MSIE
+                  Platforms            : 
+Firefox;Chrome;Version/([6-9]|\d\d).*Safari;MSIE
                   \d\d;Trident/([6-9]|\d\d);Android;iPad;iPhone;iPod;
-                  LaunchUrl            : clients/HTML5Client/src/SessionWindow.html
+                  LaunchUrl            : 
+clients/HTML5Client/src/SessionWindow.html
                   Preferences          :
                   SingleTabLaunch      : False
-                  ChromeAppOrigins     : chrome-extension://haiffjcadagjlijoggckpgfnoeiflnem
+                  ChromeAppOrigins     : 
+chrome-extension://haiffjcadagjlijoggckpgfnoeiflnem
                   ChromeAppPreferences :
 ProtocolHandler : Enabled                        : True
                   Platforms                      : (Macintosh|Windows

@@ -14,8 +14,8 @@ Sets authenticating user name password credentials to utilize XenApp/XenDesktop 
 
 ## Related Commands
 
-* [Set-STFExplicitAuthenticator](./Set-STFExplicitAuthenticator)
-* [Get-STFExplicitAuthenticator](./Get-STFExplicitAuthenticator)
+* [Set-STFExplicitAuthenticator](Set-STFExplicitAuthenticator.md)
+* [Get-STFExplicitAuthenticator](Get-STFExplicitAuthenticator.md)
 
 ## Parameters
 
@@ -51,4 +51,8 @@ Set-STFAuthenticationServiceXmlServiceAuthentication -AuthenticationService $aut
 
 **REMARKS**
 
-Configure the authentication service to use Xml Service authentication using a farm configured in the store. Use Get-STFExplicitAuthenticator to determine if XmlService authentication is configured.
+Configure the authentication service to use Xml Service authentication using a 
+
+farm configured in the store. Use Get-STFExplicitAuthenticator to determine if 
+
+XmlService authentication is configured.

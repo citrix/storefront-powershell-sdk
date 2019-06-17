@@ -18,8 +18,8 @@ Remove the UserFarmMapping configured for or Store.
 
 ## Related Commands
 
-* [Set-STFUserFarmMapping](./Set-STFUserFarmMapping)
-* [Get-STFUserFarmMapping](./Get-STFUserFarmMapping)
+* [Set-STFUserFarmMapping](Set-STFUserFarmMapping.md)
+* [Get-STFUserFarmMapping](Get-STFUserFarmMapping.md)
 
 ## Parameters
 
@@ -58,4 +58,6 @@ Remove-STFUserFarmMapping -StoreService $store -Name "EUMapping"
 
 **REMARKS**
 
-Remove the EUMapping from the UserFarmMappings for the Store service /Citrix/Store.
+Remove the EUMapping from the UserFarmMappings for the Store service 
+
+/Citrix/Store.

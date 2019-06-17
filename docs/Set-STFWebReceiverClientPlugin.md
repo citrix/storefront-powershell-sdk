@@ -14,10 +14,10 @@ The cmdlet sets the plug-ins definitions as configured within the specified WebR
 
 ## Related Commands
 
-* [New-STFWebReceiverClientPlugin](./New-STFWebReceiverClientPlugin)
-* [Clear-STFWebReceiverClientPlugin](./Clear-STFWebReceiverClientPlugin)
-* [Add-STFWebReceiverClientPlugin](./Add-STFWebReceiverClientPlugin)
-* [Get-STFWebReceiverClientPlugin](./Get-STFWebReceiverClientPlugin)
+* [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin.md)
+* [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin.md)
+* [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin.md)
+* [Get-STFWebReceiverClientPlugin](Get-STFWebReceiverClientPlugin.md)
 
 ## Parameters
 

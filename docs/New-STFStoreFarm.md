@@ -14,8 +14,8 @@ Create a XenApp \ XenDesktop farm to be added to a Store service.
 
 ## Related Commands
 
-* [Remove-STFStoreFarm](./Remove-STFStoreFarm)
-* [Get-STFStoreFarm](./Get-STFStoreFarm)
+* [Remove-STFStoreFarm](Remove-STFStoreFarm.md)
+* [Get-STFStoreFarm](Get-STFStoreFarm.md)
 
 ## Parameters
 

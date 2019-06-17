@@ -14,9 +14,9 @@ A UserFarmMapping is used to configure a specified group of users to use the Equ
 
 ## Related Commands
 
-* [Clear-STFUserFarmMappings](./Clear-STFUserFarmMappings)
-* [Set-STFUserFarmMapping](./Set-STFUserFarmMapping)
-* [New-STFEquivalentFarmset](./New-STFEquivalentFarmset)
+* [Clear-STFUserFarmMappings](Clear-STFUserFarmMappings.md)
+* [Set-STFUserFarmMapping](Set-STFUserFarmMapping.md)
+* [New-STFEquivalentFarmset](New-STFEquivalentFarmset.md)
 
 ## Parameters
 

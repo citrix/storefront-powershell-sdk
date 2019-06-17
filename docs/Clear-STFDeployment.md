@@ -14,9 +14,9 @@ Removes the deployed StoreFront configuration from the server.
 
 ## Related Commands
 
-* [Add-STFDeployment](./Add-STFDeployment)
-* [Get-STFDeployment](./Get-STFDeployment)
-* [Set-STFDeployment](./Set-STFDeployment)
+* [Add-STFDeployment](Add-STFDeployment.md)
+* [Get-STFDeployment](Get-STFDeployment.md)
+* [Set-STFDeployment](Set-STFDeployment.md)
 
 ## Parameters
 

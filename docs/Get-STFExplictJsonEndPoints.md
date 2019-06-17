@@ -37,15 +37,23 @@ Get-STFExplictJsonEndpoints
 
 **REMARKS**
 
-In this example there are two stores and the Explicit JSON auth URL is returned with each store.
+In this example there are two stores and the Explicit JSON auth URL is 
 
-To get further information on the Authentication Service for a store use the Get-STFAuthenticationService cmdlet.
+returned with each store.
+
+To get further information on the Authentication Service for a store use the 
+
+Get-STFAuthenticationService cmdlet.
 
 **OUTPUT**
 
 ```
-ExplicitJsonEndPointUrl                                     Store                  
------------------------                                     -----                  
-https://camamnsad.camam.net/Citrix/storeAuth/ExplicitJson   store: /Citrix/store   
-https://camamnsad.camam.net/Citrix/store2Auth/ExplicitJson  store2: /Citrix/store2
+ExplicitJsonEndPointUrl                                     Store              
+    
+-----------------------                                     -----              
+    
+https://camamnsad.camam.net/Citrix/storeAuth/ExplicitJson   store: 
+/Citrix/store   
+https://camamnsad.camam.net/Citrix/store2Auth/ExplicitJson  store2: 
+/Citrix/store2
 ```

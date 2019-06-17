@@ -14,7 +14,7 @@ Waits for the Server Group configuration to be published showing a status bar to
 
 ## Related Commands
 
-* [Publish-STFServerGroupConfiguration](./Publish-STFServerGroupConfiguration)
+* [Publish-STFServerGroupConfiguration](Publish-STFServerGroupConfiguration.md)
 
 ## Parameters
 
@@ -44,4 +44,6 @@ Wait-STFPublishServerGroupConfiguration  -Confirm:$false
 
 **REMARKS**
 
-Wait for the server group publish to complete. The command can be terminated before completion using the key combination CTRL+C.
+Wait for the server group publish to complete. The command can be terminated 
+
+before completion using the key combination CTRL+C.

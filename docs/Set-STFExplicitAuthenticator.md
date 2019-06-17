@@ -18,7 +18,7 @@ Sets the password validator used for explicit configuration.
 
 ## Related Commands
 
-* [Get-STFExplicitAuthenticator](./Get-STFExplicitAuthenticator)
+* [Get-STFExplicitAuthenticator](Get-STFExplicitAuthenticator.md)
 
 ## Parameters
 
@@ -57,7 +57,9 @@ Set-STFExplicitAuthenticator -AuthenticationService $auth -Name "xmlServiceAuthe
 
 **REMARKS**
 
-Configure the single authentication service to use the XmlService authenticator for explict authentication.
+Configure the single authentication service to use the XmlService 
+
+authenticator for explict authentication.
 
 ### EXAMPLE 2 Reset Password Validator
 
@@ -68,4 +70,6 @@ Set-STFExplicitAuthenticator -AuthenticationService $auth -DefaultManagerFactory
 
 **REMARKS**
 
-Configure the single authentication service to use the default authenticator for explict authentication.
+Configure the single authentication service to use the default authenticator 
+
+for explict authentication.

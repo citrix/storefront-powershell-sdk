@@ -47,4 +47,6 @@ New-STFSamlEncryptionCertificate -AuthenticationService $authentication -Subject
 
 **REMARKS**
 
-Create a new encryption certificate, with subject name 'Encryption', to be used by the SAML Service Provider in the specified authentication service.
+Create a new encryption certificate, with subject name 'Encryption', to be 
+
+used by the SAML Service Provider in the specified authentication service.

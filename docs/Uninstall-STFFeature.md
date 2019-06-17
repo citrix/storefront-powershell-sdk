@@ -14,7 +14,7 @@ Un-install a StoreFront feature that is not installed by default as part of a ne
 
 ## Related Commands
 
-* [Install-STFFeature](./Install-STFFeature)
+* [Install-STFFeature](Install-STFFeature.md)
 
 ## Parameters
 

@@ -14,11 +14,11 @@ An EquivalentFarmSet is a set of PrimaryFarms that provide applications and desk
 
 ## Related Commands
 
-* [New-STFEquivalentFarmset](./New-STFEquivalentFarmset)
-* [Get-STFUserFarmMapping](./Get-STFUserFarmMapping)
-* [Clear-STFUserFarmMappings](./Clear-STFUserFarmMappings)
-* [New-STFUserFarmMappingGroup](./New-STFUserFarmMappingGroup)
-* [Set-STFUserFarmMapping](./Set-STFUserFarmMapping)
+* [New-STFEquivalentFarmset](New-STFEquivalentFarmset.md)
+* [Get-STFUserFarmMapping](Get-STFUserFarmMapping.md)
+* [Clear-STFUserFarmMappings](Clear-STFUserFarmMappings.md)
+* [New-STFUserFarmMappingGroup](New-STFUserFarmMappingGroup.md)
+* [Set-STFUserFarmMapping](Set-STFUserFarmMapping.md)
 
 ## Parameters
 
@@ -77,4 +77,8 @@ $eu1Farmset = New-STFEquivalentFarmset -Name "EU1" -AggregationGroupName "EUUser
 
 **REMARKS**
 
-Creates a new EquivalentFarmSet with two servers XenApp1 and XenApp2 that are identical and will be load balanced. Should the primary server fail XenAppBackup will be used.
+Creates a new EquivalentFarmSet with two servers XenApp1 and XenApp2 that are 
+
+identical and will be load balanced. Should the primary server fail 
+
+XenAppBackup will be used.

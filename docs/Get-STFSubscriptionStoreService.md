@@ -42,10 +42,16 @@ Get the Subscription Store service.
 **OUTPUT**
 
 ```
-HostedServices              : {subscriptionsManagementService: Enabled, LocalDataStore: Enabled, RemoteDataStore: Enabled,
+HostedServices              : {subscriptionsManagementService: Enabled, 
+LocalDataStore: Enabled, RemoteDataStore: Enabled,
 SubscriptionsSynchronisation: Enabled...}
-SubscriptionDataStores      : {Name:1__Citrix_Store,Location:%APPDATA%\Citrix\SubscriptionsStore\1__Citrix_Store,EP:net.p2p://citrix-subscriptions-1__citrix_store/}
-SubscriptionSynchronisation : Citrix.StoreFront.Model.WindowsServices.SubscriptionStore.SubscriptionSynchronization
-ConfigurationFile           : C:\Program Files\Citrix\Receiver StoreFront\Services\SubscriptionsStoreService\Citrix.DeliveryServices.SubscriptionsStore.ServiceHost.exe.config
+SubscriptionDataStores      : {Name:1__Citrix_Store,Location:%APPDATA%\Citrix\S
+ubscriptionsStore\1__Citrix_Store,EP:net.p2p://citrix-subscriptions-1__citrix_s
+tore/}
+SubscriptionSynchronisation : Citrix.StoreFront.Model.WindowsServices.Subscript
+ionStore.SubscriptionSynchronization
+ConfigurationFile           : C:\Program Files\Citrix\Receiver StoreFront\Servi
+ces\SubscriptionsStoreService\Citrix.DeliveryServices.SubscriptionsStore.Servic
+eHost.exe.config
 TenantId                    : 860e9401-39c8-4f2c-928d-34251102b840
 ```

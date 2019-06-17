@@ -14,8 +14,8 @@ Clear all of the UserFarmMappings configured for or Store.
 
 ## Related Commands
 
-* [Set-STFUserFarmMapping](./Set-STFUserFarmMapping)
-* [Get-STFUserFarmMapping](./Get-STFUserFarmMapping)
+* [Set-STFUserFarmMapping](Set-STFUserFarmMapping.md)
+* [Get-STFUserFarmMapping](Get-STFUserFarmMapping.md)
 
 ## Parameters
 

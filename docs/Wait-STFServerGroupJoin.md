@@ -14,9 +14,9 @@ Waits for the Server Group join process to complete showing a status bar to indi
 
 ## Related Commands
 
-* [Stop-STFServerGroupJoin](./Stop-STFServerGroupJoin)
-* [Remove-STFServerGroupMember](./Remove-STFServerGroupMember)
-* [Start-STFServerGroupJoin](./Start-STFServerGroupJoin)
+* [Stop-STFServerGroupJoin](Stop-STFServerGroupJoin.md)
+* [Remove-STFServerGroupMember](Remove-STFServerGroupMember.md)
+* [Start-STFServerGroupJoin](Start-STFServerGroupJoin.md)
 
 ## Parameters
 
@@ -44,4 +44,6 @@ Wait-STFServerGroupJoin  -Confirm:$false
 
 **REMARKS**
 
-Wait for the server group join to complete. The command can be terminated before completion using the key combination CTRL+C.
+Wait for the server group join to complete. The command can be terminated 
+
+before completion using the key combination CTRL+C.

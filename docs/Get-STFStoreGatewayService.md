@@ -14,7 +14,7 @@ Get the gateway service settings for a Store.
 
 ## Related Commands
 
-* [Set-STFStoreGatewayService](./Set-STFStoreGatewayService)
+* [Set-STFStoreGatewayService](Set-STFStoreGatewayService.md)
 
 ## Parameters
 

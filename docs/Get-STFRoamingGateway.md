@@ -14,9 +14,9 @@ Get a Gateway from the global list to add to a Store to support remote access an
 
 ## Related Commands
 
-* [Add-STFRoamingGateway](./Add-STFRoamingGateway)
-* [Remove-STFRoamingGateway](./Remove-STFRoamingGateway)
-* [Set-STFRoamingGateway](./Set-STFRoamingGateway)
+* [Add-STFRoamingGateway](Add-STFRoamingGateway.md)
+* [Remove-STFRoamingGateway](Remove-STFRoamingGateway.md)
+* [Set-STFRoamingGateway](Set-STFRoamingGateway.md)
 
 ## Parameters
 

@@ -14,7 +14,7 @@ Get the details of an existing farm.
 
 ## Related Commands
 
-* [Set-STFStoreFarmConfiguration](./Set-STFStoreFarmConfiguration)
+* [Set-STFStoreFarmConfiguration](Set-STFStoreFarmConfiguration.md)
 
 ## Parameters
 

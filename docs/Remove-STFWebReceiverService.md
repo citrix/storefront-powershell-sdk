@@ -14,8 +14,8 @@ Removes an existing Receiver for Web service.
 
 ## Related Commands
 
-* [Get-STFWebReceiverService](./Get-STFWebReceiverService)
-* [Add-STFWebReceiverService](./Add-STFWebReceiverService)
+* [Get-STFWebReceiverService](Get-STFWebReceiverService.md)
+* [Add-STFWebReceiverService](Add-STFWebReceiverService.md)
 
 ## Parameters
 

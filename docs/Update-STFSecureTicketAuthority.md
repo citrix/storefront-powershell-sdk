@@ -14,8 +14,8 @@ Update a PowerShell object populated with a NetScaler gateway STA configuration.
 
 ## Related Commands
 
-* [Read-STFNetScalerConfiguration](./Read-STFNetScalerConfiguration)
-* [Test-STFSecureTicketAuthority](./Test-STFSecureTicketAuthority)
+* [Read-STFNetScalerConfiguration](Read-STFNetScalerConfiguration.md)
+* [Test-STFSecureTicketAuthority](Test-STFSecureTicketAuthority.md)
 
 ## Parameters
 
@@ -54,4 +54,6 @@ Update-STFSecureTicketAuthority -StaConfigurationObject $netscalerConfiguration 
 
 Updates STA server urls within the configuration object with new STA urls.
 
-An STA url provided by NetScaler may not resolve on an internal network so will need updating to a StoreFront local address.
+An STA url provided by NetScaler may not resolve on an internal network so 
+
+will need updating to a StoreFront local address.

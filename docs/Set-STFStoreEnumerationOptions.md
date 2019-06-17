@@ -14,7 +14,7 @@ Set the Store options used when enumerating the XenApp and XenDesktop xml servic
 
 ## Related Commands
 
-* [Get-STFStoreEnumerationOptions](./Get-STFStoreEnumerationOptions)
+* [Get-STFStoreEnumerationOptions](Get-STFStoreEnumerationOptions.md)
 
 ## Parameters
 
@@ -78,7 +78,7 @@ Set-STFStoreEnumerationOptions $storeService -EnhancedEnumeration $false
 
 **REMARKS**
 
-Turn off parallel enumeration of Store famrs.
+Turn off parallel enumeration of Store farms.
 
 ### EXAMPLE 2 Filter by type
 
@@ -95,7 +95,7 @@ Filter resources to only show applications.
 
 ```
 $storeService = Get-STFStoreService
-Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsInclude AppSet1,AppSet2
+Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsInclude @("AppSet1","AppSet2")
 ```
 
 **REMARKS**
@@ -106,9 +106,35 @@ Only publish resources in the Store that have the keywords AppSet1 or Appset2.
 
 ```
 $storeService = Get-STFStoreService
-Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsExclude AppSet1,AppSet2
+Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsExclude @("AppSet1","AppSet2")
 ```
 
 **REMARKS**
 
 Exclude resources from the store that have the keywords AppSet1 or Appset2
+
+### EXAMPLE 5 Filter by keyword (include and exclude)
+
+```
+$storeService = Get-STFStoreService
+Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsInclude @("AppSet1","AppSet2") -FilterByKeywordsExclude @("AppSet3","AppSet4")
+```
+
+**REMARKS**
+
+Includes resources from the store that have the keywords AppSet1 or Appset2 
+
+and do not contain the keywords App3 or App4.  It is not possible to use the 
+
+same keyword for both Exclude and Include filtering.
+
+### EXAMPLE 6 Filter by keyword (clear)
+
+```
+$storeService = Get-STFStoreService
+Set-STFStoreEnumerationOptions $storeService -FilterByKeywordsInclude "" -FilterByKeywordsExclude ""
+```
+
+**REMARKS**
+
+Remove configured exclude or include keywords you have already set.

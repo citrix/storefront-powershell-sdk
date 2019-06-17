@@ -14,8 +14,8 @@ Disable PNA (XenApp Services) for a Store so it cannot be accessed clients using
 
 ## Related Commands
 
-* [Enable-STFStorePna](./Enable-STFStorePna)
-* [Clear-STFDefaultPnaStore](./Clear-STFDefaultPnaStore)
+* [Enable-STFStorePna](Enable-STFStorePna.md)
+* [Clear-STFDefaultPnaStore](Clear-STFDefaultPnaStore.md)
 
 ## Parameters
 

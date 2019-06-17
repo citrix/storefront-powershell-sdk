@@ -14,8 +14,8 @@ Get the UserFarmMappings configured for a Store or a specific UserFarmMapping ma
 
 ## Related Commands
 
-* [Set-STFUserFarmMapping](./Set-STFUserFarmMapping)
-* [Clear-STFUserFarmMappings](./Clear-STFUserFarmMappings)
+* [Set-STFUserFarmMapping](Set-STFUserFarmMapping.md)
+* [Clear-STFUserFarmMappings](Clear-STFUserFarmMappings.md)
 
 ## Parameters
 
