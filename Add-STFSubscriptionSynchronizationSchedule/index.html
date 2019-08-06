@@ -1,1081 +1,3064 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Add-STFSubscriptionSynchronizationSchedule - Citrix StoreFront 1906 SDK PowerShell Modules</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Add-STFSubscriptionSynchronizationSchedule";
-    var mkdocs_page_input_path = "Add-STFSubscriptionSynchronizationSchedule.md";
-    var mkdocs_page_url = null;
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
-</head>
 
-<body class="wy-body-for-nav" role="document">
 
-  <div class="wy-grid-for-nav">
 
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> Citrix StoreFront 1906 SDK PowerShell Modules</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="assets/javascripts/jquery-2.1.1.min.js"></script>
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Citrix StoreFront 1908 SDK PowerShell Modules">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="/media/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+    
+    
+      
+        <title>Add-STFSubscriptionSynchronizationSchedule - Citrix StoreFront 1908 SDK PowerShell Modules</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59929653-12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
+  gtag('config', 'UA-59929653-12');
+</script>
+
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#add-stfsubscriptionsynchronizationschedule" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <div class="md-header-border-top"/>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Citrix StoreFront 1908 SDK PowerShell Modules" class="md-header-nav__button md-logo">
           
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Overview</a>
-	    </li>
+            <img src="https://developer-docs.citrix.com/_static/Citrix_Logo_Black.png" width="75px" height="28.275px">
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFConfiguration/">Import-STFConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Export-STFConfiguration/">Export-STFConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Unprotect-STFConfigurationExport/">Unprotect-STFConfigurationExport</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFDeployment/">Set-STFDeployment</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFDeployment/">Get-STFDeployment</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFDeployment/">Add-STFDeployment</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFDeployment/">Clear-STFDeployment</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFDiagnostics/">Set-STFDiagnostics</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFDomainService/">Set-STFDomainService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFDomainService/">Get-STFDomainService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Uninstall-STFFeature/">Uninstall-STFFeature</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Install-STFFeature/">Install-STFFeature</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Reset-STFFeatureData/">Reset-STFFeatureData</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFFeatureState/">Get-STFFeatureState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFFeatureState/">Add-STFFeatureState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFFeatureState/">Remove-STFFeatureState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFFeatureState/">Set-STFFeatureState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFFeatureState/">New-STFFeatureState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFFeatureStateNames/">Get-STFFeatureStateNames</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFFeatureStateProperty/">New-STFFeatureStateProperty</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFFeatureStates/">Clear-STFFeatureStates</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFHmacKey/">Remove-STFHmacKey</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFHmacKey/">Add-STFHmacKey</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFHmacKey/">Get-STFHmacKey</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Update-STFHmacKey/">Update-STFHmacKey</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFInstalledFeatures/">Get-STFInstalledFeatures</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFPackage/">Get-STFPackage</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFPeerResolutionService/">Get-STFPeerResolutionService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Wait-STFPublishServerGroupConfiguration/">Wait-STFPublishServerGroupConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFServerGroup/">Get-STFServerGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Publish-STFServerGroupConfiguration/">Publish-STFServerGroupConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Start-STFServerGroupJoin/">Start-STFServerGroupJoin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Stop-STFServerGroupJoin/">Stop-STFServerGroupJoin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Wait-STFServerGroupJoin/">Wait-STFServerGroupJoin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFServerGroupJoinState/">Get-STFServerGroupJoinState</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFServerGroupMember/">Remove-STFServerGroupMember</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Save-STFService/">Save-STFService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFServiceMonitor/">Get-STFServiceMonitor</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFServiceMonitor/">Set-STFServiceMonitor</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFVersion/">Get-STFVersion</a>
-                </li>
-    </ul>
-	    </li>
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFAuthenticationProtocolsAvailable/">Get-STFAuthenticationProtocolsAvailable</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFAuthenticationService/">Add-STFAuthenticationService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFAuthenticationService/">Get-STFAuthenticationService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFAuthenticationService/">Remove-STFAuthenticationService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFAuthenticationServiceProtocol/">Add-STFAuthenticationServiceProtocol</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFAuthenticationServiceProtocol/">Remove-STFAuthenticationServiceProtocol</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFAuthenticationServiceProtocol/">Get-STFAuthenticationServiceProtocol</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Enable-STFAuthenticationServiceProtocol/">Enable-STFAuthenticationServiceProtocol</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Disable-STFAuthenticationServiceProtocol/">Disable-STFAuthenticationServiceProtocol</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFClaimsFactoryNames/">Set-STFClaimsFactoryNames</a>
-                </li>
-    </ul>
-	    </li>
+            <span class="md-header-nav__topic">
+              Developer Docs
+            </span>
+            <span class="md-header-nav__topic">
+              Add-STFSubscriptionSynchronizationSchedule
+            </span>
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.AccountSelfService</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.AccountSelfService/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFAccountSelfService/">Set-STFAccountSelfService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFAccountSelfService/">Get-STFAccountSelfService</a>
-                </li>
-    </ul>
-	    </li>
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.CitrixAGBasic</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.CitrixAGBasic/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFCitrixAGBasicOptions/">Set-STFCitrixAGBasicOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFCitrixAGBasicOptions/">Get-STFCitrixAGBasicOptions</a>
-                </li>
-    </ul>
-	    </li>
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.Explicit</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.Explicit/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFExplicitCommonOptions/">Set-STFExplicitCommonOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFExplictJsonAuthCEIP/">Get-STFExplictJsonAuthCEIP</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFExplictJsonEndPoints/">Get-STFExplictJsonEndPoints</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFExplicitCommonOptions/">Get-STFExplicitCommonOptions</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.PasswordManager</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.PasswordManager/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFPasswordManagerAccountSelfService/">Set-STFPasswordManagerAccountSelfService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFPasswordManagerAccountSelfService/">Get-STFPasswordManagerAccountSelfService</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.PasswordValidator</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.PasswordValidator/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFExplicitAuthenticator/">Set-STFExplicitAuthenticator</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFExplicitAuthenticator/">Get-STFExplicitAuthenticator</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.Saml</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.Saml/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFSamlEncryptionCertificate/">Import-STFSamlEncryptionCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFSamlEncryptionCertificate/">New-STFSamlEncryptionCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Export-STFSamlEncryptionCertificate/">Export-STFSamlEncryptionCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFSamlIdPCertificate/">New-STFSamlIdPCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Update-STFSamlIdPFromMetadata/">Update-STFSamlIdPFromMetadata</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFSamlRequireArtifactResolution/">Set-STFSamlRequireArtifactResolution</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Export-STFSamlSigningCertificate/">Export-STFSamlSigningCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFSamlSigningCertificate/">Import-STFSamlSigningCertificate</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFSamlSigningCertificate/">New-STFSamlSigningCertificate</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Authentication.XmlServiceValidator</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Authentication.XmlServiceValidator/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Enable-STFXmlServiceAuthentication/">Enable-STFXmlServiceAuthentication</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Roaming</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Roaming/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFCasConfiguration/">Get-STFCasConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFCasConfiguration/">Import-STFCasConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFCasConfiguration/">Remove-STFCasConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Read-STFNetScalerConfiguration/">Read-STFNetScalerConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFNetScalerConfiguration/">Import-STFNetScalerConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFRoamingAccount/">Set-STFRoamingAccount</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFRoamingAccount/">Get-STFRoamingAccount</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFRoamingBeacon/">Set-STFRoamingBeacon</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFRoamingBeacon/">Get-STFRoamingBeacon</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFRoamingBeacon/">Clear-STFRoamingBeacon</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFRoamingGateway/">Set-STFRoamingGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFRoamingGateway/">Remove-STFRoamingGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFRoamingGateway/">Get-STFRoamingGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFRoamingGateway/">Add-STFRoamingGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFRoamingGateway/">New-STFRoamingGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFRoamingService/">Get-STFRoamingService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFRoamingServiceRecord/">Get-STFRoamingServiceRecord</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Update-STFSecureTicketAuthority/">Update-STFSecureTicketAuthority</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Test-STFSecureTicketAuthority/">Test-STFSecureTicketAuthority</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Stores</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Stores/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFDefaultPnaStore/">Clear-STFDefaultPnaStore</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFSessionManagerTrustedIssuer/">Remove-STFSessionManagerTrustedIssuer</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFSessionManagerTrustedIssuer/">Add-STFSessionManagerTrustedIssuer</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFSessionManagerTrustedIssuer/">New-STFSessionManagerTrustedIssuer</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Enable-STFStoreDelegation/">Enable-STFStoreDelegation</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Disable-STFStoreDelegation/">Disable-STFStoreDelegation</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreEnumerationOptions/">Get-STFStoreEnumerationOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreEnumerationOptions/">Set-STFStoreEnumerationOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreFarm/">Set-STFStoreFarm</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFStoreFarm/">Remove-STFStoreFarm</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFStoreFarm/">New-STFStoreFarm</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFStoreFarm/">Add-STFStoreFarm</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreFarm/">Get-STFStoreFarm</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreFarmConfiguration/">Set-STFStoreFarmConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreFarmConfiguration/">Get-STFStoreFarmConfiguration</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Unregister-STFStoreGateway/">Unregister-STFStoreGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Register-STFStoreGateway/">Register-STFStoreGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreGatewayService/">Set-STFStoreGatewayService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreGatewayService/">Get-STFStoreGatewayService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreLaunchOptions/">Get-STFStoreLaunchOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreLaunchOptions/">Set-STFStoreLaunchOptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Register-STFStoreOptimalLaunchGateway/">Register-STFStoreOptimalLaunchGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Unregister-STFStoreOptimalLaunchGateway/">Unregister-STFStoreOptimalLaunchGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Enable-STFStorePna/">Enable-STFStorePna</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStorePna/">Get-STFStorePna</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Disable-STFStorePna/">Disable-STFStorePna</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStorePnaSmartAccess/">Get-STFStorePnaSmartAccess</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStorePnaSmartAccess/">Set-STFStorePnaSmartAccess</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Revoke-STFStorePnaSmartAccess/">Revoke-STFStorePnaSmartAccess</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Grant-STFStorePnaSmartAccess/">Grant-STFStorePnaSmartAccess</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreRegisteredGateway/">Get-STFStoreRegisteredGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreRegisteredOptimalLaunchGateway/">Get-STFStoreRegisteredOptimalLaunchGateway</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFStoreService/">Add-STFStoreService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreService/">Set-STFStoreService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFStoreService/">Remove-STFStoreService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreService/">Get-STFStoreService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFStoreSubscriptionsDatabase/">Get-STFStoreSubscriptionsDatabase</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFStoreSubscriptionsDatabase/">Set-STFStoreSubscriptionsDatabase</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.Stores.MultiSite</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.Stores.MultiSite/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFEquivalentFarmset/">Get-STFEquivalentFarmset</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFEquivalentFarmset/">New-STFEquivalentFarmset</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFUserFarmMapping/">Set-STFUserFarmMapping</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFUserFarmMapping/">Remove-STFUserFarmMapping</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFUserFarmMapping/">Add-STFUserFarmMapping</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFUserFarmMapping/">Get-STFUserFarmMapping</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFUserFarmMappingGroup/">New-STFUserFarmMappingGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFUserFarmMappings/">Clear-STFUserFarmMappings</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.SubscriptionsStore</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.SubscriptionsStore/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFComputerSynchronizationPermission/">Get-STFComputerSynchronizationPermission</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Grant-STFComputerSynchronizationPermission/">Grant-STFComputerSynchronizationPermission</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Revoke-STFComputerSynchronizationPermission/">Revoke-STFComputerSynchronizationPermission</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Import-STFStoreSubscriptions/">Import-STFStoreSubscriptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Export-STFStoreSubscriptions/">Export-STFStoreSubscriptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Restore-STFStoreSubscriptions/">Restore-STFStoreSubscriptions</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFSubscriptionStoreService/">Get-STFSubscriptionStoreService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFSubscriptionSynchronizationSchedule/">Clear-STFSubscriptionSynchronizationSchedule</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Add-STFSubscriptionSynchronizationSchedule</a>
-    <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#add-stfsubscriptionsynchronizationschedule">Add-STFSubscriptionSynchronizationSchedule</a></li>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Citrix StoreFront 1908 SDK PowerShell Modules" class="md-nav__button md-logo">
+      
+        <img src="https://developer-docs.citrix.com/_static/Citrix_Logo_Black.png" width="48" height="48">
+      
+    </a>
+    Citrix StoreFront 1908 SDK PowerShell Modules
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#syntax">Syntax</a></li>
-        
-            <li><a class="toctree-l4" href="#detailed-description">Detailed Description</a></li>
-        
-            <li><a class="toctree-l4" href="#related-commands">Related Commands</a></li>
-        
-            <li><a class="toctree-l4" href="#parameters">Parameters</a></li>
-        
-            <li><a class="toctree-l4" href="#input-type">Input Type</a></li>
-        
-            <li><a class="toctree-l4" href="#return-values">Return Values</a></li>
-        
-            <li><a class="toctree-l4" href="#notes">Notes</a></li>
-        
-            <li><a class="toctree-l4" href="#examples">Examples</a></li>
-        
-        </ul>
-    
+      
+      
+      
 
-    </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFSubscriptionSynchronizationSchedule/">Get-STFSubscriptionSynchronizationSchedule</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFSubscriptionSynchronizationSource/">Add-STFSubscriptionSynchronizationSource</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFSubscriptionSynchronizationSource/">Clear-STFSubscriptionSynchronizationSource</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFSubscriptionSynchronizationSource/">Get-STFSubscriptionSynchronizationSource</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFSubscriptionSynchronizationSource/">Remove-STFSubscriptionSynchronizationSource</a>
-                </li>
-    </ul>
-	    </li>
+
+  <li class="md-nav__item">
+    <a href=".." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Citrix.StoreFront
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Citrix.StoreFront
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Citrix.StoreFront.WebReceiver</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Citrix.StoreFront.WebReceiver/">Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFDesktopApplianceService/">Set-STFDesktopApplianceService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFDesktopApplianceService/">Get-STFDesktopApplianceService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFDesktopApplianceService/">Add-STFDesktopApplianceService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFDesktopApplianceService/">Remove-STFDesktopApplianceService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFIISSitesInfo/">Get-STFIISSitesInfo</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverApplicationShortcuts/">Set-STFWebReceiverApplicationShortcuts</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverApplicationShortcuts/">Get-STFWebReceiverApplicationShortcuts</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverAuthenticationManager/">Set-STFWebReceiverAuthenticationManager</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverAuthenticationManager/">Get-STFWebReceiverAuthenticationManager</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverAuthenticationMethods/">Set-STFWebReceiverAuthenticationMethods</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverAuthenticationMethods/">Get-STFWebReceiverAuthenticationMethods</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverAuthenticationMethodsAvailable/">Get-STFWebReceiverAuthenticationMethodsAvailable</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFWebReceiverClientPlugin/">New-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFWebReceiverClientPlugin/">Remove-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFWebReceiverClientPlugin/">Add-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverClientPlugin/">Get-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFWebReceiverClientPlugin/">Clear-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverClientPlugin/">Set-STFWebReceiverClientPlugin</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverCommunication/">Set-STFWebReceiverCommunication</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverCommunication/">Get-STFWebReceiverCommunication</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverDefaultSiteStyle/">Get-STFWebReceiverDefaultSiteStyle</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverDiscoveryService/">Get-STFWebReceiverDiscoveryService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverDiscoveryService/">Set-STFWebReceiverDiscoveryService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFWebReceiverFeature/">Add-STFWebReceiverFeature</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverFeature/">Get-STFWebReceiverFeature</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFWebReceiverFeature/">Remove-STFWebReceiverFeature</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFWebReceiverFeaturedAppGroup/">Remove-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../New-STFWebReceiverFeaturedAppGroup/">New-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFWebReceiverFeaturedAppGroup/">Clear-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverFeaturedAppGroup/">Get-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverFeaturedAppGroup/">Set-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFWebReceiverFeaturedAppGroup/">Add-STFWebReceiverFeaturedAppGroup</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverFeaturedAppGroups/">Set-STFWebReceiverFeaturedAppGroups</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverFeaturedAppGroupTiles/">Get-STFWebReceiverFeaturedAppGroupTiles</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverPluginAssistant/">Get-STFWebReceiverPluginAssistant</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverPluginAssistant/">Set-STFWebReceiverPluginAssistant</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverResourcesService/">Set-STFWebReceiverResourcesService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverResourcesService/">Get-STFWebReceiverResourcesService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverService/">Set-STFWebReceiverService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Remove-STFWebReceiverService/">Remove-STFWebReceiverService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Add-STFWebReceiverService/">Add-STFWebReceiverService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverService/">Get-STFWebReceiverService</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverSiteStyle/">Set-STFWebReceiverSiteStyle</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Clear-STFWebReceiverSiteStyle/">Clear-STFWebReceiverSiteStyle</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverSiteStyle/">Get-STFWebReceiverSiteStyle</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverStoreProxy/">Get-STFWebReceiverStoreProxy</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverStrictTransportSecurity/">Set-STFWebReceiverStrictTransportSecurity</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverStrictTransportSecurity/">Get-STFWebReceiverStrictTransportSecurity</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Set-STFWebReceiverUserInterface/">Set-STFWebReceiverUserInterface</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Get-STFWebReceiverUserInterface/">Get-STFWebReceiverUserInterface</a>
-                </li>
-    </ul>
-	    </li>
           
-        </ul>
-      </div>
-      &nbsp;
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Import-STFConfiguration/" title="Import-STFConfiguration" class="md-nav__link">
+      Import-STFConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Export-STFConfiguration/" title="Export-STFConfiguration" class="md-nav__link">
+      Export-STFConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Unprotect-STFConfigurationExport/" title="Unprotect-STFConfigurationExport" class="md-nav__link">
+      Unprotect-STFConfigurationExport
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFDeployment/" title="Set-STFDeployment" class="md-nav__link">
+      Set-STFDeployment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFDeployment/" title="Get-STFDeployment" class="md-nav__link">
+      Get-STFDeployment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFDeployment/" title="Add-STFDeployment" class="md-nav__link">
+      Add-STFDeployment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFDeployment/" title="Clear-STFDeployment" class="md-nav__link">
+      Clear-STFDeployment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFDiagnostics/" title="Set-STFDiagnostics" class="md-nav__link">
+      Set-STFDiagnostics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFDomainService/" title="Set-STFDomainService" class="md-nav__link">
+      Set-STFDomainService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFDomainService/" title="Get-STFDomainService" class="md-nav__link">
+      Get-STFDomainService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Uninstall-STFFeature/" title="Uninstall-STFFeature" class="md-nav__link">
+      Uninstall-STFFeature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Install-STFFeature/" title="Install-STFFeature" class="md-nav__link">
+      Install-STFFeature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Reset-STFFeatureData/" title="Reset-STFFeatureData" class="md-nav__link">
+      Reset-STFFeatureData
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFFeatureState/" title="Get-STFFeatureState" class="md-nav__link">
+      Get-STFFeatureState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFFeatureState/" title="Add-STFFeatureState" class="md-nav__link">
+      Add-STFFeatureState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFFeatureState/" title="Remove-STFFeatureState" class="md-nav__link">
+      Remove-STFFeatureState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFFeatureState/" title="Set-STFFeatureState" class="md-nav__link">
+      Set-STFFeatureState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFFeatureState/" title="New-STFFeatureState" class="md-nav__link">
+      New-STFFeatureState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFFeatureStateNames/" title="Get-STFFeatureStateNames" class="md-nav__link">
+      Get-STFFeatureStateNames
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFFeatureStateProperty/" title="New-STFFeatureStateProperty" class="md-nav__link">
+      New-STFFeatureStateProperty
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFFeatureStates/" title="Clear-STFFeatureStates" class="md-nav__link">
+      Clear-STFFeatureStates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFHmacKey/" title="Remove-STFHmacKey" class="md-nav__link">
+      Remove-STFHmacKey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFHmacKey/" title="Add-STFHmacKey" class="md-nav__link">
+      Add-STFHmacKey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFHmacKey/" title="Get-STFHmacKey" class="md-nav__link">
+      Get-STFHmacKey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Update-STFHmacKey/" title="Update-STFHmacKey" class="md-nav__link">
+      Update-STFHmacKey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFInstalledFeatures/" title="Get-STFInstalledFeatures" class="md-nav__link">
+      Get-STFInstalledFeatures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFPackage/" title="Get-STFPackage" class="md-nav__link">
+      Get-STFPackage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFPeerResolutionService/" title="Get-STFPeerResolutionService" class="md-nav__link">
+      Get-STFPeerResolutionService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Wait-STFPublishServerGroupConfiguration/" title="Wait-STFPublishServerGroupConfiguration" class="md-nav__link">
+      Wait-STFPublishServerGroupConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFServerGroup/" title="Get-STFServerGroup" class="md-nav__link">
+      Get-STFServerGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Publish-STFServerGroupConfiguration/" title="Publish-STFServerGroupConfiguration" class="md-nav__link">
+      Publish-STFServerGroupConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Start-STFServerGroupJoin/" title="Start-STFServerGroupJoin" class="md-nav__link">
+      Start-STFServerGroupJoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Stop-STFServerGroupJoin/" title="Stop-STFServerGroupJoin" class="md-nav__link">
+      Stop-STFServerGroupJoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Wait-STFServerGroupJoin/" title="Wait-STFServerGroupJoin" class="md-nav__link">
+      Wait-STFServerGroupJoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFServerGroupJoinState/" title="Get-STFServerGroupJoinState" class="md-nav__link">
+      Get-STFServerGroupJoinState
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFServerGroupMember/" title="Remove-STFServerGroupMember" class="md-nav__link">
+      Remove-STFServerGroupMember
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Save-STFService/" title="Save-STFService" class="md-nav__link">
+      Save-STFService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFServiceMonitor/" title="Get-STFServiceMonitor" class="md-nav__link">
+      Get-STFServiceMonitor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFServiceMonitor/" title="Set-STFServiceMonitor" class="md-nav__link">
+      Set-STFServiceMonitor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFVersion/" title="Get-STFVersion" class="md-nav__link">
+      Get-STFVersion
+    </a>
+  </li>
+
+        
+      </ul>
     </nav>
+  </li>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">Citrix StoreFront 1906 SDK PowerShell Modules</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Citrix.StoreFront.SubscriptionsStore &raquo;</li>
-        
       
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
     
-    <li>Add-STFSubscriptionSynchronizationSchedule</li>
-    <li class="wy-breadcrumbs-aside">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Citrix.StoreFront.Authentication
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Citrix.StoreFront.Authentication
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFAuthenticationProtocolsAvailable/" title="Get-STFAuthenticationProtocolsAvailable" class="md-nav__link">
+      Get-STFAuthenticationProtocolsAvailable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFAuthenticationService/" title="Add-STFAuthenticationService" class="md-nav__link">
+      Add-STFAuthenticationService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFAuthenticationService/" title="Get-STFAuthenticationService" class="md-nav__link">
+      Get-STFAuthenticationService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFAuthenticationService/" title="Remove-STFAuthenticationService" class="md-nav__link">
+      Remove-STFAuthenticationService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFAuthenticationServiceProtocol/" title="Add-STFAuthenticationServiceProtocol" class="md-nav__link">
+      Add-STFAuthenticationServiceProtocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFAuthenticationServiceProtocol/" title="Remove-STFAuthenticationServiceProtocol" class="md-nav__link">
+      Remove-STFAuthenticationServiceProtocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFAuthenticationServiceProtocol/" title="Get-STFAuthenticationServiceProtocol" class="md-nav__link">
+      Get-STFAuthenticationServiceProtocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Enable-STFAuthenticationServiceProtocol/" title="Enable-STFAuthenticationServiceProtocol" class="md-nav__link">
+      Enable-STFAuthenticationServiceProtocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Disable-STFAuthenticationServiceProtocol/" title="Disable-STFAuthenticationServiceProtocol" class="md-nav__link">
+      Disable-STFAuthenticationServiceProtocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFClaimsFactoryNames/" title="Set-STFClaimsFactoryNames" class="md-nav__link">
+      Set-STFClaimsFactoryNames
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
       
-    </li>
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Citrix.StoreFront.Authentication.AccountSelfService
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Citrix.StoreFront.Authentication.AccountSelfService
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.AccountSelfService/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFAccountSelfService/" title="Set-STFAccountSelfService" class="md-nav__link">
+      Set-STFAccountSelfService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFAccountSelfService/" title="Get-STFAccountSelfService" class="md-nav__link">
+      Get-STFAccountSelfService
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Citrix.StoreFront.Authentication.CitrixAGBasic
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Citrix.StoreFront.Authentication.CitrixAGBasic
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.CitrixAGBasic/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFCitrixAGBasicOptions/" title="Set-STFCitrixAGBasicOptions" class="md-nav__link">
+      Set-STFCitrixAGBasicOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFCitrixAGBasicOptions/" title="Get-STFCitrixAGBasicOptions" class="md-nav__link">
+      Get-STFCitrixAGBasicOptions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Citrix.StoreFront.Authentication.Explicit
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Citrix.StoreFront.Authentication.Explicit
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.Explicit/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFExplicitCommonOptions/" title="Get-STFExplicitCommonOptions" class="md-nav__link">
+      Get-STFExplicitCommonOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFExplictJsonAuthCEIP/" title="Get-STFExplictJsonAuthCEIP" class="md-nav__link">
+      Get-STFExplictJsonAuthCEIP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFExplictJsonEndPoints/" title="Get-STFExplictJsonEndPoints" class="md-nav__link">
+      Get-STFExplictJsonEndPoints
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFExplicitCommonOptions/" title="Set-STFExplicitCommonOptions" class="md-nav__link">
+      Set-STFExplicitCommonOptions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Citrix.StoreFront.Authentication.PasswordManager
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Citrix.StoreFront.Authentication.PasswordManager
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.PasswordManager/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFPasswordManagerAccountSelfService/" title="Set-STFPasswordManagerAccountSelfService" class="md-nav__link">
+      Set-STFPasswordManagerAccountSelfService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFPasswordManagerAccountSelfService/" title="Get-STFPasswordManagerAccountSelfService" class="md-nav__link">
+      Get-STFPasswordManagerAccountSelfService
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Citrix.StoreFront.Authentication.PasswordValidator
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Citrix.StoreFront.Authentication.PasswordValidator
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.PasswordValidator/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFExplicitAuthenticator/" title="Set-STFExplicitAuthenticator" class="md-nav__link">
+      Set-STFExplicitAuthenticator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFExplicitAuthenticator/" title="Get-STFExplicitAuthenticator" class="md-nav__link">
+      Get-STFExplicitAuthenticator
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Citrix.StoreFront.Authentication.Saml
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Citrix.StoreFront.Authentication.Saml
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.Saml/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Import-STFSamlEncryptionCertificate/" title="Import-STFSamlEncryptionCertificate" class="md-nav__link">
+      Import-STFSamlEncryptionCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFSamlEncryptionCertificate/" title="New-STFSamlEncryptionCertificate" class="md-nav__link">
+      New-STFSamlEncryptionCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Export-STFSamlEncryptionCertificate/" title="Export-STFSamlEncryptionCertificate" class="md-nav__link">
+      Export-STFSamlEncryptionCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFSamlIdPCertificate/" title="New-STFSamlIdPCertificate" class="md-nav__link">
+      New-STFSamlIdPCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Update-STFSamlIdPFromMetadata/" title="Update-STFSamlIdPFromMetadata" class="md-nav__link">
+      Update-STFSamlIdPFromMetadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFSamlRequireArtifactResolution/" title="Set-STFSamlRequireArtifactResolution" class="md-nav__link">
+      Set-STFSamlRequireArtifactResolution
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Export-STFSamlSigningCertificate/" title="Export-STFSamlSigningCertificate" class="md-nav__link">
+      Export-STFSamlSigningCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Import-STFSamlSigningCertificate/" title="Import-STFSamlSigningCertificate" class="md-nav__link">
+      Import-STFSamlSigningCertificate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFSamlSigningCertificate/" title="New-STFSamlSigningCertificate" class="md-nav__link">
+      New-STFSamlSigningCertificate
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Citrix.StoreFront.Authentication.XmlServiceValidator
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Citrix.StoreFront.Authentication.XmlServiceValidator
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Authentication.XmlServiceValidator/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Enable-STFXmlServiceAuthentication/" title="Enable-STFXmlServiceAuthentication" class="md-nav__link">
+      Enable-STFXmlServiceAuthentication
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Citrix.StoreFront.Roaming
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        Citrix.StoreFront.Roaming
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Roaming/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFCasConfiguration/" title="Get-STFCasConfiguration" class="md-nav__link">
+      Get-STFCasConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Import-STFCasConfiguration/" title="Import-STFCasConfiguration" class="md-nav__link">
+      Import-STFCasConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFCasConfiguration/" title="Remove-STFCasConfiguration" class="md-nav__link">
+      Remove-STFCasConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Read-STFNetScalerConfiguration/" title="Read-STFNetScalerConfiguration" class="md-nav__link">
+      Read-STFNetScalerConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Import-STFNetScalerConfiguration/" title="Import-STFNetScalerConfiguration" class="md-nav__link">
+      Import-STFNetScalerConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFRoamingAccount/" title="Get-STFRoamingAccount" class="md-nav__link">
+      Get-STFRoamingAccount
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFRoamingAccount/" title="Set-STFRoamingAccount" class="md-nav__link">
+      Set-STFRoamingAccount
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFRoamingBeacon/" title="Clear-STFRoamingBeacon" class="md-nav__link">
+      Clear-STFRoamingBeacon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFRoamingBeacon/" title="Set-STFRoamingBeacon" class="md-nav__link">
+      Set-STFRoamingBeacon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFRoamingBeacon/" title="Get-STFRoamingBeacon" class="md-nav__link">
+      Get-STFRoamingBeacon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFRoamingGateway/" title="Set-STFRoamingGateway" class="md-nav__link">
+      Set-STFRoamingGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFRoamingGateway/" title="Remove-STFRoamingGateway" class="md-nav__link">
+      Remove-STFRoamingGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFRoamingGateway/" title="Get-STFRoamingGateway" class="md-nav__link">
+      Get-STFRoamingGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFRoamingGateway/" title="Add-STFRoamingGateway" class="md-nav__link">
+      Add-STFRoamingGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFRoamingGateway/" title="New-STFRoamingGateway" class="md-nav__link">
+      New-STFRoamingGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFRoamingService/" title="Get-STFRoamingService" class="md-nav__link">
+      Get-STFRoamingService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFRoamingServiceRecord/" title="Get-STFRoamingServiceRecord" class="md-nav__link">
+      Get-STFRoamingServiceRecord
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Update-STFSecureTicketAuthority/" title="Update-STFSecureTicketAuthority" class="md-nav__link">
+      Update-STFSecureTicketAuthority
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Test-STFSecureTicketAuthority/" title="Test-STFSecureTicketAuthority" class="md-nav__link">
+      Test-STFSecureTicketAuthority
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      Citrix.StoreFront.Stores
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        Citrix.StoreFront.Stores
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Stores/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFDefaultPnaStore/" title="Clear-STFDefaultPnaStore" class="md-nav__link">
+      Clear-STFDefaultPnaStore
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFSessionManagerTrustedIssuer/" title="Remove-STFSessionManagerTrustedIssuer" class="md-nav__link">
+      Remove-STFSessionManagerTrustedIssuer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFSessionManagerTrustedIssuer/" title="Add-STFSessionManagerTrustedIssuer" class="md-nav__link">
+      Add-STFSessionManagerTrustedIssuer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFSessionManagerTrustedIssuer/" title="New-STFSessionManagerTrustedIssuer" class="md-nav__link">
+      New-STFSessionManagerTrustedIssuer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Enable-STFStoreDelegation/" title="Enable-STFStoreDelegation" class="md-nav__link">
+      Enable-STFStoreDelegation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Disable-STFStoreDelegation/" title="Disable-STFStoreDelegation" class="md-nav__link">
+      Disable-STFStoreDelegation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreEnumerationOptions/" title="Get-STFStoreEnumerationOptions" class="md-nav__link">
+      Get-STFStoreEnumerationOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreEnumerationOptions/" title="Set-STFStoreEnumerationOptions" class="md-nav__link">
+      Set-STFStoreEnumerationOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreFarm/" title="Set-STFStoreFarm" class="md-nav__link">
+      Set-STFStoreFarm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFStoreFarm/" title="Remove-STFStoreFarm" class="md-nav__link">
+      Remove-STFStoreFarm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFStoreFarm/" title="New-STFStoreFarm" class="md-nav__link">
+      New-STFStoreFarm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFStoreFarm/" title="Add-STFStoreFarm" class="md-nav__link">
+      Add-STFStoreFarm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreFarm/" title="Get-STFStoreFarm" class="md-nav__link">
+      Get-STFStoreFarm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreFarmConfiguration/" title="Set-STFStoreFarmConfiguration" class="md-nav__link">
+      Set-STFStoreFarmConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreFarmConfiguration/" title="Get-STFStoreFarmConfiguration" class="md-nav__link">
+      Get-STFStoreFarmConfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Unregister-STFStoreGateway/" title="Unregister-STFStoreGateway" class="md-nav__link">
+      Unregister-STFStoreGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Register-STFStoreGateway/" title="Register-STFStoreGateway" class="md-nav__link">
+      Register-STFStoreGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreGatewayService/" title="Set-STFStoreGatewayService" class="md-nav__link">
+      Set-STFStoreGatewayService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreGatewayService/" title="Get-STFStoreGatewayService" class="md-nav__link">
+      Get-STFStoreGatewayService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreLaunchOptions/" title="Get-STFStoreLaunchOptions" class="md-nav__link">
+      Get-STFStoreLaunchOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreLaunchOptions/" title="Set-STFStoreLaunchOptions" class="md-nav__link">
+      Set-STFStoreLaunchOptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Register-STFStoreOptimalLaunchGateway/" title="Register-STFStoreOptimalLaunchGateway" class="md-nav__link">
+      Register-STFStoreOptimalLaunchGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Unregister-STFStoreOptimalLaunchGateway/" title="Unregister-STFStoreOptimalLaunchGateway" class="md-nav__link">
+      Unregister-STFStoreOptimalLaunchGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Enable-STFStorePna/" title="Enable-STFStorePna" class="md-nav__link">
+      Enable-STFStorePna
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStorePna/" title="Get-STFStorePna" class="md-nav__link">
+      Get-STFStorePna
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Disable-STFStorePna/" title="Disable-STFStorePna" class="md-nav__link">
+      Disable-STFStorePna
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStorePnaSmartAccess/" title="Get-STFStorePnaSmartAccess" class="md-nav__link">
+      Get-STFStorePnaSmartAccess
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStorePnaSmartAccess/" title="Set-STFStorePnaSmartAccess" class="md-nav__link">
+      Set-STFStorePnaSmartAccess
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Revoke-STFStorePnaSmartAccess/" title="Revoke-STFStorePnaSmartAccess" class="md-nav__link">
+      Revoke-STFStorePnaSmartAccess
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Grant-STFStorePnaSmartAccess/" title="Grant-STFStorePnaSmartAccess" class="md-nav__link">
+      Grant-STFStorePnaSmartAccess
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreRegisteredGateway/" title="Get-STFStoreRegisteredGateway" class="md-nav__link">
+      Get-STFStoreRegisteredGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreRegisteredOptimalLaunchGateway/" title="Get-STFStoreRegisteredOptimalLaunchGateway" class="md-nav__link">
+      Get-STFStoreRegisteredOptimalLaunchGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFStoreService/" title="Add-STFStoreService" class="md-nav__link">
+      Add-STFStoreService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreService/" title="Set-STFStoreService" class="md-nav__link">
+      Set-STFStoreService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFStoreService/" title="Remove-STFStoreService" class="md-nav__link">
+      Remove-STFStoreService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreService/" title="Get-STFStoreService" class="md-nav__link">
+      Get-STFStoreService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFStoreSubscriptionsDatabase/" title="Get-STFStoreSubscriptionsDatabase" class="md-nav__link">
+      Get-STFStoreSubscriptionsDatabase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFStoreSubscriptionsDatabase/" title="Set-STFStoreSubscriptionsDatabase" class="md-nav__link">
+      Set-STFStoreSubscriptionsDatabase
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      Citrix.StoreFront.Stores.MultiSite
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        Citrix.StoreFront.Stores.MultiSite
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.Stores.MultiSite/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFEquivalentFarmset/" title="Get-STFEquivalentFarmset" class="md-nav__link">
+      Get-STFEquivalentFarmset
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFEquivalentFarmset/" title="New-STFEquivalentFarmset" class="md-nav__link">
+      New-STFEquivalentFarmset
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFUserFarmMapping/" title="Set-STFUserFarmMapping" class="md-nav__link">
+      Set-STFUserFarmMapping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFUserFarmMapping/" title="Remove-STFUserFarmMapping" class="md-nav__link">
+      Remove-STFUserFarmMapping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFUserFarmMapping/" title="Add-STFUserFarmMapping" class="md-nav__link">
+      Add-STFUserFarmMapping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFUserFarmMapping/" title="Get-STFUserFarmMapping" class="md-nav__link">
+      Get-STFUserFarmMapping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFUserFarmMappingGroup/" title="New-STFUserFarmMappingGroup" class="md-nav__link">
+      New-STFUserFarmMappingGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFUserFarmMappings/" title="Clear-STFUserFarmMappings" class="md-nav__link">
+      Clear-STFUserFarmMappings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      Citrix.StoreFront.SubscriptionsStore
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        Citrix.StoreFront.SubscriptionsStore
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citrix.StoreFront.SubscriptionsStore/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFDesktopApplianceService/" title="Set-STFDesktopApplianceService" class="md-nav__link">
+      Set-STFDesktopApplianceService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFDesktopApplianceService/" title="Get-STFDesktopApplianceService" class="md-nav__link">
+      Get-STFDesktopApplianceService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFDesktopApplianceService/" title="Add-STFDesktopApplianceService" class="md-nav__link">
+      Add-STFDesktopApplianceService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFDesktopApplianceService/" title="Remove-STFDesktopApplianceService" class="md-nav__link">
+      Remove-STFDesktopApplianceService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFIISSitesInfo/" title="Get-STFIISSitesInfo" class="md-nav__link">
+      Get-STFIISSitesInfo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverApplicationShortcuts/" title="Set-STFWebReceiverApplicationShortcuts" class="md-nav__link">
+      Set-STFWebReceiverApplicationShortcuts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverApplicationShortcuts/" title="Get-STFWebReceiverApplicationShortcuts" class="md-nav__link">
+      Get-STFWebReceiverApplicationShortcuts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverAuthenticationManager/" title="Set-STFWebReceiverAuthenticationManager" class="md-nav__link">
+      Set-STFWebReceiverAuthenticationManager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverAuthenticationManager/" title="Get-STFWebReceiverAuthenticationManager" class="md-nav__link">
+      Get-STFWebReceiverAuthenticationManager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverAuthenticationMethods/" title="Set-STFWebReceiverAuthenticationMethods" class="md-nav__link">
+      Set-STFWebReceiverAuthenticationMethods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverAuthenticationMethods/" title="Get-STFWebReceiverAuthenticationMethods" class="md-nav__link">
+      Get-STFWebReceiverAuthenticationMethods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverAuthenticationMethodsAvailable/" title="Get-STFWebReceiverAuthenticationMethodsAvailable" class="md-nav__link">
+      Get-STFWebReceiverAuthenticationMethodsAvailable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFWebReceiverClientPlugin/" title="New-STFWebReceiverClientPlugin" class="md-nav__link">
+      New-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFWebReceiverClientPlugin/" title="Remove-STFWebReceiverClientPlugin" class="md-nav__link">
+      Remove-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFWebReceiverClientPlugin/" title="Add-STFWebReceiverClientPlugin" class="md-nav__link">
+      Add-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverClientPlugin/" title="Get-STFWebReceiverClientPlugin" class="md-nav__link">
+      Get-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFWebReceiverClientPlugin/" title="Clear-STFWebReceiverClientPlugin" class="md-nav__link">
+      Clear-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverClientPlugin/" title="Set-STFWebReceiverClientPlugin" class="md-nav__link">
+      Set-STFWebReceiverClientPlugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverCommunication/" title="Set-STFWebReceiverCommunication" class="md-nav__link">
+      Set-STFWebReceiverCommunication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverCommunication/" title="Get-STFWebReceiverCommunication" class="md-nav__link">
+      Get-STFWebReceiverCommunication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverDefaultSiteStyle/" title="Get-STFWebReceiverDefaultSiteStyle" class="md-nav__link">
+      Get-STFWebReceiverDefaultSiteStyle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverDiscoveryService/" title="Get-STFWebReceiverDiscoveryService" class="md-nav__link">
+      Get-STFWebReceiverDiscoveryService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverDiscoveryService/" title="Set-STFWebReceiverDiscoveryService" class="md-nav__link">
+      Set-STFWebReceiverDiscoveryService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFWebReceiverFeature/" title="Add-STFWebReceiverFeature" class="md-nav__link">
+      Add-STFWebReceiverFeature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverFeature/" title="Get-STFWebReceiverFeature" class="md-nav__link">
+      Get-STFWebReceiverFeature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFWebReceiverFeature/" title="Remove-STFWebReceiverFeature" class="md-nav__link">
+      Remove-STFWebReceiverFeature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFWebReceiverFeaturedAppGroup/" title="Remove-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      Remove-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-STFWebReceiverFeaturedAppGroup/" title="New-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      New-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFWebReceiverFeaturedAppGroup/" title="Clear-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      Clear-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverFeaturedAppGroup/" title="Get-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      Get-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverFeaturedAppGroup/" title="Set-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      Set-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFWebReceiverFeaturedAppGroup/" title="Add-STFWebReceiverFeaturedAppGroup" class="md-nav__link">
+      Add-STFWebReceiverFeaturedAppGroup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverFeaturedAppGroups/" title="Set-STFWebReceiverFeaturedAppGroups" class="md-nav__link">
+      Set-STFWebReceiverFeaturedAppGroups
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverFeaturedAppGroupTiles/" title="Get-STFWebReceiverFeaturedAppGroupTiles" class="md-nav__link">
+      Get-STFWebReceiverFeaturedAppGroupTiles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverPluginAssistant/" title="Get-STFWebReceiverPluginAssistant" class="md-nav__link">
+      Get-STFWebReceiverPluginAssistant
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverPluginAssistant/" title="Set-STFWebReceiverPluginAssistant" class="md-nav__link">
+      Set-STFWebReceiverPluginAssistant
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverResourcesService/" title="Set-STFWebReceiverResourcesService" class="md-nav__link">
+      Set-STFWebReceiverResourcesService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverResourcesService/" title="Get-STFWebReceiverResourcesService" class="md-nav__link">
+      Get-STFWebReceiverResourcesService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverService/" title="Set-STFWebReceiverService" class="md-nav__link">
+      Set-STFWebReceiverService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Remove-STFWebReceiverService/" title="Remove-STFWebReceiverService" class="md-nav__link">
+      Remove-STFWebReceiverService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-STFWebReceiverService/" title="Add-STFWebReceiverService" class="md-nav__link">
+      Add-STFWebReceiverService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverService/" title="Get-STFWebReceiverService" class="md-nav__link">
+      Get-STFWebReceiverService
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverSiteStyle/" title="Set-STFWebReceiverSiteStyle" class="md-nav__link">
+      Set-STFWebReceiverSiteStyle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Clear-STFWebReceiverSiteStyle/" title="Clear-STFWebReceiverSiteStyle" class="md-nav__link">
+      Clear-STFWebReceiverSiteStyle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverSiteStyle/" title="Get-STFWebReceiverSiteStyle" class="md-nav__link">
+      Get-STFWebReceiverSiteStyle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverStoreProxy/" title="Get-STFWebReceiverStoreProxy" class="md-nav__link">
+      Get-STFWebReceiverStoreProxy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverStrictTransportSecurity/" title="Set-STFWebReceiverStrictTransportSecurity" class="md-nav__link">
+      Set-STFWebReceiverStrictTransportSecurity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverStrictTransportSecurity/" title="Get-STFWebReceiverStrictTransportSecurity" class="md-nav__link">
+      Get-STFWebReceiverStrictTransportSecurity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Set-STFWebReceiverUserInterface/" title="Set-STFWebReceiverUserInterface" class="md-nav__link">
+      Set-STFWebReceiverUserInterface
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Get-STFWebReceiverUserInterface/" title="Get-STFWebReceiverUserInterface" class="md-nav__link">
+      Get-STFWebReceiverUserInterface
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" title="Syntax" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" title="Detailed Description" class="md-nav__link">
+    Detailed Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-commands" title="Related Commands" class="md-nav__link">
+    Related Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" title="Parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input-type" title="Input Type" class="md-nav__link">
+    Input Type
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#systemtimespan" title="System.TimeSpan" class="md-nav__link">
+    System.TimeSpan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemint32" title="System.Int32" class="md-nav__link">
+    System.Int32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemtimespan_1" title="System.TimeSpan[]" class="md-nav__link">
+    System.TimeSpan[]
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#return-values" title="Return Values" class="md-nav__link">
+    Return Values
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#none" title="None" class="md-nav__link">
+    None
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" title="Notes" class="md-nav__link">
+    Notes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-add-an-hourly-synchronization-schedule" title="EXAMPLE 1 Add an hourly synchronization schedule" class="md-nav__link">
+    EXAMPLE 1 Add an hourly synchronization schedule
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-add-absolute-times-during-the-day-to-synchronize" title="EXAMPLE 2 Add absolute times during the day to synchronize" class="md-nav__link">
+    EXAMPLE 2 Add absolute times during the day to synchronize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
               
-                <h1 id="add-stfsubscriptionsynchronizationschedule">Add-STFSubscriptionSynchronizationSchedule</h1>
+                
+                
+                <h1 id="add-stfsubscriptionsynchronizationschedule">Add-STFSubscriptionSynchronizationSchedule<a class="headerlink" href="#add-stfsubscriptionsynchronizationschedule" title="Permanent link">&para;</a></h1>
 <p>Add a Subscription Synchronization schedule</p>
-<h2 id="syntax">Syntax</h2>
+<h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>Add-STFSubscriptionSynchronizationSchedule [-RecurringStartTime] &lt;TimeSpan&gt; [[-RecurringInterval] &lt;Int32&gt;] [&lt;CommonParameters&gt;]
 
 
@@ -1084,14 +3067,14 @@ Add-STFSubscriptionSynchronizationSchedule [-DailySchedule] &lt;TimeSpan[]&gt; [
 </pre></div>
 
 
-<h2 id="detailed-description">Detailed Description</h2>
+<h2 id="detailed-description">Detailed Description<a class="headerlink" href="#detailed-description" title="Permanent link">&para;</a></h2>
 <p>Add a Subscription Synchronization schedule to pull self service subscription changes from a remote StoreFront server group.</p>
-<h2 id="related-commands">Related Commands</h2>
+<h2 id="related-commands">Related Commands<a class="headerlink" href="#related-commands" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../Clear-STFSubscriptionSynchronizationSchedule/">Clear-STFSubscriptionSynchronizationSchedule</a></li>
 <li><a href="../Get-STFSubscriptionSynchronizationSchedule/">Get-STFSubscriptionSynchronizationSchedule</a></li>
 </ul>
-<h2 id="parameters">Parameters</h2>
+<h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1126,78 +3109,127 @@ Add-STFSubscriptionSynchronizationSchedule [-DailySchedule] &lt;TimeSpan[]&gt; [
 </tr>
 </tbody>
 </table>
-<h2 id="input-type">Input Type</h2>
-<h3 id="systemtimespan">System.TimeSpan</h3>
+<h2 id="input-type">Input Type<a class="headerlink" href="#input-type" title="Permanent link">&para;</a></h2>
+<h3 id="systemtimespan">System.TimeSpan<a class="headerlink" href="#systemtimespan" title="Permanent link">&para;</a></h3>
 <p>Parameter RecurringStartTime: The .NET <code>System.TimeSpan</code> value type</p>
-<h3 id="systemint32">System.Int32</h3>
+<h3 id="systemint32">System.Int32<a class="headerlink" href="#systemint32" title="Permanent link">&para;</a></h3>
 <p>Parameter RecurringInterval: The .NET <code>System.Int32</code> value type</p>
-<h3 id="systemtimespan_1">System.TimeSpan[]</h3>
+<h3 id="systemtimespan_1">System.TimeSpan[]<a class="headerlink" href="#systemtimespan_1" title="Permanent link">&para;</a></h3>
 <p>Parameter DailySchedule: The .NET <code>System.TimeSpan</code> value type</p>
-<h2 id="return-values">Return Values</h2>
-<h3 id="none">None</h3>
-<h2 id="notes">Notes</h2>
+<h2 id="return-values">Return Values<a class="headerlink" href="#return-values" title="Permanent link">&para;</a></h2>
+<h3 id="none">None<a class="headerlink" href="#none" title="Permanent link">&para;</a></h3>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <p>Restarts the Citrix Subscription Store Service to read new settings.The schedule can be re-occurring using a specific interval or at specific times of the day, not both.</p>
-<h2 id="examples">Examples</h2>
-<h3 id="example-1-add-an-hourly-synchronization-schedule">EXAMPLE 1 Add an hourly synchronization schedule</h3>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-add-an-hourly-synchronization-schedule">EXAMPLE 1 Add an hourly synchronization schedule<a class="headerlink" href="#example-1-add-an-hourly-synchronization-schedule" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span>Add-STFSubscriptionSynchronizationSchedule -ReccuringStartTime 12:00:00 -ReccuringInterval 60
 </pre></div>
 
 
 <p><strong>REMARKS</strong></p>
 <p>Adds a schedule that will commence at 12:00 and repeat hourly.</p>
-<h3 id="example-2-add-absolute-times-during-the-day-to-synchronize">EXAMPLE 2 Add absolute times during the day to synchronize</h3>
+<h3 id="example-2-add-absolute-times-during-the-day-to-synchronize">EXAMPLE 2 Add absolute times during the day to synchronize<a class="headerlink" href="#example-2-add-absolute-times-during-the-day-to-synchronize" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span>Add-STFSubscriptionSynchronizationSchedule -DailySchedule 00:00:00,06:00:00,12:00:00,18:00:00
 </pre></div>
 
 
 <p><strong>REMARKS</strong></p>
 <p>Create a schedule to synchronize four times a day.</p>
+                
+                  
+                
               
-            </div>
+              
+                
+
+
+              
+            </article>
           </div>
-          <footer>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 1999-2019 Citrix Systems, Inc. All rights reserved.  | <a href="http://www.citrix.com/about/legal/legal-notice.html">Terms of Use | <a href="#" onclick="event.preventDefault(); window.evidon.notice.showConsentTool();">Cookie Preferences</a></a></p>
+          </div>
+        
+      </div>
       
-        <a href="../Get-STFSubscriptionSynchronizationSchedule/" class="btn btn-neutral float-right" title="Get-STFSubscriptionSynchronizationSchedule">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../Clear-STFSubscriptionSynchronizationSchedule/" class="btn btn-neutral" title="Clear-STFSubscriptionSynchronizationSchedule"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://www.youtube.com/channel/UCiOupk9QF6jdk3EDKTHDykA" class="md-footer-social__link fa fa-youtube"></a>
+    
+      <a href="https://github.com/citrix" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/citrixdeveloper" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/company/citrix/" class="md-footer-social__link fa fa-linkedin"></a>
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    </div>
+  </div>
+<script type="text/javascript">
+(function (id) {
+    function append(scriptid, url, async) {
+        var d = document, sn = 'script', f = d.getElementsByTagName(sn)[0];
+        if (!f) f = d.head;
+        var s = d.createElement(sn);
+        s.async = true;
+        s.id = scriptid;
+        s.src = url;
+        f.parentNode.insertBefore(s, f);
+    }
+
+    function getRootDomain() {
+        var parts = window.location.hostname.split('.');
+        if (parts.length === 2) rootDomain = parts[0];
+        else if (parts.length > 2) {
+          // see if the next to last value is a common tld
+          var part = parts[parts.length - 2];
+          if (part === 'com' || part === 'co') {
+            rootDomain = parts[parts.length - 3]; // go back one more
+          }
+          else {
+            rootDomain = part;
+          }
+        }
+
+      return rootDomain;
+    }
+
+    window.evidon = {};
+    window.evidon.id = id;
+    var cdn = '//c.evidon.com/', rootDomain = getRootDomain(), noticecdn = cdn + 'sitenotice/';
+    append('evidon-notice', noticecdn + 'evidon-sitenotice-tag.js', false);
+    append('evidon-location', cdn + 'geo/country.js', true);
+    append('evidon-themes', noticecdn + id + '/snthemes.js', true);
+    if (rootDomain) append('evidon-settings', noticecdn + id + '/' + rootDomain + '/settings.js', true);
+
+    window.evidon.priorConsentCallback = function () {
+        // add the tags which need to wait for prior consent
+        // here.  This should be all your advertising tags and
+        // probably most of your social and tracking tags.
+    }
+})(3010);
+</script>
 </footer>
       
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
+    </div>
+    
+      <script src="../assets/javascripts/jquery-2.1.1.min.js"></script>
+      <script src="../assets/javascripts/application.43ad2ac2.js"></script>
       
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
-        <span><a href="../Clear-STFSubscriptionSynchronizationSchedule/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../Get-STFSubscriptionSynchronizationSchedule/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-
-</body>
+    
+  </body>
 </html>
