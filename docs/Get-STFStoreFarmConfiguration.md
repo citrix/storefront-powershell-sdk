@@ -36,13 +36,24 @@ A .NET class representing the configuration of a Farm in StoreFront Store servic
 
 ## Examples
 
-### EXAMPLE 1 Get farm options
+### EXAMPLE 1 Get all the farm configuration settings for the Store
 
 ```
-$store = Get-STFStoreService
-Get-STFStoreFarmConfiguration -StoreService $store
+$storeService = Get-STFStoreService  -SiteId 1 -VirtualPath '/Citrix/Store'
+Get -STFStoreFarmConfiguration -StoreService $storeService
 ```
 
 **REMARKS**
 
-Get the only configured farm options.
+Returns all of the farm configuration options for the Store.
+
+### EXAMPLE 2 Get the certificate revocation policy for the Store
+
+```
+$storeService = Get-STFStoreService  -SiteId 1 -VirtualPath '/Citrix/Store'
+(Get-STFStoreFarmConfiguration -StoreService $storeService).CertRevocationPolicy
+```
+
+**REMARKS**
+
+Returns just the certificate revocation policy for the Store.
