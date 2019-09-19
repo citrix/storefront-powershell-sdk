@@ -46,7 +46,7 @@ Parameter Farm: A .NET class representing the configuration of a Farm in StoreFr
 $store = Get-STFStoreService
 $auth = Get-STFAuthenticationService
 $farm = Get-STFStoreFarm -StoreService $store -FarmName "Controller"
-Set-STFAuthenticationServiceXmlServiceAuthentication -AuthenticationService $auth -UseXmlServiceAuthentication $true -Farm $farm
+Enable-STFXmlServiceAuthentication -AuthenticationService $auth -Farm $farm
 ```
 
 **REMARKS**

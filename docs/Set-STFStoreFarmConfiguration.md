@@ -5,7 +5,7 @@ Configure common Store farm options
 ## Syntax
 
 ```
-Set-STFStoreFarmConfiguration [-StoreService] <StoreService> [[-EnableFileTypeAssociation] <Boolean>] [[-CommunicationTimeout] <TimeSpan>] [[-ConnectionTimeout] <TimeSpan>] [[-LeasingStatusExpiryFailed] <TimeSpan>] [[-LeasingStatusExpiryLeasing] <TimeSpan>] [[-LeasingStatusExpiryPending] <TimeSpan>] [[-PooledSockets] <Boolean>] [[-ServerCommunicationAttempts] <Int32>] [[-BackgroundHealthCheckPollingPeriod] <TimeSpan>] [[-AdvancedHealthCheck] <Boolean>] [<CommonParameters>]
+Set-STFStoreFarmConfiguration [-StoreService] <StoreService> [[-EnableFileTypeAssociation] <Boolean>] [[-CommunicationTimeout] <TimeSpan>] [[-ConnectionTimeout] <TimeSpan>] [[-LeasingStatusExpiryFailed] <TimeSpan>] [[-LeasingStatusExpiryLeasing] <TimeSpan>] [[-LeasingStatusExpiryPending] <TimeSpan>] [[-PooledSockets] <Boolean>] [[-ServerCommunicationAttempts] <Int32>] [[-BackgroundHealthCheckPollingPeriod] <TimeSpan>] [[-AdvancedHealthCheck] <Boolean>] [[-CertRevocationPolicy] <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -32,6 +32,7 @@ Configure Store wide settings common to all configured farms.
 |ServerCommunicationAttempts|Number of server connection attempts before failing|false|false| |
 |BackgroundHealthCheckPollingPeriod|Period of time between polling XenApp\XenDesktop server health in seconds or timespan format|false|false| |
 |AdvancedHealthCheck|Indicates whether an advanced health-check should be performed. The advanced health-check should spot more potential server health issues but may not be compatible with servers older than XenApp 6.5.|false|false| |
+|CertRevocationPolicy|Certificate Revocation Policy to use when connecting to XML services using HTTPS.  This setting has no effect on HTTP XML services.  Valid values are 'NoCheck' (Default), 'MustCheck', 'FullCheck' or 'NoNetworkAccess'|false|false| |
 
 ## Input Type
 
@@ -79,6 +80,10 @@ Parameter BackgroundHealthCheckPollingPeriod: The .NET `System.TimeSpan` value t
 
 Parameter AdvancedHealthCheck: The .NET `System.Boolean` value type
 
+### System.String
+
+Parameter CertRevocationPolicy: The .NET `System.String` reference type
+
 ## Return Values
 
 ### None
@@ -88,8 +93,8 @@ Parameter AdvancedHealthCheck: The .NET `System.Boolean` value type
 ### EXAMPLE 1 Enable pooled sockets
 
 ```
-$storeService = Get-STFStoreService
-Set-STFStoreFarmConfiguration $storeService -PooledSockets $true
+$storeService = Get-STFStoreService –SiteID 1 –VirtualPath '/Citrix/Store'
+Set -STFStoreFarmConfiguration $storeService -PooledSockets $true
 ```
 
 **REMARKS**
@@ -99,7 +104,7 @@ Enable pooled sockets on the only configured store service
 ### EXAMPLE 2 Disable file type association
 
 ```
-$storeService = Get-STFStoreService
+$storeService = Get-STFStoreService –SiteID 1 –VirtualPath '/Citrix/Store'
 Set-STFStoreFarmConfiguration $storeService -EnableFileTypeAssociation $false
 ```
 
@@ -110,7 +115,7 @@ Disables FTA, file type association for the only configured Store service.
 ### EXAMPLE 3 Set communication timeout in seconds
 
 ```
-$storeService = Get-STFStoreService
+$storeService = Get-STFStoreService –SiteID 1 –VirtualPath '/Citrix/Store'
 Set-STFStoreFarmConfiguration $storeService -CommunicationTimeout 30
 ```
 
@@ -118,13 +123,24 @@ Set-STFStoreFarmConfiguration $storeService -CommunicationTimeout 30
 
 Sets the connection timeout to 30 seconds.
 
-### EXAMPLE 4 Set communication timeout as timespan
+### EXAMPLE 4  4 Set communication timeout as timespan
 
 ```
-$storeService = Get-STFStoreService
+$storeService = Get-STFStoreService –SiteID 1 –VirtualPath '/Citrix/Store'
 Set-STFStoreFarmConfiguration $storeService -CommunicationTimeout 00:00:30
 ```
 
 **REMARKS**
 
 Sets the connection timeout to 30 seconds.
+
+### EXAMPLE 5 Set certificate revocation policy for a store
+
+```
+$storeService = Get-STFStoreService –SiteID 1 –VirtualPath '/Citrix/Store'
+Set-STFStoreFarmConfiguration $storeService -CertRevocationPolicy 'MustCheck'
+```
+
+**REMARKS**
+
+Sets the certificate revocation policy to be MustCheck.

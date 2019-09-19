@@ -14,8 +14,8 @@ Get the optimal launch gateways that have been registered to a Store.
 
 ## Related Commands
 
-* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway)
-* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway)
+* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway.md)
+* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway.md)
 
 ## Parameters
 
