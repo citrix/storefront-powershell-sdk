@@ -219,10 +219,10 @@ nav:
   - Clear-STFUserFarmMappings: Clear-STFUserFarmMappings.md
 - Citrix.StoreFront.SubscriptionsStore:
   - Overview: Citrix.StoreFront.SubscriptionsStore.md
-  - Set-STFDesktopApplianceService: Set-STFDesktopApplianceService.md
-  - Get-STFDesktopApplianceService: Get-STFDesktopApplianceService.md
-  - Add-STFDesktopApplianceService: Add-STFDesktopApplianceService.md
-  - Remove-STFDesktopApplianceService: Remove-STFDesktopApplianceService.md
+#  - Set-STFDesktopApplianceService: Set-STFDesktopApplianceService.md
+#  - Get-STFDesktopApplianceService: Get-STFDesktopApplianceService.md
+#  - Add-STFDesktopApplianceService: Add-STFDesktopApplianceService.md
+#  - Remove-STFDesktopApplianceService: Remove-STFDesktopApplianceService.md
   - Get-STFIISSitesInfo: Get-STFIISSitesInfo.md
   - Set-STFWebReceiverApplicationShortcuts: Set-STFWebReceiverApplicationShortcuts.md
   - Get-STFWebReceiverApplicationShortcuts: Get-STFWebReceiverApplicationShortcuts.md
