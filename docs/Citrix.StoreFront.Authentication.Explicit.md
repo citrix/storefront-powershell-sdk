@@ -1,29 +1,18 @@
-﻿# Citrix.StoreFront.Authentication.Explicit
+#Citrix.StoreFront.Authentication.Explicit
 
-
-## Topic
-
+##Topic
 about_Citrix.StoreFront.Authentication.Explicit
 
-
-## Short Description
-
+##Short Description
 The Citrix.StoreFront.Authentication.Explicit PowerShell module provides administrative functions for the username and password based authentication.
 
-
-## Command Prefix
-
+##Command Prefix
 All commands in this module have 'STF' in their name to denote they are part of the StoreFront product.
 
-
-## Long Description
-
+##Long Description
 The Citrix.StoreFront.Authentication.Explicit PowerShell module enables local administration of username and password based authentication.
 
+##Cmdlets
 
-## Cmdlets
-* [Set-STFExplicitCommonOptions](Set-STFExplicitCommonOptions.md)
-* [Get-STFExplicitCommonOptions](Get-STFExplicitCommonOptions.md)
-* [Get-STFExplictJsonAuthCEIP](Get-STFExplictJsonAuthCEIP.md)
-* [Get-STFExplictJsonEndPoints](Get-STFExplictJsonEndPoints.md)
-
+* [Set-STFExplicitCommonOptions](Set-STFExplicitCommonOptions)
+* [Get-STFExplicitCommonOptions](Get-STFExplicitCommonOptions)

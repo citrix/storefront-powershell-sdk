@@ -1,5 +1,5 @@
-site_name: Citrix StoreFront 1909 SDK PowerShell Modules
-site_description: Citrix StoreFront 1909 SDK PowerShell Modules
+site_name: Citrix StoreFront 3.9 SDK PowerShell Modules
+site_description: Citrix StoreFront 3.9 SDK PowerShell Modules
 site_title: Developer Docs
 
 # Copyright
@@ -120,10 +120,8 @@ nav:
   - Get-STFCitrixAGBasicOptions: Get-STFCitrixAGBasicOptions.md
 - Citrix.StoreFront.Authentication.Explicit:
   - Overview: Citrix.StoreFront.Authentication.Explicit.md
-  - Get-STFExplicitCommonOptions: Get-STFExplicitCommonOptions.md
-  - Get-STFExplictJsonAuthCEIP: Get-STFExplictJsonAuthCEIP.md
-  - Get-STFExplictJsonEndPoints: Get-STFExplictJsonEndPoints.md
   - Set-STFExplicitCommonOptions: Set-STFExplicitCommonOptions.md
+  - Get-STFExplicitCommonOptions: Get-STFExplicitCommonOptions.md
 - Citrix.StoreFront.Authentication.PasswordManager:
   - Overview: Citrix.StoreFront.Authentication.PasswordManager.md
   - Set-STFPasswordManagerAccountSelfService: Set-STFPasswordManagerAccountSelfService.md
@@ -148,16 +146,13 @@ nav:
   - Enable-STFXmlServiceAuthentication: Enable-STFXmlServiceAuthentication.md
 - Citrix.StoreFront.Roaming:
   - Overview: Citrix.StoreFront.Roaming.md
-  - Get-STFCasConfiguration: Get-STFCasConfiguration.md
-  - Import-STFCasConfiguration: Import-STFCasConfiguration.md
-  - Remove-STFCasConfiguration: Remove-STFCasConfiguration.md
   - Read-STFNetScalerConfiguration: Read-STFNetScalerConfiguration.md
   - Import-STFNetScalerConfiguration: Import-STFNetScalerConfiguration.md
-  - Get-STFRoamingAccount: Get-STFRoamingAccount.md
   - Set-STFRoamingAccount: Set-STFRoamingAccount.md
-  - Clear-STFRoamingBeacon: Clear-STFRoamingBeacon.md
+  - Get-STFRoamingAccount: Get-STFRoamingAccount.md
   - Set-STFRoamingBeacon: Set-STFRoamingBeacon.md
   - Get-STFRoamingBeacon: Get-STFRoamingBeacon.md
+  - Clear-STFRoamingBeacon: Clear-STFRoamingBeacon.md
   - Set-STFRoamingGateway: Set-STFRoamingGateway.md
   - Remove-STFRoamingGateway: Remove-STFRoamingGateway.md
   - Get-STFRoamingGateway: Get-STFRoamingGateway.md
@@ -170,16 +165,14 @@ nav:
 - Citrix.StoreFront.Stores:
   - Overview: Citrix.StoreFront.Stores.md
   - Clear-STFDefaultPnaStore: Clear-STFDefaultPnaStore.md
-  - Remove-STFSessionManagerTrustedIssuer: Remove-STFSessionManagerTrustedIssuer.md
   - Add-STFSessionManagerTrustedIssuer: Add-STFSessionManagerTrustedIssuer.md
+  - Remove-STFSessionManagerTrustedIssuer: Remove-STFSessionManagerTrustedIssuer.md
   - New-STFSessionManagerTrustedIssuer: New-STFSessionManagerTrustedIssuer.md
-  - Enable-STFStoreDelegation: Enable-STFStoreDelegation.md
-  - Disable-STFStoreDelegation: Disable-STFStoreDelegation.md
-  - Get-STFStoreEnumerationOptions: Get-STFStoreEnumerationOptions.md
   - Set-STFStoreEnumerationOptions: Set-STFStoreEnumerationOptions.md
+  - Get-STFStoreEnumerationOptions: Get-STFStoreEnumerationOptions.md
+  - New-STFStoreFarm: New-STFStoreFarm.md
   - Set-STFStoreFarm: Set-STFStoreFarm.md
   - Remove-STFStoreFarm: Remove-STFStoreFarm.md
-  - New-STFStoreFarm: New-STFStoreFarm.md
   - Add-STFStoreFarm: Add-STFStoreFarm.md
   - Get-STFStoreFarm: Get-STFStoreFarm.md
   - Set-STFStoreFarmConfiguration: Set-STFStoreFarmConfiguration.md
@@ -196,13 +189,13 @@ nav:
   - Get-STFStorePna: Get-STFStorePna.md
   - Disable-STFStorePna: Disable-STFStorePna.md
   - Get-STFStorePnaSmartAccess: Get-STFStorePnaSmartAccess.md
+  - Grant-STFStorePnaSmartAccess: Grant-STFStorePnaSmartAccess.md
   - Set-STFStorePnaSmartAccess: Set-STFStorePnaSmartAccess.md
   - Revoke-STFStorePnaSmartAccess: Revoke-STFStorePnaSmartAccess.md
-  - Grant-STFStorePnaSmartAccess: Grant-STFStorePnaSmartAccess.md
   - Get-STFStoreRegisteredGateway: Get-STFStoreRegisteredGateway.md
   - Get-STFStoreRegisteredOptimalLaunchGateway: Get-STFStoreRegisteredOptimalLaunchGateway.md
-  - Add-STFStoreService: Add-STFStoreService.md
   - Set-STFStoreService: Set-STFStoreService.md
+  - Add-STFStoreService: Add-STFStoreService.md
   - Remove-STFStoreService: Remove-STFStoreService.md
   - Get-STFStoreService: Get-STFStoreService.md
   - Get-STFStoreSubscriptionsDatabase: Get-STFStoreSubscriptionsDatabase.md
@@ -219,6 +212,22 @@ nav:
   - Clear-STFUserFarmMappings: Clear-STFUserFarmMappings.md
 - Citrix.StoreFront.SubscriptionsStore:
   - Overview: Citrix.StoreFront.SubscriptionsStore.md
+  - Get-STFComputerSynchronizationPermission: Get-STFComputerSynchronizationPermission.md
+  - Grant-STFComputerSynchronizationPermission: Grant-STFComputerSynchronizationPermission.md
+  - Revoke-STFComputerSynchronizationPermission: Revoke-STFComputerSynchronizationPermission.md
+  - Import-STFStoreSubscriptions: Import-STFStoreSubscriptions.md
+  - Export-STFStoreSubscriptions: Export-STFStoreSubscriptions.md
+  - Restore-STFStoreSubscriptions: Restore-STFStoreSubscriptions.md
+  - Get-STFSubscriptionStoreService: Get-STFSubscriptionStoreService.md
+  - Clear-STFSubscriptionSynchronizationSchedule: Clear-STFSubscriptionSynchronizationSchedule.md
+  - Add-STFSubscriptionSynchronizationSchedule: Add-STFSubscriptionSynchronizationSchedule.md
+  - Get-STFSubscriptionSynchronizationSchedule: Get-STFSubscriptionSynchronizationSchedule.md
+  - Add-STFSubscriptionSynchronizationSource: Add-STFSubscriptionSynchronizationSource.md
+  - Clear-STFSubscriptionSynchronizationSource: Clear-STFSubscriptionSynchronizationSource.md
+  - Get-STFSubscriptionSynchronizationSource: Get-STFSubscriptionSynchronizationSource.md
+  - Remove-STFSubscriptionSynchronizationSource: Remove-STFSubscriptionSynchronizationSource.md
+- Citrix.StoreFront.WebReceiver:
+  - Overview: Citrix.StoreFront.WebReceiver.md
   - Set-STFDesktopApplianceService: Set-STFDesktopApplianceService.md
   - Get-STFDesktopApplianceService: Get-STFDesktopApplianceService.md
   - Add-STFDesktopApplianceService: Add-STFDesktopApplianceService.md

@@ -1,10 +1,10 @@
-﻿# Get-STFExplictJsonEndPoints
+# Get-STFExplictJsonEndPoints
 
 Gets store information as well as the Explicit Json service endpoint URL for each store.
 
 ## Syntax
 
-```
+```powershell
 Get-STFExplictJsonEndPoints [<CommonParameters>]
 ```
 
@@ -14,40 +14,35 @@ Gets the store infomration as well as the auth service endpoint URL for each sto
 
 ## Related Commands
 
-
 ## Input Type
-
-### 
-
-
 
 ## Return Values
 
-### ExplicitJsonEndPoint[]
+## ExplicitJsonEndPoint[]
 
-The .NET `Citrix.StoreFront.Authentication.Explicit.ExplicitJsonEndPoint` reference type
+The .NET 'Citrix.StoreFront.Authentication.Explicit.ExplicitJsonEndPoint' reference type
 
 ## Examples
 
-### EXAMPLE 1 Get the Explicit Json service URL for all stores
+### EXAMPLE 1 
 
-```
+Get the Explicit Json service URL for all stores
+
+```powershell
 Get-STFExplictJsonEndpoints
 ```
 
-**REMARKS**
+### REMARKS 
 
 In this example there are two stores and the Explicit JSON auth URL is 
-
-returned with each store.
+returned with each store. 
 
 To get further information on the Authentication Service for a store use the 
+Get-STFAuthenticationService cmdlet. 
 
-Get-STFAuthenticationService cmdlet.
+### OUTPUT
 
-**OUTPUT**
-
-```
+```json
 ExplicitJsonEndPointUrl                                     Store              
     
 -----------------------                                     -----              

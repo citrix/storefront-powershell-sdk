@@ -1,46 +1,26 @@
-﻿# Clear-STFFeatureStates
-
+#Clear-STFFeatureStates
 Clears all the registered FeatureState objects.
-
-## Syntax
-
+##Syntax
+```Clear-STFFeatureStates [<CommonParameters>]
 ```
-Clear-STFFeatureStates [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Clears all the registered FeatureState objects.
-
-## Related Commands
-
-* [Add-STFFeatureState](Add-STFFeatureState.md)
-* [Get-STFFeatureState](Get-STFFeatureState.md)
-* [Get-STFFeatureStateNames](Get-STFFeatureStateNames.md)
-* [New-STFFeatureState](New-STFFeatureState.md)
-* [New-STFFeatureStateProperty](New-STFFeatureStateProperty.md)
-* [Remove-STFFeatureState](Remove-STFFeatureState.md)
-* [Reset-STFFeatureData](Reset-STFFeatureData.md)
-* [Set-STFFeatureState](Set-STFFeatureState.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### None
-
-## Examples
-
-### EXAMPLE 1 Clears the FeatureState objects
-
+##Related Commands
+*[Add-STFFeatureState](Add-STFFeatureState)
+*[Get-STFFeatureState](Get-STFFeatureState)
+*[Get-STFFeatureStateNames](Get-STFFeatureStateNames)
+*[New-STFFeatureState](New-STFFeatureState)
+*[New-STFFeatureStateProperty](New-STFFeatureStateProperty)
+*[Remove-STFFeatureState](Remove-STFFeatureState)
+*[Reset-STFFeatureData](Reset-STFFeatureData)
+*[Set-STFFeatureState](Set-STFFeatureState)
+##Input Type
+##Return Values
+##Examples
+###EXAMPLE 1 Clears the FeatureState objects
+```Clear-STFFeatureStates
 ```
-Clear-STFFeatureStates
-```
-
-**REMARKS**
+REMARKS
 
 clears all the registered FeatureState objects
+
