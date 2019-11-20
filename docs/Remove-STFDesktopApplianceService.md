@@ -1,47 +1,24 @@
-﻿# Remove-STFDesktopApplianceService
-
+#Remove-STFDesktopApplianceService
 Remove a Desktop Appliance service
-
-## Syntax
-
+##Syntax
+```Remove-STFDesktopApplianceService [-DesktopApplianceService] <DesktopApplianceService> [<CommonParameters>]
 ```
-Remove-STFDesktopApplianceService [-DesktopApplianceService] <DesktopApplianceService> [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Removes the Desktop Appliance service supplied to the cmdlet.
-
-## Related Commands
-
-* [Set-STFDesktopApplianceService](Set-STFDesktopApplianceService.md)
-* [Add-STFDesktopApplianceService](Add-STFDesktopApplianceService.md)
-
-## Parameters
-
-| Name   | Description | Required? | Pipeline Input | Default Value |
-| --- | --- | --- | --- | --- |
-|DesktopApplianceService|Desktop Appliance to remove|true|true (ByValue)| |
-
-## Input Type
-
-### Citrix.StoreFront.Model.DesktopAppliance.DesktopApplianceService
-
+##Related Commands
+*[Set-STFDesktopApplianceService](Set-STFDesktopApplianceService)
+*[Add-STFDesktopApplianceService](Add-STFDesktopApplianceService)
+##Parameters
+|Name|Description|Required?|Pipeline Input||--|--|--|--||DesktopApplianceService|Desktop Appliance to remove|true|true (ByValue)|##Input Type
+###Citrix.StoreFront.Model.DesktopAppliance.DesktopApplianceService
 Parameter DesktopApplianceService: A .NET class representing the configuration of a StoreFront Desktop Appliance service
-
-## Return Values
-
-### None
-
-## Examples
-
-### EXAMPLE 1 Remove a Desktop Appliance service
-
-```
-$appliance = Get-STFDesktopApplianceService
+##Return Values
+##Examples
+###EXAMPLE 1 Remove a Desktop Appliance service
+```$appliance = Get-STFDesktopApplianceService
 Remove-STFDesktopApplianceService -DesktopApplianceService $appliance
 ```
-
-**REMARKS**
+REMARKS
 
 Removes the only configured Desktop Appliance service.
+

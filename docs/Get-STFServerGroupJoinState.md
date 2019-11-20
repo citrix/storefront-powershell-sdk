@@ -1,49 +1,24 @@
-﻿# Get-STFServerGroupJoinState
-
+#Get-STFServerGroupJoinState
 Get the current server join state
-
-## Syntax
-
+##Syntax
+```Get-STFServerGroupJoinState [<CommonParameters>]
 ```
-Get-STFServerGroupJoinState [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Gets the current state of the server group join. Can be used on either the existing group member or the joining server to determine the current status.
-
-## Related Commands
-
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### None
-
-## Examples
-
-### EXAMPLE 1 Get the Join State
-
+##Related Commands
+##Input Type
+##Return Values
+##Examples
+###EXAMPLE 1 Get the Join State
+```Get-STFServerGroupJoinState
 ```
-Get-STFServerGroupJoinState
-```
-
-**REMARKS**
+REMARKS
 
 Get the server join state while waiting for the joining server.
-
-**OUTPUT**
-
-```
-RemoteServer                                                                 
-Status StatusMessage                           
-------------                                                                 
------- -------------                           
-                                                                               
-Idle Idle
+OUTPUT
+```RemoteServer                                                                 Status StatusMessage                      
+     
+------------                                                                 ------ -------------                      
+     
+                                                                               Idle Idle
 ```

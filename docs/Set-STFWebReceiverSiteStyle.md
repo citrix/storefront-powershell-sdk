@@ -1,97 +1,42 @@
-﻿# Set-STFWebReceiverSiteStyle
-
+#Set-STFWebReceiverSiteStyle
 Sets the Style info in the custom style sheet
-
-## Syntax
-
+##Syntax
+```Set-STFWebReceiverSiteStyle [-WebReceiverService] <WebReceiverService> [[-HeaderLogoPath] <String>] [[-LogonLogoPath] <String>] [[-HeaderBackgroundColor] <String>] [[-HeaderForegroundColor] <String>] [[-LinkColor] <String>] [<CommonParameters>]
 ```
-Set-STFWebReceiverSiteStyle [-WebReceiverService] <WebReceiverService> [[-HeaderLogoPath] <String>] [[-LogonLogoPath] <String>] [[-HeaderBackgroundColor] <String>] [[-HeaderForegroundColor] <String>] [[-LinkColor] <String>] [[-IgnoreNonExistentLogos] <Boolean>] [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Sets the Style info in the custom style sheet for the unified experience Receiver.
-
-## Related Commands
-
-* [Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle.md)
-* [Get-STFWebReceiverSiteStyle](Get-STFWebReceiverSiteStyle.md)
-* [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle.md)
-
-## Parameters
-
-| Name   | Description | Required? | Pipeline Input | Default Value |
-| --- | --- | --- | --- | --- |
-|WebReceiverService|The WebReceiver service to style|true|true (ByValue)| |
-|HeaderLogoPath|Header logo path|false|false| |
-|LogonLogoPath|Logon logo path|false|false| |
-|HeaderBackgroundColor|Background color of the Header|false|false| |
-|HeaderForegroundColor|Foreground color of the Header|false|false| |
-|LinkColor|Link color of the page|false|false| |
-|IgnoreNonExistentLogos|Whether to ignore non-existent logo files and continue to set colors|false|false| |
-
-## Input Type
-
-### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
-
+##Related Commands
+*[Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle)
+*[Get-STFWebReceiverSiteStyle](Get-STFWebReceiverSiteStyle)
+*[Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle)
+##Parameters
+|Name|Description|Required?|Pipeline Input||--|--|--|--||WebReceiverService|The WebReceiver service to style|true|true (ByValue)||HeaderLogoPath|Header logo path|false|false||LogonLogoPath|Logon logo path|false|false||HeaderBackgroundColor|Background color of the Header|false|false||HeaderForegroundColor|Foreground color of the Header|false|false||LinkColor|Link color of the page|false|false|##Input Type
+###Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
 Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
-
-### System.String
-
-Parameter HeaderLogoPath: The .NET `System.String` reference type
-
-### System.String
-
-Parameter LogonLogoPath: The .NET `System.String` reference type
-
-### System.String
-
-Parameter HeaderBackgroundColor: The .NET `System.String` reference type
-
-### System.String
-
-Parameter HeaderForegroundColor: The .NET `System.String` reference type
-
-### System.String
-
-Parameter LinkColor: The .NET `System.String` reference type
-
-### System.Boolean
-
-Parameter IgnoreNonExistentLogos: The .NET `System.Boolean` value type
-
-## Return Values
-
-### None
-
-## Notes
-
+###System.String
+Parameter HeaderLogoPath: The .NET 'System.String' reference type
+###System.String
+Parameter LogonLogoPath: The .NET 'System.String' reference type
+###System.String
+Parameter HeaderBackgroundColor: The .NET 'System.String' reference type
+###System.String
+Parameter HeaderForegroundColor: The .NET 'System.String' reference type
+###System.String
+Parameter LinkColor: The .NET 'System.String' reference type
+##Return Values
+##Notes
 This cmdlet supports styling the following classes
-
-
 1. Standard resolution icon path
-
-
 2. High resolution icon path
-
-
 3. Background color of the header
-
-
 4. Foreground color of the header
-
-
 5. Link color of the page
-
-## Examples
-
-### EXAMPLE 1 Configure Receiver images
-
-```
-$webReceiver = Get-STFWebReceiverService
+##Examples
+###EXAMPLE 1 Configure Receiver images
+```$webReceiver = Get-STFWebReceiverService
 Set-STFWebReceiverSiteStyle -WebReceiverService $webReceiver -HeaderLogoPath "C:\images\header.jpg" -LogonLogoPath "C:\images\logon.jpg"
 ```
-
-**REMARKS**
+REMARKS
 
 Configure the Receiver header and logon images.
+

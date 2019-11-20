@@ -1,56 +1,29 @@
-﻿# Get-STFWebReceiverApplicationShortcuts
-
+#Get-STFWebReceiverApplicationShortcuts
 Get the WebReceiver application shortcuts
-
-## Syntax
-
+##Syntax
+```Get-STFWebReceiverApplicationShortcuts [-WebReceiverService] <WebReceiverService> [<CommonParameters>]
 ```
-Get-STFWebReceiverApplicationShortcuts [-WebReceiverService] <WebReceiverService> [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the WebReceiver application shortcuts.
-
-## Related Commands
-
-* [Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts.md)
-
-## Parameters
-
-| Name   | Description | Required? | Pipeline Input | Default Value |
-| --- | --- | --- | --- | --- |
-|WebReceiverService|The WebReceiver service.|true|true (ByValue)| |
-
-## Input Type
-
-### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
-
+##Related Commands
+*[Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts)
+##Parameters
+|Name|Description|Required?|Pipeline Input||--|--|--|--||WebReceiverService|The WebReceiver service.|true|true (ByValue)|##Input Type
+###Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
 Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
-
-## Return Values
-
-### AppShortcutsServer
-
-The .NET `Citrix.StoreFront.Model.ReceiverForWeb.AppShortcutsServer` reference type
-
-## Examples
-
-### EXAMPLE 1 Get WebReceiver Application Shortcuts
-
-```
-$receiver = Get-STFWebReceiverService
+##Return Values
+###AppShortcutsServer
+The .NET 'Citrix.StoreFront.Model.ReceiverForWeb.AppShortcutsServer' reference type
+##Examples
+###EXAMPLE 1 Get WebReceiver Application Shortcuts
+```$receiver = Get-STFWebReceiverService
 Get-STFWebReceiverApplicationShortcuts -WebReceiverService $receiver
 ```
-
-**REMARKS**
+REMARKS
 
 Get the WebReceiver application shortcuts of the only configured WebReceiver.
-
-**OUTPUT**
-
-```
-PromptForUntrustedShortcuts : True
+OUTPUT
+```PromptForUntrustedShortcuts : True
 TrustedUrls                 : {http://mycompany.com/}
 GatewayUrls                 : {https://mycompanygateway.com/}
 ```

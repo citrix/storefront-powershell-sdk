@@ -1,48 +1,36 @@
-﻿# Citrix.StoreFront.Roaming
+#Citrix.StoreFront.Roaming
 
-
-## Topic
-
+##Topic
 about_Citrix.StoreFront.Roaming
 
-
-## Short Description
-
+##Short Description
 The Citrix.StoreFront.Roaming module provides administrative functions for remote access via NetScaler Gateway.
 
-
-## Command Prefix
-
+##Command Prefix
 All commands in this module have 'STF' in their name to denote they are part of the StoreFront product.
 
+##Long Description
+The Citrix.StoreFront.Roaming PowerShell module enables local administration of StoreFront to support remote access via Citrix NetScaler Gateway. 
 
-## Long Description
+The module provides the following main entities: 
 
-The Citrix.StoreFront.Roaming PowerShell module enables local administration of StoreFront to support remote access via Citrix NetScaler Gateway.
+* **RoamingService**: The configuration for accessing StoreFront deployments. External gateways are service access information is stored in this service.
 
-The module provides the following main entities:
+##Cmdlets
 
-- *RoamingService* : The configuration for accessing StoreFront deployments. External gateways are service access information is stored in this service.
-
-
-## Cmdlets
-* [Get-STFCasConfiguration](Get-STFCasConfiguration.md)
-* [Import-STFCasConfiguration](Import-STFCasConfiguration.md)
-* [Remove-STFCasConfiguration](Remove-STFCasConfiguration.md)
-* [Read-STFNetScalerConfiguration](Read-STFNetScalerConfiguration.md)
-* [Import-STFNetScalerConfiguration](Import-STFNetScalerConfiguration.md)
-* [Get-STFRoamingAccount](Get-STFRoamingAccount.md)
-* [Set-STFRoamingAccount](Set-STFRoamingAccount.md)
-* [Clear-STFRoamingBeacon](Clear-STFRoamingBeacon.md)
-* [Set-STFRoamingBeacon](Set-STFRoamingBeacon.md)
-* [Get-STFRoamingBeacon](Get-STFRoamingBeacon.md)
-* [Set-STFRoamingGateway](Set-STFRoamingGateway.md)
-* [Remove-STFRoamingGateway](Remove-STFRoamingGateway.md)
-* [Get-STFRoamingGateway](Get-STFRoamingGateway.md)
-* [Add-STFRoamingGateway](Add-STFRoamingGateway.md)
-* [New-STFRoamingGateway](New-STFRoamingGateway.md)
-* [Get-STFRoamingService](Get-STFRoamingService.md)
-* [Get-STFRoamingServiceRecord](Get-STFRoamingServiceRecord.md)
-* [Update-STFSecureTicketAuthority](Update-STFSecureTicketAuthority.md)
-* [Test-STFSecureTicketAuthority](Test-STFSecureTicketAuthority.md)
-
+* [Read-STFNetScalerConfiguration](Read-STFNetScalerConfiguration)
+* [Import-STFNetScalerConfiguration](Import-STFNetScalerConfiguration)
+* [Set-STFRoamingAccount](Set-STFRoamingAccount)
+* [Get-STFRoamingAccount](Get-STFRoamingAccount)
+* [Set-STFRoamingBeacon](Set-STFRoamingBeacon)
+* [Get-STFRoamingBeacon](Get-STFRoamingBeacon)
+* [Clear-STFRoamingBeacon](Clear-STFRoamingBeacon)
+* [Set-STFRoamingGateway](Set-STFRoamingGateway)
+* [Remove-STFRoamingGateway](Remove-STFRoamingGateway)
+* [Get-STFRoamingGateway](Get-STFRoamingGateway)
+* [Add-STFRoamingGateway](Add-STFRoamingGateway)
+* [New-STFRoamingGateway](New-STFRoamingGateway)
+* [Get-STFRoamingService](Get-STFRoamingService)
+* [Get-STFRoamingServiceRecord](Get-STFRoamingServiceRecord)
+* [Update-STFSecureTicketAuthority](Update-STFSecureTicketAuthority)
+* [Test-STFSecureTicketAuthority](Test-STFSecureTicketAuthority)

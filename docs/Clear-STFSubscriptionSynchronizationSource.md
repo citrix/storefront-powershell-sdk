@@ -1,44 +1,22 @@
-﻿# Clear-STFSubscriptionSynchronizationSource
-
+#Clear-STFSubscriptionSynchronizationSource
 Clear Synchronization sources
-
-## Syntax
-
+##Syntax
+```Clear-STFSubscriptionSynchronizationSource [<CommonParameters>]
 ```
-Clear-STFSubscriptionSynchronizationSource [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Clear all remote StoreFront cluster subscription synchronization sources.
-
-## Related Commands
-
-* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
-* [Remove-STFSubscriptionSynchronizationSource](Remove-STFSubscriptionSynchronizationSource.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### None
-
-## Notes
-
+##Related Commands
+*[Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource)
+*[Remove-STFSubscriptionSynchronizationSource](Remove-STFSubscriptionSynchronizationSource)
+##Input Type
+##Return Values
+##Notes
 Restarts the Citrix Subscription Store Service to read new settings.
-
-## Examples
-
-### EXAMPLE 1 Clear all subscription sources
-
+##Examples
+###EXAMPLE 1 Clear all subscription sources
+```Clear-STFSubscriptionSynchronizationSource
 ```
-Clear-STFSubscriptionSynchronizationSource
-```
-
-**REMARKS**
+REMARKS
 
 Clears all subscription synchronization sources.
+
