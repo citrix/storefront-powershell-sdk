@@ -56,6 +56,4 @@ Remove-STFServerGroupMember -Name 'ServerB' -Notify
 
 **REMARKS**
 
-Removes the server from the server group and notifies that it should clear the 
-
-configuration it has.
+Removes the server from the server group and notifies that it should clear the configuration it has.

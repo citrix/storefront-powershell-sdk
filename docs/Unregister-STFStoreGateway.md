@@ -22,9 +22,9 @@ Unregister a Gateway from a Store used for authentication and launch (if configu
 
 ## Related Commands
 
-* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway.md)
-* [Register-STFStoreGateway](Register-STFStoreGateway.md)
-* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway.md)
+* [Register-STFStoreOptimalLaunchGateway](./Register-STFStoreOptimalLaunchGateway)
+* [Register-STFStoreGateway](./Register-STFStoreGateway)
+* [Unregister-STFStoreOptimalLaunchGateway](./Unregister-STFStoreOptimalLaunchGateway)
 
 ## Parameters
 

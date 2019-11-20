@@ -14,7 +14,7 @@ Set the WebReceiver Authentication Manager client options.
 
 ## Related Commands
 
-* [Get-STFWebReceiverAuthenticationManager](Get-STFWebReceiverAuthenticationManager.md)
+* [Get-STFWebReceiverAuthenticationManager](./Get-STFWebReceiverAuthenticationManager)
 
 ## Parameters
 
@@ -48,6 +48,4 @@ Set-STFWebReceiverAuthenticationManager -WebReceiverService $receiver -LoginForm
 
 **REMARKS**
 
-Set the WebReceiver Authentication Manager options to have a 10 minute login 
-
-form timeout.
+Set the WebReceiver Authentication Manager options to have a 10 minute login form timeout.

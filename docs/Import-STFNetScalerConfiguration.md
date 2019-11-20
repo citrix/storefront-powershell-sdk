@@ -14,8 +14,8 @@ Import a NetScaler remote access configuration supplied by a NetScaler administr
 
 ## Related Commands
 
-* [Read-STFNetScalerConfiguration](Read-STFNetScalerConfiguration.md)
-* [Wait-STFPublishServerGroupConfiguration](Wait-STFPublishServerGroupConfiguration.md)
+* [Read-STFNetScalerConfiguration](./Read-STFNetScalerConfiguration)
+* [Wait-STFPublishServerGroupConfiguration](./Wait-STFPublishServerGroupConfiguration)
 
 ## Parameters
 
@@ -87,12 +87,9 @@ KS
 
 
 
-The example reads in a NetScaler configuration package, validates that the 
-Secure Ticket Authorities can be resolved and imports the configuration.
+The example reads in a NetScaler configuration package, validates that the Secure Ticket Authorities can be resolved and imports the configuration.
 
-If validation errors are found they are output to the pipeline. If propagating 
-to the cluster the progress can be monitored with 
-Wait-STFPublishServerGroupConfiguration
+If validation errors are found they are output to the pipeline. If propagating to the cluster the progress can be monitored with Wait-STFPublishServerGroupConfiguration
 ```
 
 ### EXAMPLE 2 Import specific vServer from NetScaler remote access configuration file.
@@ -106,6 +103,4 @@ Import-STFNetScalerConfiguration -Configuration $ImportedGateways -GatewayIndex 
 
 **REMARKS**
 
-The example reads in a NetScaler configuration package and then imports the 
-
-first gateway defined in the package, followed by the second and the third.
+The example reads in a NetScaler configuration package and then imports the first gateway defined in the package, followed by the second and the third.

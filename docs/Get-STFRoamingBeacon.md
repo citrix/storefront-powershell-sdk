@@ -18,8 +18,8 @@ Get the roaming beacons configured for the deployment.
 
 ## Related Commands
 
-* [Set-STFRoamingBeacon](Set-STFRoamingBeacon.md)
-* [Clear-STFRoamingBeacon](Clear-STFRoamingBeacon.md)
+* [Set-STFRoamingBeacon](./Set-STFRoamingBeacon)
+* [Clear-STFRoamingBeacon](./Clear-STFRoamingBeacon)
 
 ## Parameters
 

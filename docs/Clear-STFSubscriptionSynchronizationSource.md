@@ -14,8 +14,8 @@ Clear all remote StoreFront cluster subscription synchronization sources.
 
 ## Related Commands
 
-* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
-* [Remove-STFSubscriptionSynchronizationSource](Remove-STFSubscriptionSynchronizationSource.md)
+* [Add-STFSubscriptionSynchronizationSource](./Add-STFSubscriptionSynchronizationSource)
+* [Remove-STFSubscriptionSynchronizationSource](./Remove-STFSubscriptionSynchronizationSource)
 
 ## Input Type
 

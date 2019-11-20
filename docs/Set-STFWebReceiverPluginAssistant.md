@@ -14,7 +14,7 @@ Set the WebReceiver Plug-in Assistant client options.
 
 ## Related Commands
 
-* [Get-STFWebReceiverPluginAssistant](Get-STFWebReceiverPluginAssistant.md)
+* [Get-STFWebReceiverPluginAssistant](./Get-STFWebReceiverPluginAssistant)
 
 ## Parameters
 
@@ -118,6 +118,4 @@ Set-STFWebReceiverPluginAssistant -WebReceiverService $receiver -UpgradeAtLogin 
 
 **REMARKS**
 
-Set the WebReceiver Plug-in Assistant client options to upgrade Receiver at 
-
-login.
+Set the WebReceiver Plug-in Assistant client options to upgrade Receiver at login.

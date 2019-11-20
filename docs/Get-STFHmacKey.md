@@ -54,6 +54,5 @@ Get the HMAC key named 'logoffTicket' from the specified Store service.
 **OUTPUT**
 
 ```
-6UA064hC8Dx/5/s0irY3Vc+tYUh2d6TqPMjC4Qy1NTtCwusyA39mXJTXXPuLaLI7x2wDhFDrsk0rqSq
-zjlV5Pw==
+6UA064hC8Dx/5/s0irY3Vc+tYUh2d6TqPMjC4Qy1NTtCwusyA39mXJTXXPuLaLI7x2wDhFDrsk0rqSqzjlV5Pw==
 ```

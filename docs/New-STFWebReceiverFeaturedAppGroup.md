@@ -14,10 +14,10 @@ The cmdlet gets a new Featured App group containing the data specified in the pa
 
 ## Related Commands
 
-* [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup.md)
-* [Get-STFWebReceiverFeaturedAppGroup](Get-STFWebReceiverFeaturedAppGroup.md)
-* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
-* [Set-STFWebReceiverFeaturedAppGroup](Set-STFWebReceiverFeaturedAppGroup.md)
+* [Clear-STFWebReceiverFeaturedAppGroup](./Clear-STFWebReceiverFeaturedAppGroup)
+* [Get-STFWebReceiverFeaturedAppGroup](./Get-STFWebReceiverFeaturedAppGroup)
+* [Remove-STFWebReceiverFeaturedAppGroup](./Remove-STFWebReceiverFeaturedAppGroup)
+* [Set-STFWebReceiverFeaturedAppGroup](./Set-STFWebReceiverFeaturedAppGroup)
 
 ## Parameters
 

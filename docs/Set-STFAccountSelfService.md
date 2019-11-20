@@ -14,9 +14,9 @@ Sets the options of the Account self-service on a given Authentication service.
 
 ## Related Commands
 
-* [Get-STFAccountSelfService](Get-STFAccountSelfService.md)
-* [Get-STFAuthenticationServicePasswordManagerAccountSelfService](Get-STFAuthenticationServicePasswordManagerAccountSelfService.md)
-* [Set-STFAuthenticationServicePasswordManagerAccountSelfService](Set-STFAuthenticationServicePasswordManagerAccountSelfService.md)
+* [Get-STFAccountSelfService](./Get-STFAccountSelfService)
+* [Get-STFAuthenticationServicePasswordManagerAccountSelfService](./Get-STFAuthenticationServicePasswordManagerAccountSelfService)
+* [Set-STFAuthenticationServicePasswordManagerAccountSelfService](./Set-STFAuthenticationServicePasswordManagerAccountSelfService)
 
 ## Parameters
 
@@ -65,9 +65,7 @@ Set-STFAuthenticationServiceAccountSelfService -AuthenticationService $auth
 
 **REMARKS**
 
-Configure the single authentication service to use Account self-service 
-
-'passwordManagerSelfServiceAccountManagement' factory.
+Configure the single authentication service to use Account self-service 'passwordManagerSelfServiceAccountManagement' factory.
 
 ### EXAMPLE 2 Remove Account Self-Service
 

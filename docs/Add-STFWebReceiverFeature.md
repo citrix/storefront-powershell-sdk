@@ -18,8 +18,8 @@ Adds a single feature to the specified WebReceiver service.
 
 ## Related Commands
 
-* [Remove-STFWebReceiverFeature](Remove-STFWebReceiverFeature.md)
-* [Get-STFWebReceiverFeature](Get-STFWebReceiverFeature.md)
+* [Remove-STFWebReceiverFeature](./Remove-STFWebReceiverFeature)
+* [Get-STFWebReceiverFeature](./Get-STFWebReceiverFeature)
 
 ## Parameters
 
@@ -77,6 +77,4 @@ if($u2f)
 
 **REMARKS**
 
-Add the AuthSDK feature "U2FReceiverPlugin" to the WebReceiver service 
-
-/Citrix/StoreWeb
+Add the AuthSDK feature "U2FReceiverPlugin" to the WebReceiver service /Citrix/StoreWeb

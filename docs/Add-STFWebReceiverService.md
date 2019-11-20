@@ -14,8 +14,8 @@ Create and configure a new Receiver for Web service.
 
 ## Related Commands
 
-* [Get-STFWebReceiverService](Get-STFWebReceiverService.md)
-* [Remove-STFWebReceiverService](Remove-STFWebReceiverService.md)
+* [Get-STFWebReceiverService](./Get-STFWebReceiverService)
+* [Remove-STFWebReceiverService](./Remove-STFWebReceiverService)
 
 ## Parameters
 
@@ -24,7 +24,7 @@ Create and configure a new Receiver for Web service.
 |VirtualPath|Site virtual path|true|false| |
 |SiteId|IIS site id|false|false| |
 |StoreService|Store service to use|true|true (ByValue)| |
-|ClassicReceiverExperience|Enable the classic Receiver experience. The classic experience is no longer supported. Defaulting to the unified experience to maintain compatibility with legacy scripting.|false|false| |
+|ClassicReceiverExperience|Enable the classic Receiver experience|false|false| |
 |FriendlyName|Friendly name to identify the Receiver for Web service|false|false| |
 
 ## Input Type
@@ -66,6 +66,4 @@ $rfw = Add-STFWebReceiverService -VirtualPath /Citrix/Receiver -StoreService $st
 
 **REMARKS**
 
-Create a new Receiver for Web service at the virtual path /Citrix/Receiver 
-
-using the only configured Store service.
+Create a new Receiver for Web service at the virtual path /Citrix/Receiver using the only configured Store service.

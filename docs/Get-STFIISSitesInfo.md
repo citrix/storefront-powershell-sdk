@@ -14,7 +14,7 @@ Get the IISSites information.
 
 ## Related Commands
 
-* [Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts.md)
+* [Set-STFWebReceiverApplicationShortcuts](./Set-STFWebReceiverApplicationShortcuts)
 
 ## Input Type
 
@@ -45,8 +45,6 @@ Get the IISSites information.
 ```
 Name                 : {Default Web Site}
 Id                 : {1}
-Binding                 : 
-{Citrix.StoreFront.Model.ReceiverForWeb.WebSiteBinding}
-Applications                 : {Default Web Site, Configuration, Roaming, 
-AGServices...}
+Binding                 : {Citrix.StoreFront.Model.ReceiverForWeb.WebSiteBinding}
+Applications                 : {Default Web Site, Configuration, Roaming, AGServices...}
 ```

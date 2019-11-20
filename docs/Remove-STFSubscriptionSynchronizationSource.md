@@ -18,8 +18,8 @@ Remove a remote StoreFront synchronization source, self service application and 
 
 ## Related Commands
 
-* [Get-STFSubscriptionSynchronizationSource](Get-STFSubscriptionSynchronizationSource.md)
-* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
+* [Get-STFSubscriptionSynchronizationSource](./Get-STFSubscriptionSynchronizationSource)
+* [Clear-STFSubscriptionSynchronizationSource](./Clear-STFSubscriptionSynchronizationSource)
 
 ## Parameters
 

@@ -18,8 +18,8 @@ Add a Subscription Synchronization schedule to pull self service subscription ch
 
 ## Related Commands
 
-* [Clear-STFSubscriptionSynchronizationSchedule](Clear-STFSubscriptionSynchronizationSchedule.md)
-* [Get-STFSubscriptionSynchronizationSchedule](Get-STFSubscriptionSynchronizationSchedule.md)
+* [Clear-STFSubscriptionSynchronizationSchedule](./Clear-STFSubscriptionSynchronizationSchedule)
+* [Get-STFSubscriptionSynchronizationSchedule](./Get-STFSubscriptionSynchronizationSchedule)
 
 ## Parameters
 

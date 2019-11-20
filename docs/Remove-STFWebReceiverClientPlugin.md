@@ -14,10 +14,10 @@ Remove WebReceiver script and branding customizations.
 
 ## Related Commands
 
-* [Add-STFWebReceiverClientPlugin](Add-STFWebReceiverClientPlugin.md)
-* [Get-STFWebReceiverClientPlugin](Get-STFWebReceiverClientPlugin.md)
-* [New-STFWebReceiverClientPlugin](New-STFWebReceiverClientPlugin.md)
-* [Clear-STFWebReceiverClientPlugin](Clear-STFWebReceiverClientPlugin.md)
+* [Add-STFWebReceiverClientPlugin](./Add-STFWebReceiverClientPlugin)
+* [Get-STFWebReceiverClientPlugin](./Get-STFWebReceiverClientPlugin)
+* [New-STFWebReceiverClientPlugin](./New-STFWebReceiverClientPlugin)
+* [Clear-STFWebReceiverClientPlugin](./Clear-STFWebReceiverClientPlugin)
 
 ## Parameters
 

@@ -14,7 +14,7 @@ Set the WebReceiver HTTP Strict Transport Security options.
 
 ## Related Commands
 
-* [Get-STFWebReceiverStrictTransportSecurity](Get-STFWebReceiverStrictTransportSecurity.md)
+* [Get-STFWebReceiverStrictTransportSecurity](./Get-STFWebReceiverStrictTransportSecurity)
 
 ## Parameters
 
@@ -53,6 +53,4 @@ Set-STFWebReceiverStrictTransportSecurity -WebReceiverService $receiver -Enabled
 
 **REMARKS**
 
-Enable the HTTP Strict Transport Security feature on the only WebReceiver 
-
-service.
+Enable the HTTP Strict Transport Security feature on the only WebReceiver service.

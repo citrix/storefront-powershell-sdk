@@ -52,6 +52,4 @@ Set-STFRoamingAccount -StoreService $store -Published $false
 
 **REMARKS**
 
-Set the Roaming account for the only configured Store service to hide the 
-
-Store from Receivers.
+Set the Roaming account for the only configured Store service to hide the Store from Receivers.

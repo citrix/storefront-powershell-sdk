@@ -14,14 +14,14 @@ Reloads the FeatureData from the file.
 
 ## Related Commands
 
-* [Add-STFFeatureState](Add-STFFeatureState.md)
-* [Get-STFFeatureState](Get-STFFeatureState.md)
-* [Get-STFFeatureStateNames](Get-STFFeatureStateNames.md)
-* [New-STFFeatureState](New-STFFeatureState.md)
-* [New-STFFeatureStateProperty](New-STFFeatureStateProperty.md)
-* [Remove-STFFeatureState](Remove-STFFeatureState.md)
-* [Clear-STFFeatureStates](Clear-STFFeatureStates.md)
-* [Set-STFFeatureState](Set-STFFeatureState.md)
+* [Add-STFFeatureState](./Add-STFFeatureState)
+* [Get-STFFeatureState](./Get-STFFeatureState)
+* [Get-STFFeatureStateNames](./Get-STFFeatureStateNames)
+* [New-STFFeatureState](./New-STFFeatureState)
+* [New-STFFeatureStateProperty](./New-STFFeatureStateProperty)
+* [Remove-STFFeatureState](./Remove-STFFeatureState)
+* [Clear-STFFeatureStates](./Clear-STFFeatureStates)
+* [Set-STFFeatureState](./Set-STFFeatureState)
 
 ## Input Type
 

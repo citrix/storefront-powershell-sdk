@@ -40,10 +40,7 @@ Get the server join state while waiting for the joining server.
 **OUTPUT**
 
 ```
-RemoteServer                                                                 
-Status StatusMessage                           
-------------                                                                 
------- -------------                           
-                                                                               
-Idle Idle
+RemoteServer                                                                 Status StatusMessage                           
+------------                                                                 ------ -------------                           
+                                                                               Idle Idle
 ```

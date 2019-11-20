@@ -48,20 +48,12 @@ Get the protocols configured for the only Authentication service.
 **OUTPUT**
 
 ```
-Name                                                                    
-Enabled ChoiceProperties
-----                                                                    
-------- ----------------
-Certificate                                                               
-False {}
-CitrixAGBasic                                                             
-False {[requestFilter, CitrixAGBasicReques...
-CitrixFederation                                                           
-True {}
-ExplicitForms                                                              
-True {}
-HttpBasic                                                                 
-False {}
-IntegratedWindows                                                         
-False {}
+Name                                                                    Enabled ChoiceProperties
+----                                                                    ------- ----------------
+Certificate                                                               False {}
+CitrixAGBasic                                                             False {[requestFilter, CitrixAGBasicReques...
+CitrixFederation                                                           True {}
+ExplicitForms                                                              True {}
+HttpBasic                                                                 False {}
+IntegratedWindows                                                         False {}
 ```

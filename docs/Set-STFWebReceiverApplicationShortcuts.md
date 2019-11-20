@@ -14,7 +14,7 @@ Set the WebReceiver trusted Urls for application shortcuts.
 
 ## Related Commands
 
-* [Get-STFWebReceiverApplicationShortcuts](Get-STFWebReceiverApplicationShortcuts.md)
+* [Get-STFWebReceiverApplicationShortcuts](./Get-STFWebReceiverApplicationShortcuts)
 
 ## Parameters
 

@@ -44,9 +44,7 @@ Get-STFWebReceiverStoreProxy -WebReceiverService $receiver
 
 **REMARKS**
 
-Get the WebReceiver Store Service Proxy client options of the only configured 
-
-WebReceiver.
+Get the WebReceiver Store Service Proxy client options of the only configured WebReceiver.
 
 **OUTPUT**
 

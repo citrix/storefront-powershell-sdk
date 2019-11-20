@@ -14,8 +14,8 @@ Gets a summary of the current subscription synchronization schedule.
 
 ## Related Commands
 
-* [Add-STFSubscriptionSynchronizationSchedule](Add-STFSubscriptionSynchronizationSchedule.md)
-* [Clear-STFSubscriptionSynchronizationSchedule](Clear-STFSubscriptionSynchronizationSchedule.md)
+* [Add-STFSubscriptionSynchronizationSchedule](./Add-STFSubscriptionSynchronizationSchedule)
+* [Clear-STFSubscriptionSynchronizationSchedule](./Clear-STFSubscriptionSynchronizationSchedule)
 
 ## Input Type
 
@@ -44,10 +44,7 @@ Get the currently configured synchronization schedule.
 **OUTPUT**
 
 ```
-ScheduleName                            Start                                  
-                          IntervalRepeat
-------------                            -----                                  
-                          --------------
-60 minute interval                      10:00:00                               
-                                      60
+ScheduleName                            Start                                                            IntervalRepeat
+------------                            -----                                                            --------------
+60 minute interval                      10:00:00                                                                     60
 ```

@@ -53,10 +53,4 @@ $exported = New-STFSamlIdPCertificate -SubjectName 'Identity Provider Signing' -
 
 **REMARKS**
 
-Create a new signing certificate, with subject name 'Identity Provider 
-
-Signing', to be used by a SAML Identity Provider in the specified 
-
-authentication service, exported to the specified path with the specified 
-
-password protecting the private key.
+Create a new signing certificate, with subject name 'Identity Provider Signing', to be used by a SAML Identity Provider in the specified authentication service, exported to the specified path with the specified password protecting the private key.

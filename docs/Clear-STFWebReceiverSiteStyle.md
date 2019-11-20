@@ -14,8 +14,8 @@ This command clears all the custom site style defined using Set-DSSiteStyle.
 
 ## Related Commands
 
-* [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle.md)
-* [Set-STFWebReceiverSiteStyle](Set-STFWebReceiverSiteStyle.md)
+* [Get-STFWebReceiverDefaultSiteStyle](./Get-STFWebReceiverDefaultSiteStyle)
+* [Set-STFWebReceiverSiteStyle](./Set-STFWebReceiverSiteStyle)
 
 ## Parameters
 

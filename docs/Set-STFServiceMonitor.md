@@ -14,7 +14,7 @@ Update the configuration of the Service Monitor service.
 
 ## Related Commands
 
-* [Get-STFServiceMonitor](Get-STFServiceMonitor.md)
+* [Get-STFServiceMonitor](./Get-STFServiceMonitor)
 
 ## Parameters
 

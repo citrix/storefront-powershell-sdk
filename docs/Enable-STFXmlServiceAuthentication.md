@@ -14,8 +14,8 @@ Sets authenticating user name password credentials to utilize XenApp/XenDesktop 
 
 ## Related Commands
 
-* [Set-STFExplicitAuthenticator](Set-STFExplicitAuthenticator.md)
-* [Get-STFExplicitAuthenticator](Get-STFExplicitAuthenticator.md)
+* [Set-STFExplicitAuthenticator](./Set-STFExplicitAuthenticator)
+* [Get-STFExplicitAuthenticator](./Get-STFExplicitAuthenticator)
 
 ## Parameters
 
@@ -46,13 +46,9 @@ Parameter Farm: A .NET class representing the configuration of a Farm in StoreFr
 $store = Get-STFStoreService
 $auth = Get-STFAuthenticationService
 $farm = Get-STFStoreFarm -StoreService $store -FarmName "Controller"
-Enable-STFXmlServiceAuthentication -AuthenticationService $auth -Farm $farm
+Set-STFAuthenticationServiceXmlServiceAuthentication -AuthenticationService $auth -UseXmlServiceAuthentication $true -Farm $farm
 ```
 
 **REMARKS**
 
-Configure the authentication service to use Xml Service authentication using a 
-
-farm configured in the store. Use Get-STFExplicitAuthenticator to determine if 
-
-XmlService authentication is configured.
+Configure the authentication service to use Xml Service authentication using a farm configured in the store. Use Get-STFExplicitAuthenticator to determine if XmlService authentication is configured.

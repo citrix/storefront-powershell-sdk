@@ -14,7 +14,7 @@ Gets the password validator configuration.
 
 ## Related Commands
 
-* [Set-STFExplicitAuthenticator](Set-STFExplicitAuthenticator.md)
+* [Set-STFExplicitAuthenticator](./Set-STFExplicitAuthenticator)
 
 ## Parameters
 

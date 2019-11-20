@@ -14,9 +14,9 @@ Gets the Password Manager account self-service method (Password Reset).
 
 ## Related Commands
 
-* [Set-STFPasswordManagerAccountSelfService](Set-STFPasswordManagerAccountSelfService.md)
-* [Get-STFAccountSelfService](Get-STFAccountSelfService.md)
-* [Set-STFAccountSelfService](Set-STFAccountSelfService.md)
+* [Set-STFPasswordManagerAccountSelfService](./Set-STFPasswordManagerAccountSelfService)
+* [Get-STFAccountSelfService](./Get-STFAccountSelfService)
+* [Set-STFAccountSelfService](./Set-STFAccountSelfService)
 
 ## Parameters
 

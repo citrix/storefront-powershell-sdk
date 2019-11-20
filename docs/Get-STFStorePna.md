@@ -14,8 +14,8 @@ Get the PNA (Program Neighborhood Agent) state of the Store. Returns a summary i
 
 ## Related Commands
 
-* [Enable-STFStorePna](Enable-STFStorePna.md)
-* [Disable-STFStorePna](Disable-STFStorePna.md)
+* [Enable-STFStorePna](./Enable-STFStorePna)
+* [Disable-STFStorePna](./Disable-STFStorePna)
 
 ## Parameters
 
@@ -51,10 +51,7 @@ Gets the PNA state of the only configured Store service.
 **OUTPUT**
 
 ```
-StoreService                                                         
-PnaEnabled                       DefaultPnaService
-------------                                                         
-----------                       -----------------
-Store: /Citrix/Store                                                       
-True                                    True
+StoreService                                                         PnaEnabled                       DefaultPnaService
+------------                                                         ----------                       -----------------
+Store: /Citrix/Store                                                       True                                    True
 ```

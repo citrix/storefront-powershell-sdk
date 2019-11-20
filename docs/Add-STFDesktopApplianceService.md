@@ -14,8 +14,8 @@ Create a new Desktop Appliance site that provides a user experience that is simi
 
 ## Related Commands
 
-* [Set-STFDesktopApplianceService](Set-STFDesktopApplianceService.md)
-* [Remove-STFDesktopApplianceService](Remove-STFDesktopApplianceService.md)
+* [Set-STFDesktopApplianceService](./Set-STFDesktopApplianceService)
+* [Remove-STFDesktopApplianceService](./Remove-STFDesktopApplianceService)
 
 ## Parameters
 
@@ -86,6 +86,4 @@ Add-STFDesktopApplianceService -VirtualPath $desktopApplianceVirtualPath -StoreS
 
 **REMARKS**
 
-Create a new Desktop Appliance service supporting multi desktops and explicit 
-
-authentication using the only Store service.
+Create a new Desktop Appliance service supporting multi desktops and explicit authentication using the only Store service.

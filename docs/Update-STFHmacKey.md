@@ -52,6 +52,4 @@ Update-STFHmacKey -WebService $store -Name 'logoffTicket' -Key '6UA064hC8Dx/5/s0
 
 **REMARKS**
 
-Update the existing HMAC key named 'logoffTicket' in the specified Store 
-
-service.
+Update the existing HMAC key named 'logoffTicket' in the specified Store service.

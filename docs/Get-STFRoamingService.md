@@ -48,8 +48,7 @@ Get the roaming service
 **OUTPUT**
 
 ```
-Roaming           : Gateways:0, Data:2, Accounts:0, Records:0, 
-Beacons:Internal:0, External:0
+Roaming           : Gateways:0, Data:2, Accounts:0, Records:0, Beacons:Internal:0, External:0
 SiteId            : 1
 VirtualPath       : /Citrix/Roaming
 FriendlyName      : RoamingFeature

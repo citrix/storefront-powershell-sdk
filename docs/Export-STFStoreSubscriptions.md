@@ -18,8 +18,8 @@ Export user subscriptions from a Store to a text file in csv format.
 
 ## Related Commands
 
-* [Import-STFStoreSubscriptions](Import-STFStoreSubscriptions.md)
-* [Restore-STFStoreSubscriptions](Restore-STFStoreSubscriptions.md)
+* [Import-STFStoreSubscriptions](./Import-STFStoreSubscriptions)
+* [Restore-STFStoreSubscriptions](./Restore-STFStoreSubscriptions)
 
 ## Parameters
 
@@ -65,9 +65,7 @@ Write-host "Total Elapsed Time: $($StopWatch.Elapsed.ToString())"
 
 **REMARKS**
 
-Exports the subscriptions from the Store named "Store" and outputs the total 
-
-time taken.
+Exports the subscriptions from the Store named "Store" and outputs the total time taken.
 
 **OUTPUT**
 

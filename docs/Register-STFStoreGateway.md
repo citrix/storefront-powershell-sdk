@@ -14,9 +14,9 @@ Register an authentication Gateway with the Store for use when users access Stor
 
 ## Related Commands
 
-* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway.md)
-* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway.md)
-* [Unregister-STFStoreGateway](Unregister-STFStoreGateway.md)
+* [Register-STFStoreOptimalLaunchGateway](./Register-STFStoreOptimalLaunchGateway)
+* [Unregister-STFStoreOptimalLaunchGateway](./Unregister-STFStoreOptimalLaunchGateway)
+* [Unregister-STFStoreGateway](./Unregister-STFStoreGateway)
 
 ## Parameters
 
@@ -61,6 +61,4 @@ Register-STFStoreGateway -Gateway $gateway9 -StoreService $storeService -Default
 
 **REMARKS**
 
-Get the Gateway "Netscaler9" from the global list and register it to the only 
-
-Store for full VPN access.
+Get the Gateway "Netscaler9" from the global list and register it to the only Store for full VPN access.

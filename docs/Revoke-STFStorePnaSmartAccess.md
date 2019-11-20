@@ -26,9 +26,9 @@ Removes the certificate to be used for the purpose of verifying signed data supp
 
 ## Related Commands
 
-* [Grant-STFStorePnaSmartAccess](Grant-STFStorePnaSmartAccess.md)
-* [Get-STFStorePnaSmartAccess](Get-STFStorePnaSmartAccess.md)
-* [Set-STFStorePnaSmartAccess](Set-STFStorePnaSmartAccess.md)
+* [Grant-STFStorePnaSmartAccess](./Grant-STFStorePnaSmartAccess)
+* [Get-STFStorePnaSmartAccess](./Get-STFStorePnaSmartAccess)
+* [Set-STFStorePnaSmartAccess](./Set-STFStorePnaSmartAccess)
 
 ## Parameters
 
@@ -92,6 +92,4 @@ Revoke-STFStorePnaSmartAccess -StoreService $store -CertificateThumbprint "DFD29
 
 **REMARKS**
 
-Revoke the server trust using the specified certificate so it can no longer 
-
-use SmartAccess.
+Revoke the server trust using the specified certificate so it can no longer use SmartAccess.

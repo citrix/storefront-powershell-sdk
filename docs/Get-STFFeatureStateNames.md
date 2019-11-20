@@ -14,14 +14,14 @@ Gets a list of names of all the registered FeatureState objects
 
 ## Related Commands
 
-* [Add-STFFeatureState](Add-STFFeatureState.md)
-* [Get-STFFeatureState](Get-STFFeatureState.md)
-* [New-STFFeatureState](New-STFFeatureState.md)
-* [New-STFFeatureStateProperty](New-STFFeatureStateProperty.md)
-* [Remove-STFFeatureState](Remove-STFFeatureState.md)
-* [Clear-STFFeatureStates](Clear-STFFeatureStates.md)
-* [Reset-STFFeatureData](Reset-STFFeatureData.md)
-* [Set-STFFeatureState](Set-STFFeatureState.md)
+* [Add-STFFeatureState](./Add-STFFeatureState)
+* [Get-STFFeatureState](./Get-STFFeatureState)
+* [New-STFFeatureState](./New-STFFeatureState)
+* [New-STFFeatureStateProperty](./New-STFFeatureStateProperty)
+* [Remove-STFFeatureState](./Remove-STFFeatureState)
+* [Clear-STFFeatureStates](./Clear-STFFeatureStates)
+* [Reset-STFFeatureData](./Reset-STFFeatureData)
+* [Set-STFFeatureState](./Set-STFFeatureState)
 
 ## Input Type
 

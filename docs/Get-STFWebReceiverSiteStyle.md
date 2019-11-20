@@ -14,8 +14,8 @@ The style information is retrieved from css file of the site. This style is limi
 
 ## Related Commands
 
-* [Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle.md)
-* [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle.md)
+* [Clear-STFWebReceiverSiteStyle](./Clear-STFWebReceiverSiteStyle)
+* [Get-STFWebReceiverDefaultSiteStyle](./Get-STFWebReceiverDefaultSiteStyle)
 
 ## Parameters
 
@@ -63,10 +63,8 @@ Get the style of the only configured WebReceiver service.
 **OUTPUT**
 
 ```
-HeaderLogoPath        : C:\inetpub\wwwroot\Citrix\StoreWeb\receiver\images\2x\C
-itrixReceiverLogo_Home@2x_3FEDFD700D66DF42.png
-LogonLogoPath         : C:\inetpub\wwwroot\Citrix\StoreWeb\receiver\images\2x\C
-itrixStoreFront_auth@2x_1B99A8ADCDDFD9AB.png
+HeaderLogoPath        : C:\inetpub\wwwroot\Citrix\StoreWeb\receiver\images\2x\CitrixReceiverLogo_Home@2x_3FEDFD700D66DF42.png
+LogonLogoPath         : C:\inetpub\wwwroot\Citrix\StoreWeb\receiver\images\2x\CitrixStoreFront_auth@2x_1B99A8ADCDDFD9AB.png
 HeaderBackgroundColor : #574f5b
 HeaderForegroundColor : #fff
 LinkColor             : #02a1c1

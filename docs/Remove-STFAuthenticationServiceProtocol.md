@@ -14,10 +14,10 @@ Remove a protocol from the specified Authentication service.
 
 ## Related Commands
 
-* [Get-STFAuthenticationProtocolsAvailable](Get-STFAuthenticationProtocolsAvailable.md)
-* [Enable-STFAuthenticationServiceProtocol](Enable-STFAuthenticationServiceProtocol.md)
-* [Disable-STFAuthenticationServiceProtocol](Disable-STFAuthenticationServiceProtocol.md)
-* [Add-STFAuthenticationServiceProtocol](Add-STFAuthenticationServiceProtocol.md)
+* [Get-STFAuthenticationProtocolsAvailable](./Get-STFAuthenticationProtocolsAvailable)
+* [Enable-STFAuthenticationServiceProtocol](./Enable-STFAuthenticationServiceProtocol)
+* [Disable-STFAuthenticationServiceProtocol](./Disable-STFAuthenticationServiceProtocol)
+* [Add-STFAuthenticationServiceProtocol](./Add-STFAuthenticationServiceProtocol)
 
 ## Parameters
 

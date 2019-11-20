@@ -14,8 +14,8 @@ Gets the feature instances that have been added to the specified WebReceiver ser
 
 ## Related Commands
 
-* [Add-STFWebReceiverFeature](Add-STFWebReceiverFeature.md)
-* [Remove-STFWebReceiverFeature](Remove-STFWebReceiverFeature.md)
+* [Add-STFWebReceiverFeature](./Add-STFWebReceiverFeature)
+* [Remove-STFWebReceiverFeature](./Remove-STFWebReceiverFeature)
 
 ## Parameters
 

@@ -14,9 +14,9 @@ SessionManagerTrustedIssuers are used to indicate that SAML assertions originati
 
 ## Related Commands
 
-* [Add-STFSessionManagerTrustedIssuer](Add-STFSessionManagerTrustedIssuer.md)
-* [New-STFSessionManagerTrustedIssuer](New-STFSessionManagerTrustedIssuer.md)
-* [Get-STFStoreService](Get-STFStoreService.md)
+* [Add-STFSessionManagerTrustedIssuer](./Add-STFSessionManagerTrustedIssuer)
+* [New-STFSessionManagerTrustedIssuer](./New-STFSessionManagerTrustedIssuer)
+* [Get-STFStoreService](./Get-STFStoreService)
 
 ## Parameters
 

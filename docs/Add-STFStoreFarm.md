@@ -18,8 +18,8 @@ Add a XenApp \ XenDesktop farm to the specified Store service.
 
 ## Related Commands
 
-* [Remove-STFStoreFarm](Remove-STFStoreFarm.md)
-* [Get-STFStoreFarm](Get-STFStoreFarm.md)
+* [Remove-STFStoreFarm](./Remove-STFStoreFarm)
+* [Get-STFStoreFarm](./Get-STFStoreFarm)
 
 ## Parameters
 
@@ -169,6 +169,4 @@ Add-STFStoreFarm -StoreService $store2 -Farm $farm
 
 **REMARKS**
 
-Adds a new farm to $store2 with the same properties as the first farm from 
-
-$store1. The farm object ($farm) is not changed by this operation.
+Adds a new farm to $store2 with the same properties as the first farm from $store1. The farm object ($farm) is not changed by this operation.

@@ -42,10 +42,7 @@ Get the StoreFront server group configuration
 **OUTPUT**
 
 ```
-ClusterMembers                            ConfigurationFile                    
-     TenantId                                
---------------                            -----------------                    
-     --------                                
-{ServerA, ServerB}                        C:\Program Files\Citrix\Receiver 
-Store... 860e9401-39c8-4f2c-928d-34251102b840
+ClusterMembers                            ConfigurationFile                         TenantId                                
+--------------                            -----------------                         --------                                
+{ServerA, ServerB}                        C:\Program Files\Citrix\Receiver Store... 860e9401-39c8-4f2c-928d-34251102b840
 ```

@@ -18,9 +18,9 @@ Configures a certificate to be used for the purpose of verifying signed data sup
 
 ## Related Commands
 
-* [Revoke-STFStorePnaSmartAccess](Revoke-STFStorePnaSmartAccess.md)
-* [Get-STFStorePnaSmartAccess](Get-STFStorePnaSmartAccess.md)
-* [Set-STFStorePnaSmartAccess](Set-STFStorePnaSmartAccess.md)
+* [Revoke-STFStorePnaSmartAccess](./Revoke-STFStorePnaSmartAccess)
+* [Get-STFStorePnaSmartAccess](./Get-STFStorePnaSmartAccess)
+* [Set-STFStorePnaSmartAccess](./Set-STFStorePnaSmartAccess)
 
 ## Parameters
 

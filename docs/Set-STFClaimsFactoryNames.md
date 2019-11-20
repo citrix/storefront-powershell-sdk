@@ -46,6 +46,4 @@ Set-STFClaimsFactoryNames -AuthenticationService $authenticationService -ClaimsF
 
 **REMARKS**
 
-This example sets all the claims factory names to be: FASClaimsFactory in the 
-
-specified authentication service.
+This example sets all the claims factory names to be: FASClaimsFactory in the specified authentication service.

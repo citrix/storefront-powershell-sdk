@@ -18,9 +18,9 @@ StoreFront stores aggregate desktops and applications, making them available to 
 
 ## Related Commands
 
-* [Get-STFStoreService](Get-STFStoreService.md)
-* [Remove-STFStoreService](Remove-STFStoreService.md)
-* [Set-STFStoreService](Set-STFStoreService.md)
+* [Get-STFStoreService](./Get-STFStoreService)
+* [Remove-STFStoreService](./Remove-STFStoreService)
+* [Set-STFStoreService](./Set-STFStoreService)
 
 ## Parameters
 

@@ -42,8 +42,8 @@ site and its associated Authentication service.
 
 ## Related Commands
 
-* [Get-STFWebReceiverAuthenticationMethods](Get-STFWebReceiverAuthenticationMethods.md)
-* [Get-STFWebReceiverAuthenticationMethodsAvailable](Get-STFWebReceiverAuthenticationMethodsAvailable.md)
+* [Get-STFWebReceiverAuthenticationMethods](./Get-STFWebReceiverAuthenticationMethods)
+* [Get-STFWebReceiverAuthenticationMethodsAvailable](./Get-STFWebReceiverAuthenticationMethodsAvailable)
 
 ## Parameters
 
@@ -82,6 +82,4 @@ Set-STFWebReceiverAuthenticationMethods -WebReceiverService $webReceiver -Authen
 
 **REMARKS**
 
-Set the current WebReceiver authentication methods for /Citrix/StoreWeb to be 
-
-all those available.
+Set the current WebReceiver authentication methods for /Citrix/StoreWeb to be all those available.

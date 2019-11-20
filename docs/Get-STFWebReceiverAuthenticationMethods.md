@@ -14,8 +14,8 @@ Get a list of the current methods that can be used for authentication.
 
 ## Related Commands
 
-* [Set-STFWebReceiverAuthenticationMethods](Set-STFWebReceiverAuthenticationMethods.md)
-* [Get-STFWebReceiverAuthenticationMethodsAvailable](Get-STFWebReceiverAuthenticationMethodsAvailable.md)
+* [Set-STFWebReceiverAuthenticationMethods](./Set-STFWebReceiverAuthenticationMethods)
+* [Get-STFWebReceiverAuthenticationMethodsAvailable](./Get-STFWebReceiverAuthenticationMethodsAvailable)
 
 ## Parameters
 

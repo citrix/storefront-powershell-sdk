@@ -14,10 +14,10 @@ Adds one or more authentication protocols to the specified Authentication servic
 
 ## Related Commands
 
-* [Get-STFAuthenticationProtocolsAvailable](Get-STFAuthenticationProtocolsAvailable.md)
-* [Remove-STFAuthenticationServiceProtocol](Remove-STFAuthenticationServiceProtocol.md)
-* [Enable-STFAuthenticationServiceProtocol](Enable-STFAuthenticationServiceProtocol.md)
-* [Disable-STFAuthenticationServiceProtocol](Disable-STFAuthenticationServiceProtocol.md)
+* [Get-STFAuthenticationProtocolsAvailable](./Get-STFAuthenticationProtocolsAvailable)
+* [Remove-STFAuthenticationServiceProtocol](./Remove-STFAuthenticationServiceProtocol)
+* [Enable-STFAuthenticationServiceProtocol](./Enable-STFAuthenticationServiceProtocol)
+* [Disable-STFAuthenticationServiceProtocol](./Disable-STFAuthenticationServiceProtocol)
 
 ## Parameters
 

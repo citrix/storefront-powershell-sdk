@@ -14,7 +14,7 @@ Get the Store options used when enumerating the XenApp and XenDesktop xml servic
 
 ## Related Commands
 
-* [Set-STFStoreEnumerationOptions](Set-STFStoreEnumerationOptions.md)
+* [Set-STFStoreEnumerationOptions](./Set-STFStoreEnumerationOptions)
 
 ## Parameters
 
@@ -54,8 +54,7 @@ EnhancedEnumeration                          : True
 MaximumConcurrentEnumerations                : 0
 MinimumFarmsRequiredForConcurrentEnumeration : 3
 RequestFullIconData                          : FullAndMulti
-RequestedHighColorIcons                      : {[small, 16], [medium, 32], 
-[large, 48]}
+RequestedHighColorIcons                      : {[small, 16], [medium, 32], [large, 48]}
 FilterByTypesInclude                         :
 FilterByKeywordsInclude                      :
 FilterByKeywordsExclude                      :

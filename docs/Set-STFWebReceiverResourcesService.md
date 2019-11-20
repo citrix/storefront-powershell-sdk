@@ -14,7 +14,7 @@ Set the WebReceiver Resources Service settings.
 
 ## Related Commands
 
-* [Get-STFWebReceiverResourcesService](Get-STFWebReceiverResourcesService.md)
+* [Get-STFWebReceiverResourcesService](./Get-STFWebReceiverResourcesService)
 
 ## Parameters
 
@@ -63,6 +63,4 @@ Set-STFWebReceiverResourcesService -WebReceiverService $webReceiver -ShowDesktop
 
 **REMARKS**
 
-Set the Desktop Viewer to be shown for the WebReceiver located at 
-
-/Citrix/StoreWeb.
+Set the Desktop Viewer to be shown for the WebReceiver located at /Citrix/StoreWeb.

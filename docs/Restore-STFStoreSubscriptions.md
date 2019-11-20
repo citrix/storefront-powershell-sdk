@@ -18,8 +18,8 @@ Restore user subscriptions to a Store from a text file in the correct csv format
 
 ## Related Commands
 
-* [Export-STFStoreSubscriptions](Export-STFStoreSubscriptions.md)
-* [Import-STFStoreSubscriptions](Import-STFStoreSubscriptions.md)
+* [Export-STFStoreSubscriptions](./Export-STFStoreSubscriptions)
+* [Import-STFStoreSubscriptions](./Import-STFStoreSubscriptions)
 
 ## Parameters
 

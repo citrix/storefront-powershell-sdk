@@ -14,7 +14,7 @@ Update the configuration of the Domain service.
 
 ## Related Commands
 
-* [Get-STFDomainService](Get-STFDomainService.md)
+* [Get-STFDomainService](./Get-STFDomainService)
 
 ## Parameters
 

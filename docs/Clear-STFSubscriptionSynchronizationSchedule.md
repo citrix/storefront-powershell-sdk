@@ -14,8 +14,8 @@ Clear the subscription synchronization schedule configured to pull self service 
 
 ## Related Commands
 
-* [Add-STFSubscriptionSynchronizationSchedule](Add-STFSubscriptionSynchronizationSchedule.md)
-* [Get-STFSubscriptionSynchronizationSchedule](Get-STFSubscriptionSynchronizationSchedule.md)
+* [Add-STFSubscriptionSynchronizationSchedule](./Add-STFSubscriptionSynchronizationSchedule)
+* [Get-STFSubscriptionSynchronizationSchedule](./Get-STFSubscriptionSynchronizationSchedule)
 
 ## Input Type
 

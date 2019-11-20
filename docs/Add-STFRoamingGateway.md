@@ -18,10 +18,10 @@ Add a new Gateway to the global gateway list. Gateways for remote access and aut
 
 ## Related Commands
 
-* [Get-STFRoamingGateway](Get-STFRoamingGateway.md)
-* [Remove-STFRoamingGateway](Remove-STFRoamingGateway.md)
-* [Set-STFRoamingGateway](Set-STFRoamingGateway.md)
-* [New-STFRoamingGateway](New-STFRoamingGateway.md)
+* [Get-STFRoamingGateway](./Get-STFRoamingGateway)
+* [Remove-STFRoamingGateway](./Remove-STFRoamingGateway)
+* [Set-STFRoamingGateway](./Set-STFRoamingGateway)
+* [New-STFRoamingGateway](./New-STFRoamingGateway)
 
 ## Parameters
 

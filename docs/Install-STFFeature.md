@@ -18,7 +18,7 @@ Install a StoreFront feature that is not installed by default as part of a new d
 
 ## Related Commands
 
-* [Uninstall-STFFeature](Uninstall-STFFeature.md)
+* [Uninstall-STFFeature](./Uninstall-STFFeature)
 
 ## Parameters
 

@@ -14,8 +14,8 @@ Enable PNA (XenApp Services) for a Store so it can be accessed clients using the
 
 ## Related Commands
 
-* [Disable-STFStorePna](Disable-STFStorePna.md)
-* [Clear-STFDefaultPnaStore](Clear-STFDefaultPnaStore.md)
+* [Disable-STFStorePna](./Disable-STFStorePna)
+* [Clear-STFDefaultPnaStore](./Clear-STFDefaultPnaStore)
 
 ## Parameters
 
@@ -59,6 +59,4 @@ Enable-STFStorePna $storeService -AllowUserPasswordChange -DefaultPnaService
 
 **REMARKS**
 
-Enable PNA on the only Store, allow users to change password and make it the 
-
-deafult PNA site.
+Enable PNA on the only Store, allow users to change password and make it the deafult PNA site.

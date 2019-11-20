@@ -14,10 +14,10 @@ Disable one or more authentication protocols on the specified Authentication ser
 
 ## Related Commands
 
-* [Enable-STFAuthenticationServiceProtocol](Enable-STFAuthenticationServiceProtocol.md)
-* [Remove-STFAuthenticationServiceProtocol](Remove-STFAuthenticationServiceProtocol.md)
-* [Get-STFAuthenticationProtocolsAvailable](Get-STFAuthenticationProtocolsAvailable.md)
-* [Add-STFAuthenticationServiceProtocol](Add-STFAuthenticationServiceProtocol.md)
+* [Enable-STFAuthenticationServiceProtocol](./Enable-STFAuthenticationServiceProtocol)
+* [Remove-STFAuthenticationServiceProtocol](./Remove-STFAuthenticationServiceProtocol)
+* [Get-STFAuthenticationProtocolsAvailable](./Get-STFAuthenticationProtocolsAvailable)
+* [Add-STFAuthenticationServiceProtocol](./Add-STFAuthenticationServiceProtocol)
 
 ## Parameters
 
@@ -50,9 +50,7 @@ Disable-STFAuthenticationServiceProtocol -Name (Get-STFAuthenticationProtocolsAv
 
 **REMARKS**
 
-Disable all authentication protocols for the only configured Authentication 
-
-service.
+Disable all authentication protocols for the only configured Authentication service.
 
 ### EXAMPLE 2 Disable authentication protocol
 

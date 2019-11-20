@@ -14,9 +14,9 @@ Gets the Account self-service configuration from the Authentication service.
 
 ## Related Commands
 
-* [Set-STFAccountSelfService](Set-STFAccountSelfService.md)
-* [Get-STFPasswordManagerAccountSelfService](Get-STFPasswordManagerAccountSelfService.md)
-* [Set-STFPasswordManagerAccountSelfService](Set-STFPasswordManagerAccountSelfService.md)
+* [Set-STFAccountSelfService](./Set-STFAccountSelfService)
+* [Get-STFPasswordManagerAccountSelfService](./Get-STFPasswordManagerAccountSelfService)
+* [Set-STFPasswordManagerAccountSelfService](./Set-STFPasswordManagerAccountSelfService)
 
 ## Parameters
 
@@ -47,6 +47,4 @@ Get-STFAuthenticationServiceAccountSelfService -AuthenticationService $auth
 
 **REMARKS**
 
-Get the Account self-service details for the only configured Authentication 
-
-service.
+Get the Account self-service details for the only configured Authentication service.

@@ -56,9 +56,7 @@ Import-STFConfiguration -configurationZip '$env:userprofile\desktop\ConfigBackup
 
 **REMARKS**
 
-This will import the ConfigBackup.zip configuration archive using the host 
-
-base url and site id from the exported configuration.
+This will import the ConfigBackup.zip configuration archive using the host base url and site id from the exported configuration.
 
 ### EXAMPLE 2 Import Config to Configure an Unconfigured Machine
 
@@ -68,38 +66,20 @@ Import-STFConfiguration -configurationZip '$env:userprofile\desktop\ConfigBackup
 
 **REMARKS**
 
-Using the password supplied in $CredObject this cmdlet will decrypt and import 
-
-the ConfigBackup.ctxzip backup archive using the host base url and site id 
-
-from the exported configuration.
+Using the password supplied in $CredObject this cmdlet will decrypt and import the ConfigBackup.ctxzip backup archive using the host base url and site id from the exported configuration.
 
 Example PSCredential:
 
-$User = Any non empty string will suffice here. The exported configuration is 
-
-secured by only using the $Password.
+$User = Any non empty string will suffice here. The exported configuration is secured by only using the $Password.
 
 $Password = 'Secret'
 
 $Password = $Password | ConvertTo-SecureString -asPlainText -Force
 
-$CredObject = New-Object 
+$CredObject = New-Object System.Management.Automation.PSCredential($User,$Password)
 
-System.Management.Automation.PSCredential($User,$Password)
+Create a PowerShell credential object containing a username and password for symmetric encryption and decryption of configuration backup archives. PowerShell credential objects store passwords as secure strings in memory.
 
-Create a PowerShell credential object containing a username and password for 
+The user is irrelevant but mandatory to create a PowerShell credential object. The example code uses the currently logged in user.
 
-symmetric encryption and decryption of configuration backup archives. 
-
-PowerShell credential objects store passwords as secure strings in memory.
-
-The user is irrelevant but mandatory to create a PowerShell credential object. 
-
-The example code uses the currently logged in user.
-
-The password is used for symmetric encryption/decryption of the backup 
-
-archive. NOTE: The password DOES NOT need to match the user's password to 
-
-create a valid credential object.
+The password is used for symmetric encryption/decryption of the backup archive. NOTE: The password DOES NOT need to match the user's password to create a valid credential object.

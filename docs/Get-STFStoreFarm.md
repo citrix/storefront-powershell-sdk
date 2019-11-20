@@ -14,8 +14,8 @@ Get the XenApp\XenDesktop farms configured in the Store service.
 
 ## Related Commands
 
-* [Remove-STFStoreFarm](Remove-STFStoreFarm.md)
-* [Add-STFStoreFarm](Add-STFStoreFarm.md)
+* [Remove-STFStoreFarm](./Remove-STFStoreFarm)
+* [Add-STFStoreFarm](./Add-STFStoreFarm)
 
 ## Parameters
 

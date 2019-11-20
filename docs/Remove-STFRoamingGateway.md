@@ -18,9 +18,9 @@ Remove a Gateway from the global list of Gateways and from any Stores that are c
 
 ## Related Commands
 
-* [Add-STFRoamingGateway](Add-STFRoamingGateway.md)
-* [Get-STFRoamingGateway](Get-STFRoamingGateway.md)
-* [Set-STFRoamingGateway](Set-STFRoamingGateway.md)
+* [Add-STFRoamingGateway](./Add-STFRoamingGateway)
+* [Get-STFRoamingGateway](./Get-STFRoamingGateway)
+* [Set-STFRoamingGateway](./Set-STFRoamingGateway)
 
 ## Parameters
 

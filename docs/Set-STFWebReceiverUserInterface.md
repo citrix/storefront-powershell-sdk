@@ -14,7 +14,7 @@ Set the WebReceiver User Interface client options.
 
 ## Related Commands
 
-* [Get-STFWebReceiverUserInterface](Get-STFWebReceiverUserInterface.md)
+* [Get-STFWebReceiverUserInterface](./Get-STFWebReceiverUserInterface)
 
 ## Parameters
 
@@ -113,6 +113,4 @@ Set-STFWebReceiverUserInterface -WebReceiverService $receiver -AutoLaunchDesktop
 
 **REMARKS**
 
-Set WebReceiver multi-click timeout to 10 seconds and disable desktop auto 
-
-launch in the User Interface options.
+Set WebReceiver multi-click timeout to 10 seconds and disable desktop auto launch in the User Interface options.

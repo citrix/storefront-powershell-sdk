@@ -14,7 +14,7 @@ Reads a NetScaler remote access configuration package into a NetScalerConfigurat
 
 ## Related Commands
 
-* [Test-STFSecureTicketAuthority](Test-STFSecureTicketAuthority.md)
+* [Test-STFSecureTicketAuthority](./Test-STFSecureTicketAuthority)
 
 ## Parameters
 
@@ -48,9 +48,7 @@ $netscalerConfiguration = Read-STFNetScalerConfiguration –Path C:\NSG\Configur
 
 **REMARKS**
 
-The populated object can be supplied to the related cmdlets for validation and 
-
-import.
+The populated object can be supplied to the related cmdlets for validation and import.
 
 **OUTPUT**
 
@@ -86,9 +84,7 @@ Read-STFNetScalerConfiguration –Path C:\NSG\Configuration.zip -Verbose
 
 **REMARKS**
 
-The populated object can be supplied to the related cmdlets for validation and 
-
-import. Messages related to the import are output to the console
+The populated object can be supplied to the related cmdlets for validation and import. Messages related to the import are output to the console
 
 **OUTPUT**
 
@@ -115,11 +111,9 @@ Version     : 1.0
 Time        : 2016-01-25T15:37:22.34
 Document    : Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.Document
 
-VERBOSE: The gateway id us.gateway.citrix.com:443 has no Secure Ticket 
-Authorities defined so can only be used for
+VERBOSE: The gateway id us.gateway.citrix.com:443 has no Secure Ticket Authorities defined so can only be used for
 authentication.
-VERBOSE: The gateway id uk.gateway.citrix.com:443 has no Secure Ticket 
-Authorities defined so can only be used for
+VERBOSE: The gateway id uk.gateway.citrix.com:443 has no Secure Ticket Authorities defined so can only be used for
 authentication.
 ```
 
@@ -132,9 +126,7 @@ $ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\deskt
 
 **REMARKS**
 
-The populated object can be inspected as shown to list all the gateway 
-
-definitions. Messages related to the import are output to the console
+The populated object can be inspected as shown to list all the gateway definitions. Messages related to the import are output to the console
 
 **OUTPUT**
 
@@ -142,42 +134,30 @@ definitions. Messages related to the import are output to the console
 GatewayMode            : CVPN
                           CallbackUrl            :
                           GslbAddressUri         : https://gateway.domain.com/
-                          AddressUri             : 
-https://ukgateway.domain.com/
-                          Address                : 
-https://ukgateway.domain.com:443
-                          GslbAddress            : 
-https://gateway.domain.com.com:443
+                          AddressUri             : https://ukgateway.domain.com/
+                          Address                : https://ukgateway.domain.com:443
+                          GslbAddress            : https://gateway.domain.com.com:443
                           VipAddress             : 10.0.0.1
-                          Stas                   : {STA298854503, 
-STA909374257, STA443006025, STA490101972...}
+                          Stas                   : {STA298854503, STA909374257, STA443006025, STA490101972...}
                           StaLoadBalance         : True
-                          CertificateThumbprints : 
-{F549AFAA29EBF61E8709F2316B3981AD503AF387}
+                          CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : Domain
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 
                           GatewayMode            : CVPN
                           CallbackUrl            :
                           GslbAddressUri         : https://gateway.domain.com/
-                          AddressUri             : 
-https://ukgateway.domain.com/
-                          Address                : 
-https://ukgateway.domain.com:443
-                          GslbAddress            : 
-https://gateway.domain.com.com:443
+                          AddressUri             : https://ukgateway.domain.com/
+                          Address                : https://ukgateway.domain.com:443
+                          GslbAddress            : https://gateway.domain.com.com:443
                           VipAddress             : 10.0.0.2
-                          Stas                   : {STA298854503, 
-STA909374257, STA443006025, STA490101972...}
+                          Stas                   : {STA298854503, STA909374257, STA443006025, STA490101972...}
                           StaLoadBalance         : True
-                          CertificateThumbprints : 
-{F549AFAA29EBF61E8709F2316B3981AD503AF387}
+                          CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : DomainAndRSA
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 ```
 
 ### EXAMPLE 4 Read configuration package
@@ -189,9 +169,7 @@ $ImportedGateways = Read-STFNetScalerConfiguration -path "$env:USERPROFILE\deskt
 
 **REMARKS**
 
-The populated object can be inspected as shown to show an individual gateway 
-
-definition. Messages related to the import are output to the console
+The populated object can be inspected as shown to show an individual gateway definition. Messages related to the import are output to the console
 
 **OUTPUT**
 
@@ -199,20 +177,14 @@ definition. Messages related to the import are output to the console
 GatewayMode            : CVPN
                           CallbackUrl            :
                           GslbAddressUri         : https://gateway.domain.com/
-                          AddressUri             : 
-https://ukgateway.domain.com/
-                          Address                : 
-https://ukgateway.domain.com:443
-                          GslbAddress            : 
-https://gateway.domain.com.com:443
+                          AddressUri             : https://ukgateway.domain.com/
+                          Address                : https://ukgateway.domain.com:443
+                          GslbAddress            : https://gateway.domain.com.com:443
                           VipAddress             : 10.0.0.1
-                          Stas                   : {STA298854503, 
-STA909374257, STA443006025, STA490101972...}
+                          Stas                   : {STA298854503, STA909374257, STA443006025, STA490101972...}
                           StaLoadBalance         : True
-                          CertificateThumbprints : 
-{F549AFAA29EBF61E8709F2316B3981AD503AF387}
+                          CertificateThumbprints : {F549AFAA29EBF61E8709F2316B3981AD503AF387}
                           GatewayAuthType        : Domain
                           GatewayEdition         : Enterprise
-                          ReceiverForWebSites    : 
-{Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
+                          ReceiverForWebSites    : {Citrix.StoreFront.Model.Roaming.NetScalerConfiguration.ReceiverForWebSite}
 ```

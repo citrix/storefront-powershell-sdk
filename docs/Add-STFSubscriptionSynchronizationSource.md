@@ -18,8 +18,8 @@ Add a remote StoreFront synchronization source to pull self service application 
 
 ## Related Commands
 
-* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
-* [Get-STFSubscriptionSynchronizationSource](Get-STFSubscriptionSynchronizationSource.md)
+* [Clear-STFSubscriptionSynchronizationSource](./Clear-STFSubscriptionSynchronizationSource)
+* [Get-STFSubscriptionSynchronizationSource](./Get-STFSubscriptionSynchronizationSource)
 
 ## Parameters
 
@@ -76,9 +76,7 @@ Add-STFSubscriptionSynchronizationSource -StoreService $storeService -RemoteStor
 
 **REMARKS**
 
-Synchronize the subscriptions from server group another.storefront.com to the 
-
-only configured store.
+Synchronize the subscriptions from server group another.storefront.com to the only configured store.
 
 ### EXAMPLE 2 Synchronize Store subscriptions by Store name
 
@@ -88,6 +86,4 @@ Add-STFSubscriptionSynchronizationSource -StoreName "MyStore" -RemoteStoreFrontA
 
 **REMARKS**
 
-Synchronize the subscriptions from server group another.storefront.com for the 
-
-Store name "MyStore".
+Synchronize the subscriptions from server group another.storefront.com for the Store name "MyStore".

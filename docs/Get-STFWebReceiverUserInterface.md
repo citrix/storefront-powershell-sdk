@@ -58,8 +58,7 @@ WorkspaceControl      : Enabled              : True
                         ShowReconnectButton  : True
                         ShowDisconnectButton : True
 ReceiverConfiguration : Enabled     : True
-                        DownloadUrl : 
-ServiceRecord/GetDocument/receiverconfig.cr
+                        DownloadUrl : ServiceRecord/GetDocument/receiverconfig.cr
 AppShortcuts          : Enabled               : False
                         AllowSessionReconnect : False
 UIViews               : ShowAppsView     : True

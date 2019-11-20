@@ -18,7 +18,7 @@ Set the CitrixAGBasic Authentication service protocol options.
 
 ## Related Commands
 
-* [Set-STFCitrixAGBasicOptions](Set-STFCitrixAGBasicOptions.md)
+* [Set-STFCitrixAGBasicOptions](./Set-STFCitrixAGBasicOptions)
 
 ## Parameters
 
@@ -57,6 +57,4 @@ Set-STFCitrixAGBasicOptions -AuthenticationService $authentication -CredentialVa
 
 **REMARKS**
 
-Sets the CitrixAGBasic CredentialValidationMode to password on the only 
-
-configured authentication service.
+Sets the CitrixAGBasic CredentialValidationMode to password on the only configured authentication service.

@@ -14,9 +14,9 @@ Configure the settings related to the verification of PNA SmartAccess HTTP heade
 
 ## Related Commands
 
-* [Grant-STFStorePnaSmartAccess](Grant-STFStorePnaSmartAccess.md)
-* [Revoke-STFStorePnaSmartAccess](Revoke-STFStorePnaSmartAccess.md)
-* [Get-STFStorePnaSmartAccess](Get-STFStorePnaSmartAccess.md)
+* [Grant-STFStorePnaSmartAccess](./Grant-STFStorePnaSmartAccess)
+* [Revoke-STFStorePnaSmartAccess](./Revoke-STFStorePnaSmartAccess)
+* [Get-STFStorePnaSmartAccess](./Get-STFStorePnaSmartAccess)
 
 ## Parameters
 
@@ -50,6 +50,4 @@ Set-STFStorePnaSmartAccess -StoreService $store -HeaderValidity 60
 
 **REMARKS**
 
-Sets the http headers to be trusted for up to 60 seconds after the current 
-
-server date time.
+Sets the http headers to be trusted for up to 60 seconds after the current server date time.

@@ -14,7 +14,7 @@ Get the WebReceiver Resources Service settings.
 
 ## Related Commands
 
-* [Set-STFWebReceiverResourcesService](Set-STFWebReceiverResourcesService.md)
+* [Set-STFWebReceiverResourcesService](./Set-STFWebReceiverResourcesService)
 
 ## Parameters
 
@@ -45,9 +45,7 @@ Get-STFWebReceiverResourcesService -WebReceiverService $receiver
 
 **REMARKS**
 
-Get the WebReceiver Resources service settings of the only configured 
-
-WebReceiver.
+Get the WebReceiver Resources service settings of the only configured WebReceiver.
 
 **OUTPUT**
 

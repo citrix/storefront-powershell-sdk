@@ -14,7 +14,7 @@ Get the options used by a Store when launching an application or desktop on XenA
 
 ## Related Commands
 
-* [Set-STFStoreLaunchOptions](Set-STFStoreLaunchOptions.md)
+* [Set-STFStoreLaunchOptions](./Set-STFStoreLaunchOptions)
 
 ## Parameters
 
@@ -61,6 +61,5 @@ AllowFontSmoothing                    : True
 ShowDesktopViewer                     : False
 AllowSpecialFolderRedirection         : False
 ClientProxyPolicy                     : {}
-RoutingPolicy                         : 
-Citrix.StoreFront.Model.Store.RoutingPolicy
+RoutingPolicy                         : Citrix.StoreFront.Model.Store.RoutingPolicy
 ```

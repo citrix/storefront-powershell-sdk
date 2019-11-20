@@ -14,8 +14,8 @@ Clears the default PNA store hosted at the default PNA url, http://example.store
 
 ## Related Commands
 
-* [Enable-STFStorePna](Enable-STFStorePna.md)
-* [Disable-STFStorePna](Disable-STFStorePna.md)
+* [Enable-STFStorePna](./Enable-STFStorePna)
+* [Disable-STFStorePna](./Disable-STFStorePna)
 
 ## Parameters
 

@@ -14,8 +14,8 @@ Get all the remote StoreFront clusters configured to synchronization subscriptio
 
 ## Related Commands
 
-* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
-* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
+* [Add-STFSubscriptionSynchronizationSource](./Add-STFSubscriptionSynchronizationSource)
+* [Clear-STFSubscriptionSynchronizationSource](./Clear-STFSubscriptionSynchronizationSource)
 
 ## Input Type
 

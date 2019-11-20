@@ -17,11 +17,11 @@ The existing Featured App group is identified by its Title property.
 
 ## Related Commands
 
-* [New-STFWebReceiverFeaturedAppGroup](New-STFWebReceiverFeaturedAppGroup.md)
-* [Add-STFWebReceiverFeaturedAppGroup](Add-STFWebReceiverFeaturedAppGroup.md)
-* [Remove-STFWebReceiverFeaturedAppGroup](Remove-STFWebReceiverFeaturedAppGroup.md)
-* [Clear-STFWebReceiverFeaturedAppGroup](Clear-STFWebReceiverFeaturedAppGroup.md)
-* [Set-STFWebReceiverFeaturedAppGroups](Set-STFWebReceiverFeaturedAppGroups.md)
+* [New-STFWebReceiverFeaturedAppGroup](./New-STFWebReceiverFeaturedAppGroup)
+* [Add-STFWebReceiverFeaturedAppGroup](./Add-STFWebReceiverFeaturedAppGroup)
+* [Remove-STFWebReceiverFeaturedAppGroup](./Remove-STFWebReceiverFeaturedAppGroup)
+* [Clear-STFWebReceiverFeaturedAppGroup](./Clear-STFWebReceiverFeaturedAppGroup)
+* [Set-STFWebReceiverFeaturedAppGroups](./Set-STFWebReceiverFeaturedAppGroups)
 
 ## Parameters
 
@@ -95,6 +95,4 @@ Set-STFWebReceiverFeaturedAppGroup -WebReceiverService $webReceiver -FeaturedApp
 
 **REMARKS**
 
-Sets the Featured Application group for the Worx Suite to now specify the 
-
-contents by app name instead of keyword.
+Sets the Featured Application group for the Worx Suite to now specify the contents by app name instead of keyword.

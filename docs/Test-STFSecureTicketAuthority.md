@@ -14,7 +14,7 @@ Validate a PowerShell object populated with a NetScaler gateway STA configuratio
 
 ## Related Commands
 
-* [Read-STFNetScalerConfiguration](Read-STFNetScalerConfiguration.md)
+* [Read-STFNetScalerConfiguration](./Read-STFNetScalerConfiguration)
 
 ## Parameters
 
@@ -49,17 +49,11 @@ $stasToUpdate = Test-STFSecureTicketAuthority -StaConfigurationObject $netscaler
 
 **REMARKS**
 
-Returns a list of STA servers with a validation status indicating success or 
+Returns a list of STA servers with a validation status indicating success or failure including incorrect STA authorities.
 
-failure including incorrect STA authorities.
+The STA url provided by NetScaler may not resolve on an internal network so will need updating to a StoreFront local address.
 
-The STA url provided by NetScaler may not resolve on an internal network so 
-
-will need updating to a StoreFront local address.
-
-The STA authority must match that provided in the NetScaler configuration 
-
-export.
+The STA authority must match that provided in the NetScaler configuration export.
 
 ### EXAMPLE 2 Validate a NetScaler gateway STA configuration with incorrect Authority Id
 
@@ -70,25 +64,16 @@ $stasToUpdate = Test-STFSecureTicketAuthority -StaConfigurationObject $netscaler
 
 **REMARKS**
 
-Returns a list of STA servers with a validation status indicating success or 
+Returns a list of STA servers with a validation status indicating success or failure including incorrect STA authorities.
 
-failure including incorrect STA authorities.
+The STA url provided by NetScaler may not resolve on an internal network so will need updating to a StoreFront local address.
 
-The STA url provided by NetScaler may not resolve on an internal network so 
-
-will need updating to a StoreFront local address.
-
-The STA authority must match that provided in the NetScaler configuration 
-
-export. The expected output in the example shows both a valid and invalid STA 
-
-url location.
+The STA authority must match that provided in the NetScaler configuration export. The expected output in the example shows both a valid and invalid STA url location.
 
 **OUTPUT**
 
 ```
-WARNING: Cannot resolve the Sta server 
-'http://www.example.com/scripts/ctxsta.dll' to the authority id
+WARNING: Cannot resolve the Sta server 'http://www.example.com/scripts/ctxsta.dll' to the authority id
 'STA0000'.
 
 

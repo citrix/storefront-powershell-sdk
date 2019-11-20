@@ -61,9 +61,7 @@ Export-STFConfiguration -$targetFolder '$env:userprofile\desktop\' -zipFileName 
 
 **REMARKS**
 
-This example creates an unencrypted '.zip' file at '$env:userprofile\desktop\' 
-
-called ConfigBackup.
+This example creates an unencrypted '.zip' file at '$env:userprofile\desktop\' called ConfigBackup.
 
 ### EXAMPLE 2 Encrypted Config Export
 
@@ -73,36 +71,20 @@ Export-STFConfiguration -$targetFolder '$env:userprofile\desktop' -zipFileName '
 
 **REMARKS**
 
-This example creates an encrypted .ctxzip file as above using a pre-defined 
-
-PSCredential object.
+This example creates an encrypted .ctxzip file as above using a pre-defined PSCredential object.
 
 Example PSCredential:
 
-$User = Any non empty string will suffice here. The exported configuration is 
-
-secured by only using the $Password.
+$User = Any non empty string will suffice here. The exported configuration is secured by only using the $Password.
 
 $Password = 'Secret'
 
 $Password = $Password | ConvertTo-SecureString -asPlainText -Force
 
-$CredObject = New-Object 
+$CredObject = New-Object System.Management.Automation.PSCredential($User,$Password)
 
-System.Management.Automation.PSCredential($User,$Password)
+Create a PowerShell credential object containing a username and password for symmetric encryption and decryption of configuration backup archives. PowerShell credential objects store passwords as secure strings in memory.
 
-Create a PowerShell credential object containing a username and password for 
+The user is irrelevant but mandatory to create a PowerShell credential object. The example code uses the currently logged in user.
 
-symmetric encryption and decryption of configuration backup archives. 
-
-PowerShell credential objects store passwords as secure strings in memory.
-
-The user is irrelevant but mandatory to create a PowerShell credential object. 
-
-The example code uses the currently logged in user.
-
-The password is used for symmetric encryption/decryption of the backup 
-
-archive. NOTE: The password DOES NOT need to match the user's password to 
-
-create a valid credential object.
+The password is used for symmetric encryption/decryption of the backup archive. NOTE: The password DOES NOT need to match the user's password to create a valid credential object.

@@ -83,9 +83,7 @@ Set-STFDiagnostics -All 'Verbose'
 
 **REMARKS**
 
-Configures all StoreFront services to perform verbose level tracing useful for 
-
-identifying configuration issues.
+Configures all StoreFront services to perform verbose level tracing useful for identifying configuration issues.
 
 ### EXAMPLE 2 Enable tracing on the Store
 
@@ -96,6 +94,4 @@ Set-STFDiagnostics -Service $store -TraceLevel Verbose
 
 **REMARKS**
 
-Configures the Store service at /Citrix/Store to perform verbose level tracing 
-
-useful for identifying configuration issues.
+Configures the Store service at /Citrix/Store to perform verbose level tracing useful for identifying configuration issues.

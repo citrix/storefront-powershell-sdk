@@ -18,8 +18,8 @@ Removes a XenDesktop\XenApp farm from a Store service.
 
 ## Related Commands
 
-* [Add-STFStoreFarm](Add-STFStoreFarm.md)
-* [Set-STFStoreFarm](Set-STFStoreFarm.md)
+* [Add-STFStoreFarm](./Add-STFStoreFarm)
+* [Set-STFStoreFarm](./Set-STFStoreFarm)
 
 ## Parameters
 

@@ -18,9 +18,9 @@ Set the details of an existing farm.
 
 ## Related Commands
 
-* [Add-STFStoreFarm](Add-STFStoreFarm.md)
-* [Remove-STFStoreFarm](Remove-STFStoreFarm.md)
-* [Get-STFStoreFarm](Get-STFStoreFarm.md)
+* [Add-STFStoreFarm](./Add-STFStoreFarm)
+* [Remove-STFStoreFarm](./Remove-STFStoreFarm)
+* [Get-STFStoreFarm](./Get-STFStoreFarm)
 
 ## Parameters
 

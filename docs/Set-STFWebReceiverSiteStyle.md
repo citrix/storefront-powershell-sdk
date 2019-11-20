@@ -14,9 +14,9 @@ Sets the Style info in the custom style sheet for the unified experience Receive
 
 ## Related Commands
 
-* [Clear-STFWebReceiverSiteStyle](Clear-STFWebReceiverSiteStyle.md)
-* [Get-STFWebReceiverSiteStyle](Get-STFWebReceiverSiteStyle.md)
-* [Get-STFWebReceiverDefaultSiteStyle](Get-STFWebReceiverDefaultSiteStyle.md)
+* [Clear-STFWebReceiverSiteStyle](./Clear-STFWebReceiverSiteStyle)
+* [Get-STFWebReceiverSiteStyle](./Get-STFWebReceiverSiteStyle)
+* [Get-STFWebReceiverDefaultSiteStyle](./Get-STFWebReceiverDefaultSiteStyle)
 
 ## Parameters
 

@@ -14,7 +14,7 @@ Get the WebReceiver application shortcuts.
 
 ## Related Commands
 
-* [Set-STFWebReceiverApplicationShortcuts](Set-STFWebReceiverApplicationShortcuts.md)
+* [Set-STFWebReceiverApplicationShortcuts](./Set-STFWebReceiverApplicationShortcuts)
 
 ## Parameters
 
