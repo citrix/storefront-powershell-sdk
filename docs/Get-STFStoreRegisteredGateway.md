@@ -1,57 +1,30 @@
-﻿# Get-STFStoreRegisteredGateway
-
+#Get-STFStoreRegisteredGateway
 Get the gateways for Store used for authentication
-
-## Syntax
-
+##Syntax
+```Get-STFStoreRegisteredGateway [-StoreService] <StoreService> [<CommonParameters>]
 ```
-Get-STFStoreRegisteredGateway [-StoreService] <StoreService> [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the gateways that have been registered to a Store for authentication.
-
-## Related Commands
-
-* [Register-STFStoreGateway](Register-STFStoreGateway.md)
-* [Unregister-STFStoreGateway](Unregister-STFStoreGateway.md)
-
-## Parameters
-
-| Name   | Description | Required? | Pipeline Input | Default Value |
-| --- | --- | --- | --- | --- |
-|StoreService|The Store service from which to obtain the registered gateways.|true|true (ByValue)| |
-
-## Input Type
-
-### Citrix.StoreFront.Model.Store.StoreService
-
+##Related Commands
+*[Register-STFStoreGateway](Register-STFStoreGateway)
+*[Unregister-STFStoreGateway](Unregister-STFStoreGateway)
+##Parameters
+|Name|Description|Required?|Pipeline Input||--|--|--|--||StoreService|The Store service from which to obtain the registered gateways.|true|true (ByValue)|##Input Type
+###Citrix.StoreFront.Model.Store.StoreService
 Parameter StoreService: A .NET class representing the configuration of a StoreFront Store service
-
-## Return Values
-
-### RegisteredGatewaySummary
-
-The .NET `Citrix.StoreFront.Model.Store.RegisteredGatewaySummary` reference type
-
-## Examples
-
-### EXAMPLE 1 Get gateways for a Store
-
-```
-$storeService = Get-STFStoreService
+##Return Values
+###RegisteredGatewaySummary
+The .NET 'Citrix.StoreFront.Model.Store.RegisteredGatewaySummary' reference type
+##Examples
+###EXAMPLE 1 Get gateways for a Store
+```$storeService = Get-STFStoreService
 Get-STFStoreRegisteredGateway -StoreService $storeService
 ```
-
-**REMARKS**
+REMARKS
 
 Get gateways used for authentication for a Store.
-
-**OUTPUT**
-
-```
-EnabledOnDirectAccess     : False
+OUTPUT
+```EnabledOnDirectAccess     : False
 Farms                     : {}
 NeverLaunchThroughGateway : False
 Id                        : 9ecdb90c-3bf8-4d77-9401-4a39584ae882

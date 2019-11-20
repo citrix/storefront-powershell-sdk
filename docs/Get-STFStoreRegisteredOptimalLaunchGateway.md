@@ -1,57 +1,30 @@
-﻿# Get-STFStoreRegisteredOptimalLaunchGateway
-
+#Get-STFStoreRegisteredOptimalLaunchGateway
 Get the optimal launch gateways for Store
-
-## Syntax
-
+##Syntax
+```Get-STFStoreRegisteredOptimalLaunchGateway [-StoreService] <StoreService> [<CommonParameters>]
 ```
-Get-STFStoreRegisteredOptimalLaunchGateway [-StoreService] <StoreService> [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the optimal launch gateways that have been registered to a Store.
-
-## Related Commands
-
-* [Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway.md)
-* [Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway.md)
-
-## Parameters
-
-| Name   | Description | Required? | Pipeline Input | Default Value |
-| --- | --- | --- | --- | --- |
-|StoreService|The Store service from which to get the gateways|true|true (ByValue)| |
-
-## Input Type
-
-### Citrix.StoreFront.Model.Store.StoreService
-
+##Related Commands
+*[Register-STFStoreOptimalLaunchGateway](Register-STFStoreOptimalLaunchGateway)
+*[Unregister-STFStoreOptimalLaunchGateway](Unregister-STFStoreOptimalLaunchGateway)
+##Parameters
+|Name|Description|Required?|Pipeline Input||--|--|--|--||StoreService|The Store service from which to get the gateways|true|true (ByValue)|##Input Type
+###Citrix.StoreFront.Model.Store.StoreService
 Parameter StoreService: A .NET class representing the configuration of a StoreFront Store service
-
-## Return Values
-
-### OptimalGatewayForFarms
-
-The .NET `Citrix.StoreFront.Model.Store.OptimalGatewayForFarms` reference type
-
-## Examples
-
-### EXAMPLE 1 Get all Store optimal launch gateways
-
-```
-$storeService = Get-STFStoreService
+##Return Values
+###OptimalGatewayForFarms
+The .NET 'Citrix.StoreFront.Model.Store.OptimalGatewayForFarms' reference type
+##Examples
+###EXAMPLE 1 Get all Store optimal launch gateways
+```$storeService = Get-STFStoreService
 Get-STFStoreRegisteredOptimalLaunchGateway -StoreService $storeService
 ```
-
-**REMARKS**
+REMARKS
 
 Get all optimal gateways registered to a store.
-
-**OUTPUT**
-
-```
-EnabledOnDirectAccess     : False
+OUTPUT
+```EnabledOnDirectAccess     : False
 Farms                     : {}
 NeverLaunchThroughGateway : False
 Id                        : 9ecdb90c-3bf8-4d77-9401-4a39584ae882

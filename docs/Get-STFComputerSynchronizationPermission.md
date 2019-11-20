@@ -1,52 +1,26 @@
-﻿# Get-STFComputerSynchronizationPermission
-
+#Get-STFComputerSynchronizationPermission
 Get the computers with permission to synchronize
-
-## Syntax
-
+##Syntax
+```Get-STFComputerSynchronizationPermission [<CommonParameters>]
 ```
-Get-STFComputerSynchronizationPermission [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the Active Directory computer accounts with permission to synchronize subscriptions from this server.
-
-## Related Commands
-
-* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
-* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### String
-
-The .NET `System.String` reference type
-
-## Examples
-
-### EXAMPLE 1 Get permitted synchronization accounts
-
+##Related Commands
+*[Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource)
+*[Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource)
+##Input Type
+##Return Values
+###String
+The .NET 'System.String' reference type
+##Examples
+###EXAMPLE 1 Get permitted synchronization accounts
+```Get-ComputerSynchronizationPermission
 ```
-Get-ComputerSynchronizationPermission
-```
+REMARKS
 
-**REMARKS**
-
-Get the Active Directory accounts of the StoreFront servers with permissions 
-
-to synchronize.
-
-**OUTPUT**
-
-```
-SFDomain\SFEUServer1
+Get the Active Directory accounts of the StoreFront servers with permissions to synchronize.
+OUTPUT
+```SFDomain\SFEUServer1
 SFDomain\SFEUServer2
 SFDomain\SFUSServer1
 SFDomain\SFUSServer2

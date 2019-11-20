@@ -1,48 +1,24 @@
-﻿# Get-STFVersion
-
+#Get-STFVersion
 Get the StoreFront version number
-
-## Syntax
-
+##Syntax
+```Get-STFVersion [<CommonParameters>]
 ```
-Get-STFVersion [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the StoreFront version number in the format Major.Minor.Build.Revision.
-
-## Related Commands
-
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### Version
-
-The .NET `System.Version` reference type
-
-## Examples
-
-### EXAMPLE 1 Get the version number
-
+##Related Commands
+##Input Type
+##Return Values
+###Version
+The .NET 'System.Version' reference type
+##Examples
+###EXAMPLE 1 Get the version number
+```Get-STFVersion
 ```
-Get-STFVersion
-```
-
-**REMARKS**
+REMARKS
 
 Get the StoreFront version number.
-
-**OUTPUT**
-
-```
-Major  Minor  Build  Revision
+OUTPUT
+```Major  Minor  Build  Revision
 -----  -----  -----  --------
 3      1      0      1
 ```
