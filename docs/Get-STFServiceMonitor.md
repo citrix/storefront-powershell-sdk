@@ -1,68 +1,34 @@
-﻿# Get-STFServiceMonitor
-
+#Get-STFServiceMonitor
 Get the Service Monitor service
-
-## Syntax
-
+##Syntax
+```Get-STFServiceMonitor [<CommonParameters>]
 ```
-Get-STFServiceMonitor [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get the Server Monitor service used by NetScaler Gateway to perform health checks.
-
-## Related Commands
-
-* [Set-STFServiceMonitor](Set-STFServiceMonitor.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### MonitorService
-
-The .NET `Citrix.StoreFront.Model.WindowsServices.ServiceMonitor.MonitorService` reference type
-
-## Examples
-
-### EXAMPLE 1 Get the Service Monitor service
-
+##Related Commands
+*[Set-STFServiceMonitor](Set-STFServiceMonitor)
+##Input Type
+##Return Values
+###MonitorService
+The .NET 'Citrix.StoreFront.Model.WindowsServices.ServiceMonitor.MonitorService' reference type
+##Examples
+###EXAMPLE 1 Get the Service Monitor service
+```Get-STFServiceMonitor
 ```
-Get-STFServiceMonitor
-```
-
-**REMARKS**
+REMARKS
 
 Gets the Service Monitor service configuration.
-
-**OUTPUT**
-
+OUTPUT
+```HostedServices                ServiceUrl                    ConfigurationFile             TenantId
+--------------                ----------                    -----------------             --------
+{serviceMonitorService: En... http://localhost:8000/Stor... C:\Program Files\Citrix\Re... 860e9401-39c8-4f2c-928d-34...
 ```
-HostedServices                ServiceUrl                    ConfigurationFile  
-           TenantId
---------------                ----------                    -----------------  
-           --------
-{serviceMonitorService: En... http://localhost:8000/Stor... C:\Program 
-Files\Citrix\Re... 860e9401-39c8-4f2c-928d-34...
+###EXAMPLE 2 Get the Service Monitor service url
+```(Get-STFServiceMonitor).ServiceUrl.AbsoluteUri
 ```
-
-### EXAMPLE 2 Get the Service Monitor service url
-
-```
-(Get-STFServiceMonitor).ServiceUrl.AbsoluteUri
-```
-
-**REMARKS**
+REMARKS
 
 Gets the Service Monitor listening endpoint used by NetScaler.
-
-**OUTPUT**
-
-```
-http://localhost:8000/StorefrontMonitor
+OUTPUT
+```http://localhost:8000/StorefrontMonitor
 ```

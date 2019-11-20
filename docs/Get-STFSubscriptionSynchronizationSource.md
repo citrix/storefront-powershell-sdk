@@ -1,54 +1,28 @@
-﻿# Get-STFSubscriptionSynchronizationSource
-
+#Get-STFSubscriptionSynchronizationSource
 Get subscription synchronization sources
-
-## Syntax
-
+##Syntax
+```Get-STFSubscriptionSynchronizationSource [<CommonParameters>]
 ```
-Get-STFSubscriptionSynchronizationSource [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Get all the remote StoreFront clusters configured to synchronization subscriptions from.
-
-## Related Commands
-
-* [Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource.md)
-* [Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### RemoteCluster
-
-The .NET `Citrix.StoreFront.Model.WindowsServices.SubscriptionStore.RemoteCluster` reference type
-
-## Notes
-
+##Related Commands
+*[Add-STFSubscriptionSynchronizationSource](Add-STFSubscriptionSynchronizationSource)
+*[Clear-STFSubscriptionSynchronizationSource](Clear-STFSubscriptionSynchronizationSource)
+##Input Type
+##Return Values
+###RemoteCluster
+The .NET 'Citrix.StoreFront.Model.WindowsServices.SubscriptionStore.RemoteCluster' reference type
+##Notes
 Restarts the Citrix Subscription Store Service to read new settings.
-
-## Examples
-
-### EXAMPLE 1 Get synchronization sources
-
+##Examples
+###EXAMPLE 1 Get synchronization sources
+```Get-STFSubscriptionSynchronizationSource
 ```
-Get-STFSubscriptionSynchronizationSource
-```
-
-**REMARKS**
+REMARKS
 
 Get the StoreFront clusters that subscriptions will be synchronized from.
-
-**OUTPUT**
-
-```
-Name               : APACRegion
+OUTPUT
+```Name               : APACRegion
 Address            : apac.example.com
 Enabled            : True
 AuthenticationMode : Windows

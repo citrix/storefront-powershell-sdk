@@ -1,53 +1,26 @@
-﻿# Get-STFSubscriptionSynchronizationSchedule
-
+#Get-STFSubscriptionSynchronizationSchedule
 Get the subscription synchronization schedule
-
-## Syntax
-
+##Syntax
+```Get-STFSubscriptionSynchronizationSchedule [<CommonParameters>]
 ```
-Get-STFSubscriptionSynchronizationSchedule [<CommonParameters>]
-```
-
-## Detailed Description
-
+##Detailed Description
 Gets a summary of the current subscription synchronization schedule.
-
-## Related Commands
-
-* [Add-STFSubscriptionSynchronizationSchedule](Add-STFSubscriptionSynchronizationSchedule.md)
-* [Clear-STFSubscriptionSynchronizationSchedule](Clear-STFSubscriptionSynchronizationSchedule.md)
-
-## Input Type
-
-### 
-
-
-
-## Return Values
-
-### SynchronizationSchedule
-
-The .NET `Citrix.StoreFront.Model.WindowsServices.SubscriptionStore.SynchronizationSchedule` reference type
-
-## Examples
-
-### EXAMPLE 1 Get the current schedule
-
+##Related Commands
+*[Add-STFSubscriptionSynchronizationSchedule](Add-STFSubscriptionSynchronizationSchedule)
+*[Clear-STFSubscriptionSynchronizationSchedule](Clear-STFSubscriptionSynchronizationSchedule)
+##Input Type
+##Return Values
+###SynchronizationSchedule
+The .NET 'Citrix.StoreFront.Model.WindowsServices.SubscriptionStore.SynchronizationSchedule' reference type
+##Examples
+###EXAMPLE 1 Get the current schedule
+```Get-STFSubscriptionSynchronizationSchedule
 ```
-Get-STFSubscriptionSynchronizationSchedule
-```
-
-**REMARKS**
+REMARKS
 
 Get the currently configured synchronization schedule.
-
-**OUTPUT**
-
-```
-ScheduleName                            Start                                  
-                          IntervalRepeat
-------------                            -----                                  
-                          --------------
-60 minute interval                      10:00:00                               
-                                      60
+OUTPUT
+```ScheduleName                            Start                                                            IntervalRepeat
+------------                            -----                                                            --------------
+60 minute interval                      10:00:00                                                                     60
 ```
