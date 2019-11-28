@@ -35,7 +35,7 @@ theme:
 # Customization
 extra:
   search:
-    tokenizer: [\s\-\.]+
+    - tokenizer: [\s\-\.]+
   social:
     - type: youtube
       link: https://www.youtube.com/channel/UCiOupk9QF6jdk3EDKTHDykA
