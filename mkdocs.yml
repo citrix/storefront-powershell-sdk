@@ -1,9 +1,9 @@
-site_name: Citrix StoreFront 1912 SDK PowerShell Modules
+site_name: 'Citrix StoreFront 1912 SDK PowerShell Modules'
 site_description: Citrix StoreFront 1912 SDK PowerShell Modules
 site_title: Developer Docs
 
 # Copyright
-copyright: 'Copyright &copy; 1999-2019 Citrix Systems, Inc. All rights reserved. '
+copyright: 'Copyright &copy; 1999-2019 Citrix Systems, Inc. All rights reserved.'
 
 extra_css:
   - 'assets/stylesheets/extra.css'
@@ -35,7 +35,8 @@ theme:
 # Customization
 extra:
   search:
-    - tokenizer: [\s\-\.]+
+    language: 'en'
+    tokenizer: '[\s\-\.]+'
   social:
     - type: youtube
       link: https://www.youtube.com/channel/UCiOupk9QF6jdk3EDKTHDykA
