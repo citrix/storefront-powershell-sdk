@@ -58,6 +58,15 @@ markdown_extensions:
 
 # Page tree
 nav:
+- Versions:
+  - 1909: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1909/
+  - 1908: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1908/
+  - 1906: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1906/
+  - 1811: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1811/
+  - 3.13: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.13/
+  - 3.12: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.12/
+  - 3.11: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.11/
+  - 3.9: https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.9/
 - Overview: index.md
 - Citrix.StoreFront:
   - Overview: Citrix.StoreFront.md
@@ -268,3 +277,4 @@ nav:
   - Get-STFWebReceiverStrictTransportSecurity: Get-STFWebReceiverStrictTransportSecurity.md
   - Set-STFWebReceiverUserInterface: Set-STFWebReceiverUserInterface.md
   - Get-STFWebReceiverUserInterface: Get-STFWebReceiverUserInterface.md
+- Questions?: https://discussions.citrix.com/forum/1385-citrix-developer-exchange/
