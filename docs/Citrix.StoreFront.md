@@ -1,4 +1,4 @@
-﻿# Citrix.StoreFront
+# Citrix.StoreFront
 
 
 ## Topic
@@ -28,8 +28,8 @@ The module provides the following main entities:
 
 - *SubscriptionStoreService* : The Windows service based data store used for storing self-service application and desktop subscriptions.
 
-
 ## Cmdlets
+
 * [Import-STFConfiguration](Import-STFConfiguration.md)
 * [Export-STFConfiguration](Export-STFConfiguration.md)
 * [Unprotect-STFConfigurationExport](Unprotect-STFConfigurationExport.md)
