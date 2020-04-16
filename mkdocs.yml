@@ -54,7 +54,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      separator: '[\s\-\.]+'
+      separator: '[\s\-\.]+[\.]+'
       prebuild_index: true
 # Page tree
 nav:
