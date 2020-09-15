@@ -1,39 +1,48 @@
 site_name: Citrix StoreFront 1912 SDK PowerShell Modules
 site_description: Citrix StoreFront 1912 SDK PowerShell Modules
 site_title: Developer Docs
-site_url: https://developer-docs.citrix.com
+site_url: https://developer-docs.citrix.com/
 
 # Copyright
-copyright: 'Copyright &copy; 1999-2020 Citrix Systems, Inc. All rights reserved. '
+copyright: '&copy; 1999-2020 Citrix Systems, Inc. All rights reserved. '
+
+# Feedback
+
+issues_uri: https://github.com/citrix/storefront-powershell-sdk/issues/new
+assignees_uri:
+  - ajitchelat
+labels_uri:
+  - documentation
 
 extra_css:
   - 'assets/stylesheets/extra.css'
+  - https://use.fontawesome.com/releases/v5.12.1/css/all.css
 
 # Configuration
 theme:
   name: null
   custom_dir: devdocs-theme
-
+  
   # 404 page
   static_templates:
     - 404.html
-
+  
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
-
+  
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
     - tabs: false
   palette:
-    primary: white
-    accent: blue
+    primary: teal
+    accent: teal
   font: false
-  favicon: https://citrix.com/favicon.ico
-  logo: https://developer-docs.citrix.com/_static/Citrix_Logo_Black.png
-  
-# Customization
+  favicon: https://docs.citrix.com/assets/images/favicon.ico
+  logo: https://developer-docs.citrix.com/_static/logo.svg
+  icon: fontawesome
+
 extra:
   social:
     - icon: fontawesome/brands/youtube
@@ -47,14 +56,13 @@ extra:
 
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: false
+  - codehilite
   - toc:
       permalink: true
 
 plugins:
   - search:
-      separator: '[\s\-\.]+[\.]+'
+      separator: '[\s\-\.]+'
       prebuild_index: true
 # Page tree
 nav:
