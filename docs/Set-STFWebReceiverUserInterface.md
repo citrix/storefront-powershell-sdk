@@ -1,16 +1,16 @@
 ﻿# Set-STFWebReceiverUserInterface
 
-Set the WebReceiver User Interface options
+Set the Receiver for Web user interface options
 
 ## Syntax
 
 ```
-Set-STFWebReceiverUserInterface [-WebReceiverService] <WebReceiverService> [[-AutoLaunchDesktop] <Boolean>] [[-MultiClickTimeout] <Int32>] [[-EnableAppsFolderView] <Boolean>] [[-ShowAppsView] <Boolean>] [[-ShowDesktopsView] <Boolean>] [[-DefaultView] <Auto | Desktops | Apps>] [[-WorkspaceControlEnabled] <Boolean>] [[-WorkspaceControlAutoReconnectAtLogon] <Boolean>] [[-WorkspaceControlLogoffAction] <Disconnect | Terminate | None>] [[-WorkspaceControlShowReconnectButton] <Boolean>] [[-WorkspaceControlShowDisconnectButton] <Boolean>] [[-ReceiverConfigurationEnabled] <Boolean>] [[-AppShortcutsEnabled] <Boolean>] [[-AppShortcutsAllowSessionReconnect] <Boolean>] [<CommonParameters>]
+Set-STFWebReceiverUserInterface [-WebReceiverService] <WebReceiverService> [[-AutoLaunchDesktop] <Boolean>] [[-MultiClickTimeout] <Int32>] [[-EnableAppsFolderView] <Boolean>] [[-ShowAppsView] <Boolean>] [[-ShowDesktopsView] <Boolean>] [[-DefaultView] <Auto | Desktops | Apps>] [[-WorkspaceControlEnabled] <Boolean>] [[-WorkspaceControlAutoReconnectAtLogon] <Boolean>] [[-WorkspaceControlLogoffAction] <Disconnect | Terminate | None>] [[-WorkspaceControlShowReconnectButton] <Boolean>] [[-WorkspaceControlShowDisconnectButton] <Boolean>] [[-ReceiverConfigurationEnabled] <Boolean>] [[-AppShortcutsEnabled] <Boolean>] [[-AppShortcutsAllowSessionReconnect] <Boolean>] [[-CategoryViewCollapsed] <Boolean>] [<CommonParameters>]
 ```
 
 ## Detailed Description
 
-Set the WebReceiver User Interface client options.
+Set the Receiver for Web user interface options.
 
 ## Related Commands
 
@@ -35,6 +35,7 @@ Set the WebReceiver User Interface client options.
 |ReceiverConfigurationEnabled|Enable the Receiver Configuration .CR download file.|false|false| |
 |AppShortcutsEnabled|Enable App Shortcuts.|false|false| |
 |AppShortcutsAllowSessionReconnect|Enable App Shortcuts to support session reconnect.|false|false| |
+|CategoryViewCollapsed|Whether to display the 'collapsed' category view.|false|false| |
 
 ## Input Type
 
@@ -98,13 +99,17 @@ Parameter AppShortcutsEnabled: The .NET `System.Boolean` value type
 
 Parameter AppShortcutsAllowSessionReconnect: The .NET `System.Boolean` value type
 
+### System.Boolean
+
+Parameter CategoryViewCollapsed: The .NET `System.Boolean` value type
+
 ## Return Values
 
 ### None
 
 ## Examples
 
-### EXAMPLE 1 Set WebReceiver multi-click timeout and desktop auto launch User Interface options
+### EXAMPLE 1 Set Receiver for Web multi-click timeout and desktop auto-launch user interface options
 
 ```
 $receiver = Get-STFWebReceiverService
@@ -113,6 +118,4 @@ Set-STFWebReceiverUserInterface -WebReceiverService $receiver -AutoLaunchDesktop
 
 **REMARKS**
 
-Set WebReceiver multi-click timeout to 10 seconds and disable desktop auto 
-
-launch in the User Interface options.
+Set Receiver for Web multi-click timeout to 10 seconds and disable desktop auto-launch in the user interface options.
