@@ -18,7 +18,7 @@ Get the Receiver for Web user interface client options.
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
-|WebReceiverService|The WebReceiver service.|true|true (ByValue)| |
+|WebReceiverService|The Receiver for Web service.|true|true (ByValue)| |
 
 ## Input Type
 
