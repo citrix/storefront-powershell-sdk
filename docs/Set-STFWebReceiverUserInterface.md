@@ -5,8 +5,10 @@ Set the Receiver for Web user interface options
 ## Syntax
 
 ```
-Set-STFWebReceiverUserInterface [-WebReceiverService] <WebReceiverService> [[-AutoLaunchDesktop] <Boolean>] [[-MultiClickTimeout] <Int32>] [[-EnableAppsFolderView] <Boolean>] [[-ShowAppsView] <Boolean>] [[-ShowDesktopsView] <Boolean>] [[-DefaultView] <Auto | Desktops | Apps>] [[-WorkspaceControlEnabled] <Boolean>] [[-WorkspaceControlAutoReconnectAtLogon] <Boolean>] [[-WorkspaceControlLogoffAction] <Disconnect | Terminate | None>] [[-WorkspaceControlShowReconnectButton] <Boolean>] [[-WorkspaceControlShowDisconnectButton] <Boolean>] [[-ReceiverConfigurationEnabled] <Boolean>] [[-AppShortcutsEnabled] <Boolean>] [[-AppShortcutsAllowSessionReconnect] <Boolean>] [[-CategoryViewCollapsed] <Boolean>] [<CommonParameters>]
+Set-STFWebReceiverUserInterface [-WebReceiverService] <WebReceiverService> [[-AutoLaunchDesktop] <Boolean>] [[-MultiClickTimeout] <Int32>] [[-EnableAppsFolderView] <Boolean>] [[-ShowAppsView] <Boolean>] [[-ShowDesktopsView] <Boolean>] [[-DefaultView] <Auto | Desktops | Apps>] [[-WorkspaceControlEnabled] <Boolean>] [[-WorkspaceControlAutoReconnectAtLogon] <Boolean>] [[-WorkspaceControlLogoffAction] <Disconnect | Terminate | None>] [[-WorkspaceControlShowReconnectButton] <Boolean>] [[-WorkspaceControlShowDisconnectButton] <Boolean>] [[-ReceiverConfigurationEnabled] <Boolean>] [[-AppShortcutsEnabled] <Boolean>] [[-AppShortcutsAllowSessionReconnect] <Boolean>] [[-CategoryViewCollapsed] <Boolean>]† [<CommonParameters>]
 ```
+
+† The `CategoryViewCollapsed` parameter is available in StoreFront 1912 LTSR CU2 or later.
 
 ## Detailed Description
 
@@ -20,7 +22,7 @@ Set the Receiver for Web user interface options.
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
-|WebReceiverService|The WebReceiver service.|true|true (ByValue)| |
+|WebReceiverService|The Receiver for Web service.|true|true (ByValue)| |
 |AutoLaunchDesktop|Whether to auto-launch desktop at login if there is only one desktop available for the user.|false|false| |
 |MultiClickTimeout|The time period for which the spinner control is displayed, after the user clicks on the App/Desktop icon within Receiver for Web.|false|false| |
 |EnableAppsFolderView|Allows the user to turn off folder view when in a locked-down store or unauthenticated store.|false|false| |
@@ -35,13 +37,15 @@ Set the Receiver for Web user interface options.
 |ReceiverConfigurationEnabled|Enable the Receiver Configuration .CR download file.|false|false| |
 |AppShortcutsEnabled|Enable App Shortcuts.|false|false| |
 |AppShortcutsAllowSessionReconnect|Enable App Shortcuts to support session reconnect.|false|false| |
-|CategoryViewCollapsed|Whether to display the 'collapsed' category view.|false|false| |
+|CategoryViewCollapsed†|Whether to display the 'collapsed' category view.|false|false| |
+
+† The `CategoryViewCollapsed` parameter is available in StoreFront 1912 LTSR CU2 or later.
 
 ## Input Type
 
 ### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
 
-Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
+Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Receiver for Web service
 
 ### System.Boolean
 
