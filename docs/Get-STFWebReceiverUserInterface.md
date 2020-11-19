@@ -1,6 +1,6 @@
 ﻿# Get-STFWebReceiverUserInterface
 
-Get the WebReceiver User Interface options
+Get the Receiver for Web user interface options
 
 ## Syntax
 
@@ -10,22 +10,21 @@ Get-STFWebReceiverUserInterface [-WebReceiverService] <WebReceiverService> [<Com
 
 ## Detailed Description
 
-Get the WebReceiver User Interface client options.
+Get the Receiver for Web user interface client options.
 
 ## Related Commands
-
 
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
-|WebReceiverService|The WebReceiver service.|true|true (ByValue)| |
+|WebReceiverService|The Receiver for Web service.|true|true (ByValue)| |
 
 ## Input Type
 
 ### Citrix.StoreFront.Model.ReceiverForWeb.WebReceiverService
 
-Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Web Receiver service
+Parameter WebReceiverService: A .NET class representing the configuration of a StoreFront Receiver for Web service
 
 ## Return Values
 
@@ -44,22 +43,22 @@ Get-STFWebReceiverUserInterface -WebReceiverService $receiver
 
 **REMARKS**
 
-Get the WebReceiver User Interface options of the only configured WebReceiver.
+Get the Receiver for Web user interface options of the only configured Receiver for Web site.
 
 **OUTPUT**
 
 ```
 AutoLaunchDesktop     : True
 MultiClickTimeout     : 3
+CategoryViewCollapsed : False
 EnableAppsFolderView  : True
 WorkspaceControl      : Enabled              : True
                         AutoReconnectAtLogon : True
                         LogoffAction         : Disconnect
-                        ShowReconnectButton  : True
-                        ShowDisconnectButton : True
+                        ShowReconnectButton  : False
+                        ShowDisconnectButton : False
 ReceiverConfiguration : Enabled     : True
-                        DownloadUrl : 
-ServiceRecord/GetDocument/receiverconfig.cr
+                        DownloadUrl : ServiceRecord/GetDocument/receiverconfig.cr
 AppShortcuts          : Enabled               : False
                         AllowSessionReconnect : False
 UIViews               : ShowAppsView     : True
